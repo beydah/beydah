@@ -4,6 +4,8 @@
 ## ✍️ Dev Quote ✍️
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
 
+![Snake animation](https://github.com/beydah/beydah/blob/output/github-contribution-grid-snake.svg)
+
 ## 🏆 GitHub Trophies 🏆
 ![](https://github-profile-trophy.vercel.app/?username=beydah&theme=nord&no-frame=true&no-bg=false&margin-w=4)
 
