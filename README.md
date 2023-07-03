@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://helloworld.pt/wp-content/uploads/2023/01/hello-world.gif" alt="GIF" width="1500" height="250">
+  <img src="https://raw.githubusercontent.com/beydah/beydah/main/BeydahGithubBanner.gif" alt="GIF" max-width: 100%; height: auto;>
 </div>
 
 <details>
