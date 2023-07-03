@@ -1,6 +1,60 @@
-# 💫 About Me 💫
-🔭 Currently, I am Working on The Following Areas 🔭<br>C, C++, C#, SQL, and Windows Forms. I am developing projects using these platforms. Additionally, I intend to venture into technologies such as HTML, CSS, JS, PHP, and React. My goal is to pursue a full-time career as a backend developer while also working part-time as a frontend developer, and engage in the hobby of developing desktop and mobile applications.<br><br>🌱 I am Currently in a Learning Process 🌱<br>I am currently focusing on C, C++, C#, SQL, and Windows Forms. In the near future, I plan to start learning technologies like HTML, CSS, JS, PHP, and React. I maintain a continuous focus on self-improvement and learning.<br><br>⚡ Fun Fact ⚡<br>Despite being a student at the moment, I approach my studies with great dedication and discipline. I strive to be a successful student and actively seek opportunities to acquire new skills and experiences.<br><br>👯 Collaboration is a Lively Thought Within Me 👯<br>I have a strong desire to collaborate on projects, develop new ideas, and participate in teamwork. I am open to partnership opportunities in any project or development process with an open mind.<br><br>🤝 I am Seeking Assistance 🤝<br>I may need help with the challenges I encounter in my projects. Particularly during the period of learning new technologies, I am not hesitant to seek support. Moreover, I am delighted to assist other developers when the opportunity arises.<br>
+<div align="center">
+  <img src="https://helloworld.pt/wp-content/uploads/2023/01/hello-world.gif" alt="GIF" width="1584" height="396">
+</div>
 
+<details>
+<summary><h1>About Me (TR)</h1></summary>
+  
+## İlkay Beydah Sağlam | Bilgisayar Programcısı
+Merhaba! Ben İlkay Beydah Sağlam, Nişantaşı Üniversitesi Bilgisayar Programcılığı bölümünde son sınıf öğrencisiyim. Bu README dosyası, şu anki öğrenme durumum, üzerinde çalıştığım projeler ve işbirliği için açık olduğum konular hakkında bilgi vermek amacıyla hazırlanmıştır.
+
+## 🌱 Şu Anda Öğreniyorum 🌱
+- C, C++, C#, Java dillerindeki bilgilerimi derinleştiriyorum.
+- Yakında HTML, CSS, JS, TS ve PHP dillerinde de projeler geliştirmek için öğrenmeye başlayacağım.
+
+## 🔭 Şu Anda Üzerinde Çalışıyorum 🔭
+- C, C++, C#, Java ve Python dilleriyle çeşitli projeler geliştiriyorum. Bu projeler, yazılım becerilerimi geliştirmeme ve farklı platformlarda deneyim kazanmama yardımcı oluyor.
+
+## 👯 Ortak Çalışma Yapmak İstiyorum 👯
+- Staj ve benzeri işbirliği fırsatlarına açığım. Gerçek dünya projelerinde çalışarak deneyim kazanmayı ve yeni şeyler öğrenmeyi heyecanla bekliyorum.
+
+## 🤝 Yardım Arıyorum 🤝
+- Kendimi geliştirmek için yardıma ihtiyacım olduğunda, yeni teknolojiler hakkında bilgi paylaşımında bulunacak kişilerden destek almak istiyorum.
+
+## 💬 Bana Sor 💬
+- Herhangi bir iş veya proje ile ilgili sorularınız varsa, benimle iletişime geçmekten çekinmeyin. Bana e-posta aracılığıyla [info.beydahsaglam@gmail.com](mailto:info.beydahsaglam@gmail.com) üzerinden ulaşabilirsiniz.
+
+Teşekkür ederim ve iyi günler dilerim!
+</details>
+
+<details>
+<summary><h1>About Me (ENG)</h1></summary>
+
+## İlkay Beydah Sağlam | Computer Programmer
+Hello! I am İlkay Beydah Sağlam, a final year student in the Computer Programming department at Nişantaşı University. This README file is prepared to provide information about my current learning status, ongoing projects, and areas where I am open to collaboration.
+
+## 🌱 Currently Learning 🌱
+- I am deepening my knowledge in C, C++, C#, and Java languages.
+- Soon, I will start learning HTML, CSS, JS, TS, and PHP to develop projects in these languages as well.
+
+## 🔭 Currently Working On 🔭
+- I am developing various projects using C, C++, C#, Java, and Python. These projects help me enhance my programming skills and gain experience across different platforms.
+
+## 👯 Seeking Collaboration 👯
+- I am open to opportunities for internships and collaborations. I am excited to work on real-world projects to gain experience and learn new things.
+
+## 🤝 Seeking Help 🤝
+- When I need assistance in improving myself, I am looking for support from individuals willing to share knowledge about new technologies.
+
+## 💬 Get In Touch 💬
+- If you have any questions related to work or projects, feel free to reach out to me. You can contact me via email at [info.beydahsaglam@gmail.com](mailto:info.beydahsaglam@gmail.com).
+
+Thank you, and have a great day!
+</details>
+
+<div align="center">
+
+---
 ## ✍️ Dev Quote ✍️
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
 
@@ -86,4 +140,4 @@
 ---
 [![](https://visitcount.itsvg.in/api?id=beydah&icon=5&color=12)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+</div>
