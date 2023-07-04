@@ -6,7 +6,7 @@
 <summary><h1>About Me (TR)</h1></summary>
   
 ## İlkay Beydah Sağlam | Bilgisayar Programcısı
-Merhaba! Ben İlkay Beydah Sağlam, Nişantaşı Üniversitesi Bilgisayar Programcılığı bölümünde son sınıf öğrencisiyim. Bu README dosyası, şu anki öğrenme durumum, üzerinde çalıştığım projeler ve işbirliği için açık olduğum konular hakkında bilgi vermek amacıyla hazırlanmıştır.
+Merhaba Dünya! Ben İlkay Beydah Sağlam, Nişantaşı Üniversitesi Bilgisayar Programcılığı bölümünde son sınıf öğrencisiyim. Bu README dosyası, şu anki öğrenme durumum, üzerinde çalıştığım projeler ve işbirliği için açık olduğum konular hakkında bilgi vermek amacıyla hazırlanmıştır.
 
 ## 🌱 Şu Anda Öğreniyorum 🌱
 - C, C++, C#, Java dillerindeki bilgilerimi derinleştiriyorum.
@@ -31,7 +31,7 @@ Teşekkür ederim ve iyi günler dilerim!
 <summary><h1>About Me (ENG)</h1></summary>
 
 ## İlkay Beydah Sağlam | Computer Programmer
-Hello! I am İlkay Beydah Sağlam, a final year student in the Computer Programming department at Nişantaşı University. This README file is prepared to provide information about my current learning status, ongoing projects, and areas where I am open to collaboration.
+Hello World! I am İlkay Beydah Sağlam, a final year student in the Computer Programming department at Nişantaşı University. This README file is prepared to provide information about my current learning status, ongoing projects, and areas where I am open to collaboration.
 
 ## 🌱 Currently Learning 🌱
 - I am deepening my knowledge in C, C++, C#, and Java languages.
