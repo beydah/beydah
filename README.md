@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/beydah/C-Basic-Project/main/images/BeydahGithubBanner.gif" alt="GIF" max-width: 100%; height: auto;>
+  <img src="https://raw.githubusercontent.com/beydah/images/main/images/BeydahGithubBanner.gif" alt="GIF" max-width: 100%; height: auto;>
 </div>
 
 <details>
