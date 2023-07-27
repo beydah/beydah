@@ -2,6 +2,8 @@
   <img src="https://raw.githubusercontent.com/beydah/images/main/images/BeydahGithubBanner.gif" alt="GIF" max-width: 100%; height: auto;>
 </div>
 
+<img src="https://raw.githubusercontent.com/beydah/beydah/output/snake.svg" alt="Snake animation" />
+
 <details>
 <summary><h1>About Me (TR)</h1></summary>
   
