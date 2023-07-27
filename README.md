@@ -2,13 +2,6 @@
   <img src="https://raw.githubusercontent.com/beydah/images/main/images/BeydahGithubBanner.gif" alt="GIF" max-width: 100%; height: auto;>
 </div>
 
-<img src="https://raw.githubusercontent.com/beydah/beydah/output/snake.svg" alt="Snake animation" />
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/beydah/beydah/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/beydah/beydah/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/beydah/beydah/output/github-contribution-grid-snake.svg">
-</picture>
-
 <details>
 <summary><h1>About Me (TR)</h1></summary>
   
