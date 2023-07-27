@@ -10,7 +10,7 @@ Merhaba Dünya! Ben İlkay Beydah Sağlam, Nişantaşı Üniversitesi Bilgisayar
 
 ## 🌱 Şu Anda Öğreniyorum 🌱
 - C, C++, C#, Java dillerindeki bilgilerimi derinleştiriyorum.
-- Yakında HTML, CSS, JS, TS ve PHP dillerinde de projeler geliştirmek için öğrenmeye başlayacağım.
+- Yakında HTML, CSS, JS, TS dillerinde de projeler geliştirmek için öğrenmeye başlayacağım.
 
 ## 🔭 Şu Anda Üzerinde Çalışıyorum 🔭
 - C, C++, C#, Java ve Python dilleriyle çeşitli projeler geliştiriyorum. Bu projeler, yazılım becerilerimi geliştirmeme ve farklı platformlarda deneyim kazanmama yardımcı oluyor.
@@ -30,12 +30,12 @@ Teşekkür ederim ve iyi günler dilerim!
 <details>
 <summary><h1>About Me (ENG)</h1></summary>
 
-## İlkay Beydah Sağlam | Computer Programmer
+## Ilkay Beydah Saglam | Computer Programmer
 Hello World! I am İlkay Beydah Sağlam, a final year student in the Computer Programming department at Nişantaşı University. This README file is prepared to provide information about my current learning status, ongoing projects, and areas where I am open to collaboration.
 
 ## 🌱 Currently Learning 🌱
 - I am deepening my knowledge in C, C++, C#, and Java languages.
-- Soon, I will start learning HTML, CSS, JS, TS, and PHP to develop projects in these languages as well.
+- Soon, I will start learning HTML, CSS, JS and TS to develop projects in these languages as well.
 
 ## 🔭 Currently Working On 🔭
 - I am developing various projects using C, C++, C#, Java, and Python. These projects help me enhance my programming skills and gain experience across different platforms.
