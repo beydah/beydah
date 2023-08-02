@@ -1,32 +1,6 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/beydah/images/main/images/BeydahGithubBanner.gif" alt="GIF" max-width: 100%; height: auto;>
 </div>
-
-<details>
-<summary><h1>About Me (TR)</h1></summary>
-  
-## İlkay Beydah Sağlam | Bilgisayar Programcısı
-Merhaba Dünya! Ben İlkay Beydah Sağlam, Nişantaşı Üniversitesi Bilgisayar Programcılığı bölümünde son sınıf öğrencisiyim. Bu README dosyası, şu anki öğrenme durumum, üzerinde çalıştığım projeler ve işbirliği için açık olduğum konular hakkında bilgi vermek amacıyla hazırlanmıştır.
-
-## 🌱 Şu Anda Öğreniyorum 🌱
-- C, C++, C#, Java dillerindeki bilgilerimi derinleştiriyorum.
-- Yakında HTML, CSS, JS, TS dillerinde de projeler geliştirmek için öğrenmeye başlayacağım.
-
-## 🔭 Şu Anda Üzerinde Çalışıyorum 🔭
-- C, C++, C#, Java ve Python dilleriyle çeşitli projeler geliştiriyorum. Bu projeler, yazılım becerilerimi geliştirmeme ve farklı platformlarda deneyim kazanmama yardımcı oluyor.
-
-## 👯 Ortak Çalışma Yapmak İstiyorum 👯
-- Staj ve benzeri işbirliği fırsatlarına açığım. Gerçek dünya projelerinde çalışarak deneyim kazanmayı ve yeni şeyler öğrenmeyi heyecanla bekliyorum.
-
-## 🤝 Yardım Arıyorum 🤝
-- Kendimi geliştirmek için yardıma ihtiyacım olduğunda, yeni teknolojiler hakkında bilgi paylaşımında bulunacak kişilerden destek almak istiyorum.
-
-## 💬 Bana Sor 💬
-- Herhangi bir iş veya proje ile ilgili sorularınız varsa, benimle iletişime geçmekten çekinmeyin. Bana e-posta aracılığıyla [info.beydahsaglam@gmail.com](mailto:info.beydahsaglam@gmail.com) üzerinden ulaşabilirsiniz.
-
-Teşekkür ederim ve iyi günler dilerim!
-</details>
-
 <details>
 <summary><h1>About Me (ENG)</h1></summary>
 
