@@ -82,7 +82,6 @@ Activities and Communities: Google Developer Student Club, Software and Informat
 ![](https://github-contributor-stats.vercel.app/api?username=beydah&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 <h1>Tech Stack</h1>
-<h3>Languages</h3>
 
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
