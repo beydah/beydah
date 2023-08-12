@@ -41,7 +41,6 @@ Thank you, and have a great day!
 In this role, I managed company data, handled data processes, reached out to potential clients, scheduled and attended meetings, and closed sales. I excelled at converting B2B sign-ups into active customers, delivering exceptional experiences, and collaborating with the marketing team on digital strategies. Regularly reported progress to the Team Leader.
 
 Skills: Corporate Communication · Data Entry · Data Management · Meeting Planning · Marketing Strategy
-
 </details>
 
 <details>
@@ -49,7 +48,6 @@ Skills: Corporate Communication · Data Entry · Data Management · Meeting Plan
 I joined this organization to reinforce and improve what I have learned at university, and I had the opportunity to gain experience in C#, .NET, and Back End Development. I actively participated in these projects to enhance my software skills and through these experiences, I was able to further develop my abilities.
 
 Skills: .NET · C# · Notion · GitHub · Background in Web Development
-
 </details>
 
 <h2>Education</h2>
@@ -58,7 +56,6 @@ Skills: .NET · C# · Notion · GitHub · Background in Web Development
 Comprehensive training in visual communication, typography, branding, and digital design. Engaged in real-world projects to enhance creativity and critical thinking. Prepared for a successful career in graphic design.
 
 Activities and Communities: Google Developer Student Club, Software and Information Technology Club, Patika.dev, 42 Istanbul, AIESEC Istanbul
-
 </details>
 
 <details>
@@ -66,7 +63,6 @@ Activities and Communities: Google Developer Student Club, Software and Informat
 I underwent comprehensive training in Computer Programming, gaining expertise in various areas such as programming fundamentals, network management, database, graphics, office applications, web design, and more. I actively participated in software projects and student clubs, enhancing my coding skills and practical experience
 
 Activities and Communities: Google Developer Student Club, Software and Information Technology Club, Patika.dev, 42 Istanbul, AIESEC Istanbul
-
 </details>
 </details>
 
@@ -109,7 +105,6 @@ Activities and Communities: Google Developer Student Club, Software and Informat
 <h1>Social Media</h1>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/beydah)
-
 
 ---
 
