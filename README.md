@@ -102,10 +102,6 @@ Activities and Communities: Google Developer Student Club, Software and Informat
 ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
 ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)
 
-<h1>Social Media</h1>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/beydah)
-
 ---
 
 [![](https://visitcount.itsvg.in/api?id=beydah&icon=5&color=12)](https://visitcount.itsvg.in)
