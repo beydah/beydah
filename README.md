@@ -114,12 +114,12 @@ Activities and Communities: Google Developer Student Club, Software and Informat
 ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
 ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)
 
----
-
 <div style="text-align:center;">
     <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick">
 </div>
 
 [![](https://visitcount.itsvg.in/api?id=beydah&icon=5&color=12)](https://visitcount.itsvg.in)
+
+---
 
 </div>
