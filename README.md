@@ -2,6 +2,10 @@
   <img src="https://raw.githubusercontent.com/beydah/Assets-Repository/main/gifs/BeydahGithubBanner.gif" alt="GIF" max-width: 100%; height: auto;>
 </div>
 
+<div style="text-align:center;">
+    <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick">
+</div>
+
 <details>
 <summary><h1>Summary</h1></summary>
 <div align = "center">
@@ -66,6 +70,10 @@ Activities and Communities: Google Developer Student Club, Software and Informat
 </details>
 </details>
 
+<div style="text-align:center;">
+    <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick">
+</div>
+
 <div align = "center">
 <h1>Statistics</h1>
 
@@ -74,6 +82,10 @@ Activities and Communities: Google Developer Student Club, Software and Informat
 ![](https://github-readme-stats.vercel.app/api?username=beydah&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
 
 ![](https://github-readme-streak-stats.herokuapp.com/?user=beydah&theme=dark&hide_border=false)<br/>
+
+<div style="text-align:center;">
+    <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick">
+</div>
 
 <h1>Tech Stack</h1>
 
@@ -103,6 +115,10 @@ Activities and Communities: Google Developer Student Club, Software and Informat
 ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)
 
 ---
+
+<div style="text-align:center;">
+    <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick">
+</div>
 
 [![](https://visitcount.itsvg.in/api?id=beydah&icon=5&color=12)](https://visitcount.itsvg.in)
 
