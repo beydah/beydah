@@ -113,6 +113,8 @@ Activities and Communities: Google Developer Student Club, Software and Informat
     <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick">
 </div>
 
+<br>
+
 [![](https://visitcount.itsvg.in/api?id=beydah&icon=5&color=12)](https://visitcount.itsvg.in)
 
 </div>
