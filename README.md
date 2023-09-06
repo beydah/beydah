@@ -14,7 +14,7 @@
 
 </div>
 
-## Ilkay Beydah Saglam | Computer Programmer / Developer
+## Ilkay Beydah Saglam | Computer Programmer / Software Developer
 
 Hello World!
 I'm İlkay. I work as a software developer, and I've been involved in diverse projects, utilizing a range of programming languages, frameworks, and technologies across various domains.
