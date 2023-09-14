@@ -74,7 +74,7 @@ I underwent comprehensive training in Computer Programming, gaining expertise in
   
 My educational journey began in high school with the title of Nurse, but due to updated regulations, I completed it as a Nurse Assistant. Throughout my high school education, I obtained numerous achievement certificates while also ensuring to enjoy my time to the fullest.
 
-<i>Activities and Communities: · Folk Dance Club · Yesilay Club · Kizilay Club · Geography Club · Philosophy Club</i>
+<i>Activities and Communities: · Philosophy Club · Geography Club · Yesilay Club · Kizilay Club · Folk Dance Club</i>
 </details>
 </details>
 
