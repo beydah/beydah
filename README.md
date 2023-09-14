@@ -47,6 +47,7 @@ Thank you, and have a great day!
 In this role, I managed company data, handled data processes, contributed to business events, and collaborated on digital strategy development with the marketing team.
 
 <i>Skills: Corporate Communication · Data Entry · Data Management · Meeting Planning · Marketing Strategy</i>
+
 </details>
 
 <details>
@@ -56,27 +57,111 @@ In this role, I managed company data, handled data processes, contributed to bus
 I joined to apply and enhance my university-learned skills in C#, .NET, and Back End Development, actively contributing to projects and honing my software abilities.
 
 <i>Skills: .NET · C# · Notion · GitHub · Background in Web Development</i>
+
+</details>
+
+<h2>Projects</h2>
+<details>
+<summary><h3>Open Source University Database</h3></summary>
+
+Open Source University Database Design project aims to develop a database solution for
+**effectively managing student information**, course schedules, and academic data at universities.
+<i>
+
+[Click For Repository](https://github.com/beydah/UniversityDB-OpenSRC)
+</i>
+
+</details>
+
+<details>
+<summary><h3>Open Source Hospital Database</h3></summary>
+
+The Open Source Hospital Database Design project aims to create a database solution for **managing hospital operations** and storing **hospital data efficiently**
+<i>
+
+[Click For Repository](https://github.com/beydah/HospitalDB-OpenSRC)
+</i>
+
+</details>
+
+<details>
+<summary><h3>Open Source Hotel Database</h3></summary>
+
+The Open Source Hotel Database Design project aims to **efficiently manage hotel reservations**, **guest information**, and business data for hotel establishments.
+<i>
+
+[Click For Repository](https://github.com/beydah/HotelDB-OpenSRC)
+</i>
+
 </details>
 
 <h2>Education</h2>
 <details>
-<summary><h3>Istanbul Nisantasi University - Computer Programming</h3></summary>
+<summary><h3>Computer Programming - Istanbul Nisantasi University</h3></summary>
 <i>Sep 2022 - Jun 2024</i>
 
 I underwent comprehensive training in Computer Programming, gaining expertise in various areas such as programming fundamentals, network management, database, graphics, office applications, web design, and more. I actively participated in software projects and student clubs, enhancing my coding skills and practical experience
 
 <i>Activities and Communities: · Google Developer Student Club · Software and Information Technology Club · Patika.dev Community · 42 Istanbul Community · AIESEC Istanbul Member</i>
+
 </details>
 
 <details>
-<summary><h3>Private Gaziosmanpasa Health Vocational High School - Nurse Assistant</h3></summary>
+<summary><h3>Nurse Assistant - Gaziosmanpasa Health Vocational High School</h3></summary>
 <i>Sep 2015 - Jun 2019</i>
   
 My educational journey began in high school with the title of Nurse, but due to updated regulations, I completed it as a Nurse Assistant. Throughout my high school education, I obtained numerous achievement certificates while also ensuring to enjoy my time to the fullest.
 
 <i>Activities and Communities: · Philosophy Club · Geography Club · Yesilay Club · Kizilay Club · Folk Dance Club</i>
+
 </details>
+
+<h2>Certifications</h2>
+<details>
+<summary><h3>Digital Marketing - Google</h3></summary>
+
+Google - Digital Marketing' is obtained to document my competence in acquiring fundamental knowledge and skills in the field of **digital marketing**.
+
+<i>
+
+[Click For Certificate](https://github.com/beydah/Assets-Repository/blob/main/documents/Certificate_Google_Digital_Marketing.pdf)
+</i>
+
 </details>
+
+<details>
+<summary><h3>Project Management - BilgeIs</h3></summary>
+
+BilgeIs - Project Management' signifies my proficiency in project management, demonstrating my ability to
+**effectively plan**, execute, and oversee projects
+
+<i>
+
+[Click For Certificate](https://github.com/beydah/Assets-Repository/blob/main/documents/Certificate_BilgeIs_Project_Management.pdf)
+</i>
+
+</details>
+
+<details>
+<summary><h3>Visual Design Principles - BilgeIs</h3></summary>
+
+'BilgeIs - Visual Design Principles' validates my understanding and application of **key principles in visual design**.
+
+<i>
+
+[Click For Certificate](https://github.com/beydah/Assets-Repository/blob/main/documents/Certificate_BilgeIs_Visual_Design_Principles.pdf)
+</i>
+
+</details>
+
+<h2>Download Full CV</h2>
+You can download my updated CV from the click link:
+
+[Click For Full CV](https://github.com/beydah/Assets-Repository/raw/main/downloads/Ilkay_Beydah_Saglam_CV.pdf)
+
+</details>
+
+
 
 <div style="text-align:center;">
     <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick">
