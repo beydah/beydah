@@ -41,32 +41,40 @@ Thank you, and have a great day!
 
 <h2>Experience</h2>
 <details>
-<summary><h3>Business Development Manager - AIESEC (Jun 2023 - Aug 2023)</h3></summary>
-In this role, I managed company data, handled data processes, reached out to potential clients, scheduled and attended meetings, and closed sales. I excelled at converting B2B sign-ups into active customers, delivering exceptional experiences, and collaborating with the marketing team on digital strategies. Regularly reported progress to the Team Leader.
+<summary><h3>Business Development Manager - AIESEC</h3></summary>
+<i>Jun 2023 - Aug 2023 (3 Months)</i>
+  
+In this role, I managed company data, handled data processes, contributed to business events, and collaborated on digital strategy development with the marketing team.
 
-Skills: Corporate Communication · Data Entry · Data Management · Meeting Planning · Marketing Strategy
+<i>Skills: Corporate Communication · Data Entry · Data Management · Meeting Planning · Marketing Strategy</i>
 </details>
 
 <details>
-<summary><h3>Back-End Observation Intern - Fintorly (Nov 2022 - Apr 2023)</h3></summary>
-I joined this organization to reinforce and improve what I have learned at university, and I had the opportunity to gain experience in C#, .NET, and Back End Development. I actively participated in these projects to enhance my software skills and through these experiences, I was able to further develop my abilities.
+<summary><h3>Back-End Observation Intern - Fintorly</h3></summary>
+<i>Nov 2022 - Apr 2023 (6 Months)</i>
+  
+I joined to apply and enhance my university-learned skills in C#, .NET, and Back End Development, actively contributing to projects and honing my software abilities.
 
-Skills: .NET · C# · Notion · GitHub · Background in Web Development
+<i>Skills: .NET · C# · Notion · GitHub · Background in Web Development</i>
 </details>
 
 <h2>Education</h2>
 <details>
-<summary><h3>Istanbul Nisantasi University - Graphic Designer (Sep 2023 - Jun 2025)</h3></summary>
-Comprehensive training in visual communication, typography, branding, and digital design. Engaged in real-world projects to enhance creativity and critical thinking. Prepared for a successful career in graphic design.
+<summary><h3>Istanbul Nisantasi University - Computer Programming</h3></summary>
+<i>Sep 2022 - Jun 2024</i>
 
-Activities and Communities: Google Developer Student Club, Software and Information Technology Club, Patika.dev, 42 Istanbul, AIESEC Istanbul
+I underwent comprehensive training in Computer Programming, gaining expertise in various areas such as programming fundamentals, network management, database, graphics, office applications, web design, and more. I actively participated in software projects and student clubs, enhancing my coding skills and practical experience
+
+<i>Activities and Communities: · Google Developer Student Club · Software and Information Technology Club · Patika.dev Community · 42 Istanbul Community · AIESEC Istanbul Member</i>
 </details>
 
 <details>
-<summary><h3>Istanbul Nisantasi University - Computer Programming (Sep 2022 - Jun 2024)</h3></summary>
-I underwent comprehensive training in Computer Programming, gaining expertise in various areas such as programming fundamentals, network management, database, graphics, office applications, web design, and more. I actively participated in software projects and student clubs, enhancing my coding skills and practical experience
+<summary><h3>Private Gaziosmanpasa Health Vocational High School - Nurse Assistant</h3></summary>
+<i>Sep 2015 - Jun 2019</i>
+  
+My educational journey began in high school with the title of Nurse, but due to updated regulations, I completed it as a Nurse Assistant. Throughout my high school education, I obtained numerous achievement certificates while also ensuring to enjoy my time to the fullest.
 
-Activities and Communities: Google Developer Student Club, Software and Information Technology Club, Patika.dev, 42 Istanbul, AIESEC Istanbul
+<i>Activities and Communities: · Folk Dance Club · Yesilay Club · Kizilay Club · Geography Club · Philosophy Club</i>
 </details>
 </details>
 
