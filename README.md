@@ -14,10 +14,10 @@
 
 </div>
 
-## Ilkay Beydah Saglam | Computer Programmer / Software Developer
+## Beydah Saglam | Computer Programmer / Software Developer
 
 Hello World!
-I'm İlkay. I work as a software developer, and I've been involved in diverse projects, utilizing a range of programming languages, frameworks, and technologies across various domains.
+I'm Beydah. I work as a software developer, and I've been involved in diverse projects, utilizing a range of programming languages, frameworks, and technologies across various domains.
 
 ##
 
@@ -54,7 +54,7 @@ In this role, I managed company data, handled data processes, contributed to bus
 <summary><h3>Back-End Observation Intern - Fintorly</h3></summary>
 <i>Nov 2022 - Apr 2023 (6 Months)</i>
   
-I joined to apply and enhance my university-learned skills in C#, .NET, and Back End Development, actively contributing to projects and honing my software abilities.
+I joined to apply and enhance my university-learned skills in **C#, .NET, and Back End Development**, actively contributing to projects and honing my software abilities.
 
 <i>Skills: .NET · C# · Notion · GitHub · Background in Web Development</i>
 
@@ -157,7 +157,7 @@ BilgeIs - Project Management' signifies my proficiency in project management, de
 <h2>Download Full CV</h2>
 You can download my updated CV from the click link:
 
-[Click For Full CV](https://github.com/beydah/Assets-Repository/raw/main/downloads/Ilkay_Beydah_Saglam_CV.pdf)
+[Full CV](https://github.com/beydah/Assets-Repository/raw/main/downloads/Ilkay_Beydah_Saglam_CV.pdf)
 
 </details>
 
