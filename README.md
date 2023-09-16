@@ -14,7 +14,7 @@
 
 </div>
 
-## Beydah Saglam | Computer Programmer / Software Developer
+## Beydah Saglam | Software Developer
 
 Hello World!
 I'm Beydah. I work as a software developer, and I've been involved in diverse projects, utilizing a range of programming languages, frameworks, and technologies across various domains.
@@ -160,8 +160,6 @@ You can download my updated CV from the click link:
 [Full CV](https://github.com/beydah/Assets-Repository/raw/main/downloads/Ilkay_Beydah_Saglam_CV.pdf)
 
 </details>
-
-
 
 <div style="text-align:center;">
     <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick">
