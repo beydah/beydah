@@ -157,7 +157,9 @@ BilgeIs - Project Management' signifies my proficiency in project management, de
 <h2>Download Full CV</h2>
 You can download my updated CV from the click link:
 
-[Full CV](https://github.com/beydah/Assets-Repository/raw/main/downloads/Ilkay_Beydah_Saglam_CV.pdf)
+[Full Default Local CV](https://github.com/beydah/Assets-Repository/raw/main/downloads/Ilkay_Beydah_Saglam_CV.pdf)
+
+[Full Europass Global CV](https://github.com/beydah/Assets-Repository/raw/main/downloads/Ilkay_Beydah_Saglam_CV.pdf)
 
 </details>
 
