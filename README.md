@@ -148,7 +148,7 @@ You can download my updated CV from the click link:
 
 [Download Full Default Local CV](https://github.com/beydah/Assets-Repository/raw/main/downloads/Ilkay_Beydah_Saglam_CV.pdf)
 
-[Download Full Europass Global CV](https://github.com/beydah/Assets-Repository/raw/main/downloads/Ilkay_Beydah_Saglam_CV.pdf)
+[Download Full Europass Global CV](https://github.com/beydah/Assets-Repository/raw/main/downloads/Ilkay_Beydah_Saglam_Europass_CV.pdf)
 
 </details>
 
