@@ -16,18 +16,7 @@
 
 ## Beydah Saglam | Software Developer
 
-Hello World!
-I'm Beydah. I work as a software developer, and I've been involved in diverse projects, utilizing a range of programming languages, frameworks, and technologies across various domains.
-
-##
-
-At the moment, I'm delving deeper into the realms of Front-End and Back-End development.
-I'm actively seeking internship opportunities and am genuinely excited about contributing to real-world projects as part of a team.
-
-##
-
-Feel free to reach out to me via [info.beydahsaglam@gmail.com](mailto:info.beydahsaglam@gmail.com) or connect with me on [linkedin/beydah](https://www.linkedin.com/in/beydah/) if you'd like to get in touch.
-Thank you, and have a great day!
+Hello, I'm Beydah, a software developer with diverse GitHub projects. Exploring Front-End and Back-End, seeking internships, and eager to collaborate. Contact: [info.beydahsaglam@gmail.com](mailto:info.beydahsaglam@gmail.com) or [linkedin/beydah](https://www.linkedin.com/in/beydah/). Have a great day!
 
 </details>
 
@@ -44,7 +33,7 @@ Thank you, and have a great day!
 <summary><h3>Business Development Manager - AIESEC</h3></summary>
 <i>Jun 2023 - Aug 2023 (3 Months)</i>
   
-In this role, I managed company data, handled data processes, contributed to business events, and collaborated on digital strategy development with the marketing team.
+I **managed data**, **oversaw processes**, and **communicated with customers**. Excelling in B2B lead conversion, I maintained transparency by reporting to the Team Leader.
 
 <i>Skills: Corporate Communication · Data Entry · Data Management · Meeting Planning · Marketing Strategy</i>
 
@@ -53,8 +42,8 @@ In this role, I managed company data, handled data processes, contributed to bus
 <details>
 <summary><h3>Back-End Observation Intern - Fintorly</h3></summary>
 <i>Nov 2022 - Apr 2023 (6 Months)</i>
-  
-I joined to apply and enhance my university-learned skills in **C#, .NET, and Back End Development**, actively contributing to projects and honing my software abilities.
+
+I joined to enhance the **C#**, **.NET**, and **Back-End skills** I gained in university. Thanks to this internship and supportive teammates, I actively participated in projects, deepened my expertise, and honed my overall software development abilities.
 
 <i>Skills: .NET · C# · Notion · GitHub · Background in Web Development</i>
 
@@ -100,9 +89,9 @@ The Open Source Hotel Database Design project aims to **efficiently manage hotel
 <summary><h3>Computer Programming - Istanbul Nisantasi University</h3></summary>
 <i>Sep 2022 - Jun 2024</i>
 
-I underwent comprehensive training in Computer Programming, gaining expertise in various areas such as programming fundamentals, network management, database, graphics, office applications, web design, and more. I actively participated in software projects and student clubs, enhancing my coding skills and practical experience
+During my Computer Programming education, I received comprehensive training, covering **programming fundamentals**, **network**, **database**, graphics, office apps, **visual programming**, **web and mobile development**, **OS**, **AI**, and **Python**. This diverse training expanded my expertise and, coupled with practical project experience, prepared me for real-world applications.
 
-<i>Activities and Communities: · Google Developer Student Club · Software and Information Technology Club · Patika.dev Community · 42 Istanbul Community · AIESEC Istanbul Member</i>
+<i>Activities and Communities: · Google Developer Student Club · AIESEC Istanbul Member</i>
 
 </details>
 
@@ -110,9 +99,9 @@ I underwent comprehensive training in Computer Programming, gaining expertise in
 <summary><h3>Nurse Assistant - Gaziosmanpasa Health Vocational High School</h3></summary>
 <i>Sep 2015 - Jun 2019</i>
   
-My educational journey began in high school with the title of Nurse, but due to updated regulations, I completed it as a Nurse Assistant. Throughout my high school education, I obtained numerous achievement certificates while also ensuring to enjoy my time to the fullest.
+My education started as a Nurse's goal but ended as a Nurse Assistant due to regulations. I hitchhiked across Turkey, becoming a Traveler. In high school, I cherished each moment, earning **achievement certificates**.
 
-<i>Activities and Communities: · Philosophy Club · Geography Club · Yesilay Club · Kizilay Club · Folk Dance Club</i>
+<i>Activities and Communities: Yesilay Club · Folk Dance Club</i>
 
 </details>
 
@@ -124,7 +113,7 @@ Google - Digital Marketing' is obtained to document my competence in acquiring f
 
 <i>
 
-[Click For Certificate](https://github.com/beydah/Assets-Repository/blob/main/documents/Certificate_Google_Digital_Marketing.pdf)
+[View Certificate](https://github.com/beydah/Assets-Repository/blob/main/documents/Certificate_Google_Digital_Marketing.pdf)
 </i>
 
 </details>
@@ -137,7 +126,7 @@ BilgeIs - Project Management' signifies my proficiency in project management, de
 
 <i>
 
-[Click For Certificate](https://github.com/beydah/Assets-Repository/blob/main/documents/Certificate_BilgeIs_Project_Management.pdf)
+[View Certificate](https://github.com/beydah/Assets-Repository/blob/main/documents/Certificate_BilgeIs_Project_Management.pdf)
 </i>
 
 </details>
@@ -149,7 +138,7 @@ BilgeIs - Project Management' signifies my proficiency in project management, de
 
 <i>
 
-[Click For Certificate](https://github.com/beydah/Assets-Repository/blob/main/documents/Certificate_BilgeIs_Visual_Design_Principles.pdf)
+[View Certificate](https://github.com/beydah/Assets-Repository/blob/main/documents/Certificate_BilgeIs_Visual_Design_Principles.pdf)
 </i>
 
 </details>
@@ -157,9 +146,9 @@ BilgeIs - Project Management' signifies my proficiency in project management, de
 <h2>Download Full CV</h2>
 You can download my updated CV from the click link:
 
-[Full Default Local CV](https://github.com/beydah/Assets-Repository/raw/main/downloads/Ilkay_Beydah_Saglam_CV.pdf)
+[Download Full Default Local CV](https://github.com/beydah/Assets-Repository/raw/main/downloads/Ilkay_Beydah_Saglam_CV.pdf)
 
-[Full Europass Global CV](https://github.com/beydah/Assets-Repository/raw/main/downloads/Ilkay_Beydah_Saglam_CV.pdf)
+[Download Full Europass Global CV](https://github.com/beydah/Assets-Repository/raw/main/downloads/Ilkay_Beydah_Saglam_CV.pdf)
 
 </details>
 
@@ -174,7 +163,9 @@ You can download my updated CV from the click link:
 
 ![](https://github-readme-stats.vercel.app/api?username=beydah&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
 
-![](https://github-readme-streak-stats.herokuapp.com/?user=beydah&theme=dark&hide_border=false)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=beydah&theme=dark&hide_border=false)
+
+<br/>
 
 <div style="text-align:center;">
     <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick">
@@ -186,19 +177,26 @@ You can download my updated CV from the click link:
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 
-![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
-![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)
+![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
 ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Sever-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
 ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 
-![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 ![Adobe Photoshop](https://img.shields.io/badge/adobephotoshop-%2331A8FF.svg?style=for-the-badge&logo=adobephotoshop&logoColor=white)
-![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
+![Adobe After Effects](https://img.shields.io/badge/Adobe%20After%20Effects-9999FF.svg?style=for-the-badge&logo=Adobe%20After%20Effects&logoColor=white)
+![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
+
+![GIT](https://img.shields.io/badge/Git-fc6d26?style=for-the-badge&logo=git&logoColor=white)
+![LINUX](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)
+![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
 
 <div style="text-align:center;">
     <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick">
