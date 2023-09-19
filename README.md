@@ -134,7 +134,7 @@ BilgeIs - Project Management' signifies my proficiency in project management, de
 <details>
 <summary><h3>Visual Design Principles - BilgeIs</h3></summary>
 
-'BilgeIs - Visual Design Principles' validates my understanding and application of **key principles in visual design**.
+BilgeIs - Visual Design Principles' validates my understanding and application of **key principles in visual design**.
 
 <i>
 
