@@ -107,6 +107,19 @@ My education started as a Nurse's goal but ended as a Nurse Assistant due to reg
 
 <h2>Certifications</h2>
 <details>
+<summary><h3>Structured Query Language - Hacker Rank</h3></summary>
+
+BilgeIs - Project Management' signifies my proficiency in project management, demonstrating my ability to
+**effectively plan**, execute, and oversee projects
+
+<i>
+
+[View Certificate](https://www.hackerrank.com/certificates/9fc20ff92432)
+</i>
+
+</details>
+
+<details>
 <summary><h3>Digital Marketing - Google</h3></summary>
 
 Google - Digital Marketing' is obtained to document my competence in acquiring fundamental knowledge and skills in the field of **digital marketing**.
@@ -114,19 +127,6 @@ Google - Digital Marketing' is obtained to document my competence in acquiring f
 <i>
 
 [View Certificate](https://github.com/beydah/Assets-Repository/blob/main/documents/Certificate_Google_Digital_Marketing.pdf)
-</i>
-
-</details>
-
-<details>
-<summary><h3>Project Management - BilgeIs</h3></summary>
-
-BilgeIs - Project Management' signifies my proficiency in project management, demonstrating my ability to
-**effectively plan**, execute, and oversee projects
-
-<i>
-
-[View Certificate](https://github.com/beydah/Assets-Repository/blob/main/documents/Certificate_BilgeIs_Project_Management.pdf)
 </i>
 
 </details>
