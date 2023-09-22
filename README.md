@@ -109,8 +109,8 @@ My education started as a Nurse's goal but ended as a Nurse Assistant due to reg
 <details>
 <summary><h3>Structured Query Language - Hacker Rank</h3></summary>
 
-BilgeIs - Project Management' signifies my proficiency in project management, demonstrating my ability to
-**effectively plan**, execute, and oversee projects
+My "Structured Query Language - Hacker Rank" certificate documents my proficiency in **database management** and **SQL queries**. 
+This certificate encompasses a series of SQL-based tasks that I successfully completed on the HackerRank platform.
 
 <i>
 
