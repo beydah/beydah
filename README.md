@@ -202,6 +202,8 @@ You can download my updated CV from the click link:
     <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick">
 </div>
 
+<h1>Social Media</h1>
+
 <br>
 
 [![](https://visitcount.itsvg.in/api?id=beydah&icon=5&color=12)](https://visitcount.itsvg.in)
