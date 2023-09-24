@@ -206,7 +206,7 @@ You can download my updated CV from the click link:
 
 [![Behance](https://img.shields.io/badge/Behance-1769ff?logo=behance&logoColor=white)](https://behance.net/https://www.behance.net/beydah) 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/beydah) 
-[![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/https://stackoverflow.com/users/21352065/beydah) 
+[![Stack Overflow](https://img.shields.io/badge/-HackerRank-00EA64?logo=hackerrank&logoColor=white)](https://www.hackerrank.com/beydah) 
 
 <br>
 
