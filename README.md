@@ -55,9 +55,11 @@ I joined to enhance the **C#**, **.NET**, and **Back-End skills** I gained in un
 
 Open Source University Database Design project aims to develop a database solution for
 **effectively managing student information**, course schedules, and academic data at universities.
+
 <i>
 
 [Click For Repository](https://github.com/beydah/UniversityDB-OpenSRC)
+
 </i>
 
 </details>
@@ -66,9 +68,11 @@ Open Source University Database Design project aims to develop a database soluti
 <summary><h3>Open Source Hospital Database</h3></summary>
 
 The Open Source Hospital Database Design project aims to create a database solution for **managing hospital operations** and storing **hospital data efficiently**
+
 <i>
 
 [Click For Repository](https://github.com/beydah/HospitalDB-OpenSRC)
+
 </i>
 
 </details>
@@ -77,9 +81,11 @@ The Open Source Hospital Database Design project aims to create a database solut
 <summary><h3>Open Source Hotel Database</h3></summary>
 
 The Open Source Hotel Database Design project aims to **efficiently manage hotel reservations**, **guest information**, and business data for hotel establishments.
+
 <i>
 
 [Click For Repository](https://github.com/beydah/HotelDB-OpenSRC)
+
 </i>
 
 </details>
@@ -115,6 +121,7 @@ This certificate encompasses a series of SQL-based tasks that I successfully com
 <i>
 
 [View Certificate](https://www.hackerrank.com/certificates/9fc20ff92432)
+
 </i>
 
 </details>
@@ -127,6 +134,7 @@ Google - Digital Marketing' is obtained to document my competence in acquiring f
 <i>
 
 [View Certificate](https://github.com/beydah/Assets-Repository/blob/main/documents/Certificate_Google_Digital_Marketing.pdf)
+
 </i>
 
 </details>
@@ -139,6 +147,7 @@ BilgeIs - Visual Design Principles' validates my understanding and application o
 <i>
 
 [View Certificate](https://github.com/beydah/Assets-Repository/blob/main/documents/Certificate_BilgeIs_Visual_Design_Principles.pdf)
+
 </i>
 
 </details>
@@ -151,14 +160,6 @@ You can download my updated CV from the click link:
 [Download Full Europass Global CV](https://github.com/beydah/Assets-Repository/raw/main/downloads/Ilkay_Beydah_Saglam_Europass_CV.pdf)
 
 </details>
-
-
-<h1>Social Media</h1>
-
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/beydah) 
-[![HackerRank](https://img.shields.io/badge/-Hacker_Rank-00EA64?logo=hackerrank&logoColor=white)](https://www.hackerrank.com/beydah) 
-[![Stack Overflow](https://img.shields.io/badge/-Stack_Overflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/21352065/beydah) 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in//beydah) 
 
 <div style="text-align:center;">
     <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick">
@@ -210,8 +211,12 @@ You can download my updated CV from the click link:
     <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick">
 </div>
 
+<h1>Social Media</h1>
 
-<br>
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/beydah) 
+[![HackerRank](https://img.shields.io/badge/-Hacker_Rank-00EA64?logo=hackerrank&logoColor=white)](https://www.hackerrank.com/beydah) 
+[![Stack Overflow](https://img.shields.io/badge/-Stack_Overflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/21352065/beydah) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in//beydah) 
 
 <a href="https://visitcount.itsvg.in">
   <img src="https://visitcount.itsvg.in/api?id=beydah&label=Profile%20Views&color=12&icon=5&pretty=true" />
