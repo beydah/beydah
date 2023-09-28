@@ -152,6 +152,14 @@ You can download my updated CV from the click link:
 
 </details>
 
+
+<h1>Social Media</h1>
+
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/beydah) 
+[![HackerRank](https://img.shields.io/badge/-Hacker_Rank-00EA64?logo=hackerrank&logoColor=white)](https://www.hackerrank.com/beydah) 
+[![Stack Overflow](https://img.shields.io/badge/-Stack_Overflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/21352065/beydah) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in//beydah) 
+
 <div style="text-align:center;">
     <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick">
 </div>
@@ -202,12 +210,6 @@ You can download my updated CV from the click link:
     <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick">
 </div>
 
-<h1>Social Media</h1>
-
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/beydah) 
-[![HackerRank](https://img.shields.io/badge/-Hacker_Rank-00EA64?logo=hackerrank&logoColor=white)](https://www.hackerrank.com/beydah) 
-[![Stack Overflow](https://img.shields.io/badge/-Stack_Overflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/21352065/beydah) 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in//beydah) 
 
 <br>
 
