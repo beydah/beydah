@@ -174,6 +174,8 @@ You can download my updated CV from the click link:
 
 ![](https://github-readme-streak-stats.herokuapp.com/?user=beydah&theme=dark&hide_border=false)
 
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=beydah&theme=dark&hide_progress=true)
+
 <br/>
 
 <div style="text-align:center;">
