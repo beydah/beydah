@@ -168,13 +168,15 @@ You can download my updated CV from the click link:
 <div align = "center">
 <h1>Statistics</h1>
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=beydah&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)<br/>
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=beydah&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)<br/>
 
-![](https://github-readme-stats.vercel.app/api?username=beydah&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
+<!--
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=beydah&theme=dark&hide_progress=true)
+-->
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=beydah&theme=dark\&hide=contribs,prs)
 
 ![](https://github-readme-streak-stats.herokuapp.com/?user=beydah&theme=dark&hide_border=false)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=beydah&theme=dark&hide_progress=true)
 
 <br/>
 
