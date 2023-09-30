@@ -176,7 +176,9 @@ You can download my updated CV from the click link:
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=beydah&theme=dark\&hide=contribs,prs)
 
-![](https://github-readme-streak-stats.herokuapp.com/?user=beydah&theme=dark&hide_border=false)
+![GitHub Strike](https://github-readme-streak-stats.herokuapp.com/?user=beydah&theme=dark&hide_border=false)
+
+[![Roadmap](https://api.roadmap.sh/v1-badge/wide/64c14cb8fcdcf9c5d50ffab2?variant=dark)](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fbeydah)
 
 <br/>
 
