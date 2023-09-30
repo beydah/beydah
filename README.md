@@ -7,7 +7,7 @@
 </div>
 
 <details>
-<summary><h1>Summary</h1></summary>
+<summary><h1>About Me</h1></summary>
 <div align = "center">
 
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
