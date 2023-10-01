@@ -36,7 +36,6 @@ Hello, I'm Beydah, a software developer with diverse GitHub projects. Exploring 
 I **managed data**, **oversaw processes**, and **communicated with customers**. Excelling in B2B lead conversion, I maintained transparency by reporting to the Team Leader.
 
 <i>Skills: Corporate Communication · Data Entry · Data Management · Meeting Planning · Marketing Strategy</i>
-
 </details>
 
 <details>
@@ -46,7 +45,6 @@ I **managed data**, **oversaw processes**, and **communicated with customers**. 
 I joined to enhance the **C#**, **.NET**, and **Back-End skills** I gained in university. Thanks to this internship and supportive teammates, I actively participated in projects, deepened my expertise, and honed my overall software development abilities.
 
 <i>Skills: .NET · C# · Notion · GitHub · Background in Web Development</i>
-
 </details>
 
 <h2>Projects</h2>
@@ -61,7 +59,6 @@ Open Source University Database Design project aims to develop a database soluti
 [Click For Repository](https://github.com/beydah/UniversityDB-OpenSRC)
 
 </i>
-
 </details>
 
 <details>
@@ -74,7 +71,6 @@ The Open Source Hospital Database Design project aims to create a database solut
 [Click For Repository](https://github.com/beydah/HospitalDB-OpenSRC)
 
 </i>
-
 </details>
 
 <details>
@@ -84,10 +80,9 @@ The Open Source Hotel Database Design project aims to **efficiently manage hotel
 
 <i>
 
-[Click For Repository](https://github.com/beydah/HotelDB-OpenSRC)
+  [Click For Repository](https://github.com/beydah/HotelDB-OpenSRC)
 
 </i>
-
 </details>
 
 <h2>Education</h2>
@@ -98,7 +93,6 @@ The Open Source Hotel Database Design project aims to **efficiently manage hotel
 During my Computer Programming education, I received comprehensive training, covering **programming fundamentals**, **network**, **database**, graphics, office apps, **visual programming**, **web and mobile development**, **OS**, **AI**, and **Python**. This diverse training expanded my expertise and, coupled with practical project experience, prepared me for real-world applications.
 
 <i>Activities and Communities: · Google Developer Student Club · AIESEC Istanbul Member</i>
-
 </details>
 
 <details>
@@ -108,7 +102,6 @@ During my Computer Programming education, I received comprehensive training, cov
 My education started as a Nurse's goal but ended as a Nurse Assistant due to regulations. I hitchhiked across Turkey, becoming a Traveler. In high school, I cherished each moment, earning **achievement certificates**.
 
 <i>Activities and Communities: Yesilay Club · Folk Dance Club</i>
-
 </details>
 
 <h2>Certifications</h2>
@@ -120,10 +113,9 @@ This certificate encompasses a series of SQL-based tasks that I successfully com
 
 <i>
 
-[View Certificate](https://www.hackerrank.com/certificates/9fc20ff92432)
+  [View Certificate](https://www.hackerrank.com/certificates/9fc20ff92432)
 
 </i>
-
 </details>
 
 <details>
@@ -133,10 +125,9 @@ Google - Digital Marketing' is obtained to document my competence in acquiring f
 
 <i>
 
-[View Certificate](https://github.com/beydah/Assets-Repository/blob/main/documents/Certificate_Google_Digital_Marketing.pdf)
+  [View Certificate](https://github.com/beydah/Assets-Repository/blob/main/documents/Certificate_Google_Digital_Marketing.pdf)
 
 </i>
-
 </details>
 
 <details>
@@ -146,19 +137,21 @@ BilgeIs - Visual Design Principles' validates my understanding and application o
 
 <i>
 
-[View Certificate](https://github.com/beydah/Assets-Repository/blob/main/documents/Certificate_BilgeIs_Visual_Design_Principles.pdf)
+  [View Certificate](https://github.com/beydah/Assets-Repository/blob/main/documents/Certificate_BilgeIs_Visual_Design_Principles.pdf)
 
 </i>
-
 </details>
 
 <h2>Download Full CV</h2>
 You can download my updated CV from the click link:
 
-[Download Full Default Local CV](https://github.com/beydah/Assets-Repository/raw/main/downloads/Ilkay_Beydah_Saglam_CV.pdf)
+<i>
 
-[Download Full Europass Global CV](https://github.com/beydah/Assets-Repository/raw/main/downloads/Ilkay_Beydah_Saglam_Europass_CV.pdf)
+  [Download Full Default Local CV](https://github.com/beydah/Assets-Repository/raw/main/downloads/Ilkay_Beydah_Saglam_CV.pdf)
 
+  [Download Full Europass Global CV](https://github.com/beydah/Assets-Repository/raw/main/downloads/Ilkay_Beydah_Saglam_Europass_CV.pdf)
+
+</i>
 </details>
 
 <div style="text-align:center;">
@@ -169,10 +162,6 @@ You can download my updated CV from the click link:
 <h1>Statistics</h1>
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=beydah&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)](https://github.com/beydah)
-
-<!--
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=beydah&theme=dark&hide_progress=true)
--->
 
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=beydah&theme=dark\&hide=contribs,prs)](https://github.com/beydah)
 
@@ -222,9 +211,8 @@ You can download my updated CV from the click link:
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/beydah) 
 [![HackerRank](https://img.shields.io/badge/-Hacker_Rank-00EA64?logo=hackerrank&logoColor=white)](https://www.hackerrank.com/beydah) 
 [![Stack Overflow](https://img.shields.io/badge/-Stack_Overflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/21352065/beydah) 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in//beydah) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in//beydah)
 
-<a href="https://visitcount.itsvg.in">
-  <img src="https://visitcount.itsvg.in/api?id=beydah&label=Profile%20Views&color=12&icon=5&pretty=true" />
-</a>
+[![Profile Views](https://visitcount.itsvg.in/api?id=beydah&label=Profile%20Views&color=12&icon=5&pretty=false)](https://github.com/beydah)
+
 </div>
