@@ -208,10 +208,10 @@ You can download my updated CV from the click link:
 
 <h1>Social Media</h1>
 
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/beydah) 
-[![HackerRank](https://img.shields.io/badge/-Hacker_Rank-00EA64?logo=hackerrank&logoColor=white)](https://www.hackerrank.com/beydah) 
-[![Stack Overflow](https://img.shields.io/badge/-Stack_Overflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/21352065/beydah) 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in//beydah)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/beydah) 
+[![HackerRank](https://img.shields.io/badge/-Hacker_Rank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/beydah) 
+[![Stack Overflow](https://img.shields.io/badge/-Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/21352065/beydah) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in//beydah)
 
 [![Profile Views](https://visitcount.itsvg.in/api?id=beydah&label=Profile%20Views&color=12&icon=5&pretty=false)](https://github.com/beydah)
 
