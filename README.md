@@ -213,6 +213,6 @@ You can download my updated CV from the click link:
 [![Stack Overflow](https://img.shields.io/badge/-Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/21352065/beydah) 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in//beydah)
 
-[![Profile Views](https://visitcount.itsvg.in/api?id=beydah&label=Profile%20Views&color=12&icon=5&pretty=false)](https://github.com/beydah)
+[![](https://visitcount.itsvg.in/api?id=beydah&label=Profile%20Views&color=12&icon=5&pretty=false)](https://github.com/beydah)
 
 </div>
