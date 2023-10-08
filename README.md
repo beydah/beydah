@@ -167,7 +167,7 @@ You can download my updated CV from the click link:
 
 [![GitHub Strike](https://github-readme-streak-stats.herokuapp.com/?user=beydah&theme=dark&hide_border=false)](https://github.com/beydah)
 
-[![Roadmap](https://api.roadmap.sh/v1-badge/wide/64c14cb8fcdcf9c5d50ffab2?variant=dark)](https://github.com/beydah)
+[![Roadmap](https://api.roadmap.sh/v1-badge/wide/64c14cb8fcdcf9c5d50ffab2?variant=dark&roadmaps=cpp%2Cfull-stack%2Cprompt-engineering%2Csql)](https://github.com/beydah)
 
 <br/>
 
