@@ -10,11 +10,8 @@
             <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/hire_focus.png" alt="Hire Button"></a></td>
         </tr>
     </table>
-</div>
-
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/beydah/Assets-Repository/main/gifs/BeydahGithubBanner.gif" alt="GIF" max-width: 100%; height: auto;>
+    <img src="https://raw.githubusercontent.com/beydah/Assets-Repository/main/gifs/BeydahGithubBanner.gif" alt="GIF" max-width: 100%; height: auto;>
+    <img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_site_slide_1.png" alt="Profile Site Slide 1">
 </div>
 
 <div style="text-align:center;">
