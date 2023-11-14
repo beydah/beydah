@@ -13,6 +13,19 @@
 </div>
 
 <div align="center">
+    <table style="width: 100%;">
+            <td><img src="https://raw.githubusercontent.com/beydah/asset/main/logo/beydah_colorful_blue.png" alt="Home Button"></td>
+            <td style="width: 10%;"></td>
+            <td><img src="https://raw.githubusercontent.com/beydah/asset/main/button/home_on.png" alt="Home Button"></td>
+            <td><img src="https://raw.githubusercontent.com/beydah/asset/main/button/about_off.png" alt="About Button"></td>
+            <td><img src="https://raw.githubusercontent.com/beydah/asset/main/button/repo_off.png" alt="Repo Button"></td>
+            <td><img src="https://raw.githubusercontent.com/beydah/asset/main/button/contact_off.png" alt="Contact Button"></td>
+            <td><img src="https://raw.githubusercontent.com/beydah/asset/main/button/hire_focus.png" alt="Hire Button"></td>
+    </table>
+</div>
+
+
+<div align="center">
   <img src="https://raw.githubusercontent.com/beydah/Assets-Repository/main/gifs/BeydahGithubBanner.gif" alt="GIF" max-width: 100%; height: auto;>
 </div>
 
