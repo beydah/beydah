@@ -45,7 +45,7 @@
         </tr>
     </table>
     <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_site_slide_2.png" alt="Profile Site Slide 1"></a>
-    <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/download_cv_off.png" align="left" style="width: 15%; margin-left: 10%;" alt="CV Download Button"></a>
+    <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/download_cv_off.png" align="left" style="width: 15%; margin-left: 15%;" alt="CV Download Button"></a>
 </div>
 
 </br></br>
