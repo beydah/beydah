@@ -1,13 +1,13 @@
 <div align="center">
     <table style="width: 100%;">
         <tr>
-            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/logo/beydah_colorful_blue.png" alt="Home Button"></a></td>
+            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/logo/beydah_colorful_blue.png" style="width: 100%;"  alt="Home Button"></a></td>
             <td style="width: 10%;"></td>
-            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/home_on.png" alt="Home Button"></a></td>
-            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/about_off.png" alt="About Button"></a></td>
-            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/repo_off.png" alt="Repo Button"></a></td>
-            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/contact_off.png" alt="Contact Button"></a></td>
-            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/hire_focus.png" alt="Hire Button"></a></td>
+            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/home_on.png" style="width: 100%;"  alt="Home Button"></a></td>
+            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/about_off.png" style="width: 100%;"  alt="About Button"></a></td>
+            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/repo_off.png" style="width: 100%;"  alt="Repo Button"></a></td>
+            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/contact_off.png" style="width: 100%;"  alt="Contact Button"></a></td>
+            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/hire_focus.png" style="width: 100%;"  alt="Hire Button"></a></td>
         </tr>
     </table>
     <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/Assets-Repository/main/gifs/BeydahGithubBanner.gif" alt="GIF" max-width: 100%; height: auto;></a>
@@ -15,7 +15,7 @@
 </div>
 
 <div align="center">
-    <table style="width: 50%;">
+    <table style="width: 100%;">
         <tr>
             <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/portfolio_off.png" align="center" style="width: 50%;" alt="Portfolio Button"></a></td>
             <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/hire_focus.png" style="width: 50%;" alt="Hire Button"></a></td>
@@ -26,8 +26,6 @@
         </tr>
     </table>
 </div>
-
-
 
 <div style="text-align:center;">
     <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick">
