@@ -32,8 +32,8 @@
     </br></br>
 </div>
 
-<div align="center" style="width: 75%;">
-    <table align="center" style="width: 75%;">
+<div align="center" style="width: 100%;">
+    <table align="center" style="width: 100%;">
         <tr>
             <td style="width: 50%;"></td>
             <td style="width: 50%;"></td>
