@@ -17,7 +17,7 @@
 <div align="center">
     <table style="width: 100%;">
         <tr>
-            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/portfolio_off.png" align="center" style="width: 50%;" alt="Portfolio Button"></a></td>
+            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/portfolio_off.png" style="width: 50%;" alt="Portfolio Button"></a></td>
             <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/hire_focus.png" style="width: 50%;" alt="Hire Button"></a></td>
             <td style="width: 10%;"></td>
             <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/logo/linkedin_circle_colorful.png" style="width: 75%;" alt="LinkedIn Link"></a></td>      
