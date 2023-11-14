@@ -19,12 +19,14 @@
         <tr>
             <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/portfolio_off.png" align="center" style="width: 50%;" alt="Portfolio Button"></a></td>
             <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/hire_focus.png" style="width: 50%;" alt="Hire Button"></a></td>
-            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/logo/linkedin_circle_colorful.png" style="width: 50%;" alt="LinkedIn Link"></a></td>      
-            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/logo/behance_circle_colorful.png" style="width: 50%;" alt="Behance Link"></a></td>          
-            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/logo/hackerrank_circle_colorful.png" style="width: 50%;" alt="HackerRank Link"></a></td>                                
+            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/logo/linkedin_circle_colorful.png" style="width: 75%;" alt="LinkedIn Link"></a></td>      
+            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/logo/behance_circle_colorful.png" style="width: 75%;" alt="Behance Link"></a></td>          
+            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/logo/hackerrank_circle_colorful.png" style="width: 75%;" alt="HackerRank Link"></a></td>                                
         </tr>
     </table>
 </div>
+
+
 
 <div style="text-align:center;">
     <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick">
