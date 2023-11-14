@@ -1,13 +1,13 @@
 <div align="center">
     <table style="width: 100%;">
         <tr>
-            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/logo/beydah_colorful_blue.png" style="width: 100%;"  alt="Home Button"></a></td>
+            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/logo/beydah_colorful_blue.png" align="left" style="width: 100%;"  alt="Beydah Logo"></a></td>
             <td style="width: 10%;"></td>
-            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/home_on.png" style="width: 100%;"  alt="Home Button"></a></td>
-            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/about_off.png" style="width: 100%;"  alt="About Button"></a></td>
-            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/repo_off.png" style="width: 100%;"  alt="Repo Button"></a></td>
-            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/contact_off.png" style="width: 100%;"  alt="Contact Button"></a></td>
-            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/hire_focus.png" style="width: 100%;"  alt="Hire Button"></a></td>
+            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/home_on.png" align="right" style="width: 100%;"  alt="Home Button"></a></td>
+            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/about_off.png" align="right" style="width: 100%;"  alt="About Button"></a></td>
+            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/repo_off.png" align="right" style="width: 100%;"  alt="Repo Button"></a></td>
+            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/contact_off.png" align="right" style="width: 100%;"  alt="Contact Button"></a></td>
+            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/hire_focus.png" align="right" style="width: 100%;"  alt="Hire Button"></a></td>
         </tr>
     </table>
     <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/Assets-Repository/main/gifs/BeydahGithubBanner.gif" alt="GIF" max-width: 100%; height: auto;></a>
@@ -17,18 +17,33 @@
 <div align="center">
     <table style="width: 100%;">
         <tr>
-            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/portfolio_off.png" style="width: 50%;" alt="Portfolio Button"></a></td>
-            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/hire_focus.png" style="width: 50%;" alt="Hire Button"></a></td>
+            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/portfolio_off.png" align="right" style="width: 50%;" alt="Portfolio Button"></a></td>
+            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/hire_focus.png" align="left" style="width: 50%;" alt="Hire Button"></a></td>
             <td style="width: 10%;"></td>
-            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/logo/linkedin_circle_colorful.png" style="width: 75%;" alt="LinkedIn Link"></a></td>      
-            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/logo/behance_circle_colorful.png" style="width: 75%;" alt="Behance Link"></a></td>          
-            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/logo/hackerrank_circle_colorful.png" style="width: 75%;" alt="HackerRank Link"></a></td>                     <td style="width: 10%;"></td>
+            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/logo/linkedin_circle_colorful.png" align="center" style="width: 75%;" alt="LinkedIn Link"></a></td>      
+            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/logo/behance_circle_colorful.png" align="center" style="width: 75%;" alt="Behance Link"></a></td>          
+            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/logo/hackerrank_circle_colorful.png" align="center" style="width: 75%;" alt="HackerRank Link"></a></td>                               <td style="width: 10%;"></td>
         </tr>
     </table>
 </div>
 
-<div style="text-align:center;">
+<div align="center">
     <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick">
+    </br></br>
+</div>
+
+<div align="center" style="width: 75%;">
+    <table align="center" style="width: 75%;">
+        <tr>
+            <td style="width: 50%;"></td>
+            <td style="width: 50%;"></td>
+            <td style="width: 50%;"></td>
+            <td style="width: 50%;"></td>
+            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/about_focus.png" align="right" style="width: 50%;" alt="About Button"></a></td>      
+            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/education_off.png" align="right" style="width: 50%;" alt="Education Button"></a></td>
+            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/experience_off.png" align="center" style="width: 50%;" alt="Experience Button"></a></td>                 
+        </tr>
+    </table>
 </div>
 
 <details>
