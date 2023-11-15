@@ -45,10 +45,22 @@
         </tr>
     </table>
     <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_site_slide_2.png" alt="Profile Site Slide 1"></a>
-    <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/download_cv_off.png" align="left" style="width: 15%; margin-left: 15%;" alt="CV Download Button"></a>
 </div>
 
-</br></br>
+<div align="center" style="width: 100%;">
+    <table align="center" style="width: 100%;">
+        <tr>
+            <td style="width: 50%;"></td>
+            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/download_cv_off.png" align="left" style="width: 25%;" alt="Download CV Button"></a></td>      
+            <td style="width: 50%;"></td>
+            <td style="width: 50%;"></td>
+            <td style="width: 50%;"></td>
+            <td style="width: 50%;"></td>
+            <td style="width: 50%;"></td>
+            <td style="width: 50%;"></td>
+        </tr>
+    </table>
+</div>
 
 <details>
 <summary><h1>About Me</h1></summary>
