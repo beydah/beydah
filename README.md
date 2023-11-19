@@ -1,20 +1,19 @@
 <div align="center">
+    <!-- HEADER MENU -->
     <table style="width: 100%;">
         <tr>
             <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/logo/beydah_colorful_blue.png" align="left" style="width: 100%;"  alt="Beydah Logo"></a></td>
-            <td style="width: 10%;"></td>
+            <td></td>
             <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/home_on.png" align="right" style="width: 100%;"  alt="Home Button"></a></td>
             <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/about_off.png" align="right" style="width: 100%;"  alt="About Button"></a></td>
             <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/repo_off.png" align="right" style="width: 100%;"  alt="Repo Button"></a></td>
             <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/contact_off.png" align="right" style="width: 100%;"  alt="Contact Button"></a></td>
             <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/hire_focus.png" align="right" style="width: 100%;"  alt="Hire Button"></a></td>
         </tr>
-    </table>
-    <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/Assets-Repository/main/gifs/BeydahGithubBanner.gif" alt="GIF" max-width: 100%; height: auto;></a>
-    <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_site_slide_1.png" alt="Profile Site Slide 1"></a>
-</div>
-
-<div align="center">
+    </table></br>
+    <!-- SITE SLIDE 1 -->
+    <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/banner/profile_upper.gif" alt="GIF" max-width: 100%; height: auto;></a></br>
+    <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_site_slide_1.png" alt="Profile Site Slide 1"></a></br>
     <table style="width: 100%;">
         <tr>
             <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/hire_focus.png" align="right" style="width: 50%;" alt="Hire Button"></a></td>
@@ -22,17 +21,12 @@
             <td style="width: 10%;"></td>
             <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/logo/linkedin_circle_colorful.png" align="center" style="width: 75%;" alt="LinkedIn Link"></a></td>      
             <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/logo/behance_circle_colorful.png" align="center" style="width: 75%;" alt="Behance Link"></a></td>          
-            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/logo/hackerrank_circle_colorful.png" align="center" style="width: 75%;" alt="HackerRank Link"></a></td>                               <td style="width: 10%;"></td>
+            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/logo/hackerrank_circle_colorful.png" align="center" style="width: 75%;" alt="HackerRank Link"></a></td>                               
+            <td style="width: 10%;"></td>
         </tr>
-    </table>
-</div>
-
-<div align="center">
-    <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick">
-    </br></br>
-</div>
-
-<div align="center" style="width: 100%;">
+    </table></br>
+    <a href="https://github.com/beydah"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a></br>
+    <!-- SITE SLIDE 2 -->
     <table align="center" style="width: 100%;">
         <tr>
             <td style="width: 50%;"></td>
@@ -43,11 +37,8 @@
             <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/education_off.png" align="right" style="width: 50%;" alt="Education Button"></a></td>
             <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/experience_off.png" align="center" style="width: 50%;" alt="Experience Button"></a></td>
         </tr>
-    </table>
-    <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_site_slide_2.png" alt="Profile Site Slide 1"></a>
-</div>
-
-<div align="center" style="width: 100%;">
+    </table></br>
+    <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_site_slide_2.png" alt="Profile Site Slide 1"></a></br>
     <table align="center" style="width: 100%;">
         <tr>
             <td style="width: 50%;"></td>
@@ -59,35 +50,32 @@
             <td style="width: 50%;"></td>
             <td style="width: 50%;"></td>
         </tr>
-    </table>
+    </table></br>
+    <a href="https://github.com/beydah"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a></br>
+    <!-- SITE SLIDE 3 -->    
+    <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_site_slide_3.png" alt="Profile Site Slide 3"></a></br>
+    <a href="https://github.com/beydah"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a></br>
+    <!-- SITE SLIDE 4 -->
+    <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_site_slide_4.png" alt="Profile Site Slide 4"></a></br>
+    <a href="https://github.com/beydah"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a></br></br>
+    <!-- SITE SLIDE 5 -->
+    <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_site_slide_5.png" alt="Profile Site Slide 5"></a></br>
+    <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/banner/profile_lower.gif" alt="GIF" max-width: 100%; height: auto;></a></br>
+    <!-- FOOTER MENU -->
+    <tr>
+        <td></td>
+        <td><a href="https://github.com/beydah">Home</a></td>
+        <td><a href="https://github.com/beydah">About</a></td>
+        <td><a href="https://github.com/beydah">Repo</a></td>
+        <td><a href="https://github.com/beydah">Contact</a></td>
+        <td><a href="https://github.com/beydah">Hire</a></td>
+        <td></td>
+    </tr></br>
+    Email: <a href="mailto:info.beydahsaglam@gmail.com">info.beydahsaglam@gmail.com</a></br>
+    Address: <a href="https://maps.app.goo.gl/VoPi4PSBTQysoJUF8" target="_blank">Istanbul(Europe) / Turkey</a></br>
+    Copyright 2023 Beydah Saglam
 </div>
 
-<div align="center">
-    <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick">
-    </br></br>
-</div>
-
-</div align="center" style="width: 100%;">
-    <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_site_slide_3.png" alt="Profile Site Slide 3"></a>
-</div>
-
-<div align="center">
-    <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick">
-    </br></br>
-</div>
-
-<div align="center">
-    <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_site_slide_4.png" alt="Profile Site Slide 4"></a>
-</div>
-
-<div align="center">
-    <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick">
-    </br></br>
-</div>
-
-<div align="center">
-    <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_site_slide_5.png" alt="Profile Site Slide 5"></a>
-</div>
 
 <!--
 
