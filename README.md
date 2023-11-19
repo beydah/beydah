@@ -89,6 +89,8 @@
     <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_site_slide_5.png" alt="Profile Site Slide 5"></a>
 </div>
 
+<!--
+
 <details>
 <summary><h1>About Me</h1></summary>
 <div align = "center">
@@ -299,3 +301,5 @@ You can download my updated CV from the click link:
 [![](https://visitcount.itsvg.in/api?id=beydah&label=Profile%20Views&color=12&icon=5&pretty=false)](https://github.com/beydah)
 
 </div>
+
+-->
