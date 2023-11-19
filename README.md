@@ -8,7 +8,7 @@
             <td><a href="https://github.com/beydah/asset/blob/main/file/profile/about.md"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/about_off.png" align="right" style="width: 100%;"  alt="About Button"></a></td>
             <td><a href="https://github.com/beydah/asset/blob/main/file/profile/experience.md"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/repo_off.png" align="right" style="width: 100%;"  alt="Repo Button"></a></td>
             <td><a href="https://github.com/beydah/asset/blob/main/file/profile/contact.md"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/contact_off.png" align="right" style="width: 100%;"  alt="Contact Button"></a></td>
-            <td><a href="HIRE ME LINKI GELECEK"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/hire_focus.png" align="right" style="width: 100%;"  alt="Hire Button"></a></td>
+            <td><a href="https://github.com/beydah/asset/blob/main/file/profile/contact.md"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/hire_focus.png" align="right" style="width: 100%;"  alt="Hire Button"></a></td>
         </tr>
     </table>
     <!-- SITE SLIDE 1 -->
@@ -16,7 +16,7 @@
     <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_site_slide_1.png" alt="Profile Site Slide 1"></a>
     <table style="width: 100%;">
         <tr>
-            <td><a href="HIRE ME LINKI GELECEK"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/hire_focus.png" align="right" style="width: 50%;" alt="Hire Button"></a></td>
+            <td><a href="https://github.com/beydah/asset/blob/main/file/profile/contact.md"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/hire_focus.png" align="right" style="width: 50%;" alt="Hire Button"></a></td>
             <td><a href="https://github.com/beydah/asset/blob/main/file/profile/experience.md"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/portfolio_off.png" align="left" style="width: 50%;" alt="Portfolio Button"></a></td>
             <td style="width: 10%;"></td>
             <td><a href="https://www.linkedin.com/in/beydah/"><img src="https://raw.githubusercontent.com/beydah/asset/main/logo/linkedin_circle_colorful.png" align="center" style="width: 75%;" alt="LinkedIn Link"></a></td>      
@@ -68,7 +68,7 @@
         <td><a href="https://github.com/beydah/asset/blob/main/file/profile/about.md">About</a></td>
         <td><a href="https://github.com/beydah/asset/blob/main/file/profile/experience.md">Repo</a></td>
         <td><a href="https://github.com/beydah/asset/blob/main/file/profile/contact.md">Contact</a></td>
-        <td><a href="HIRE ME LINKI GELECEK">Hire</a></td>
+        <td><a href="https://github.com/beydah/asset/blob/main/file/profile/contact.md">Hire</a></td>
         <td></td>
     </tr></br>
     Copyright 2023 Beydah Saglam
