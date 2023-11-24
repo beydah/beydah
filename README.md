@@ -62,6 +62,14 @@
     <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_site_slide_5.png" alt="Profile Site Slide 5"></a>
     <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/banner/profile_lower.gif" alt="GIF" max-width: 100%; height: auto;></a>
     <!-- FOOTER MENU -->
+    
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/beydah)
+[![HackerRank](https://img.shields.io/badge/-Hacker_Rank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/beydah)
+[![Stack Overflow](https://img.shields.io/badge/-Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/21352065/beydah)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/beydah)
+
+[![Profile Views](https://visitcount.itsvg.in/api?id=beydah&label=Profile%20Views&color=12&icon=5&pretty=false)](https://github.com/beydah/asset/blob/main/file/profile/about.md)
+<br>
     <tr>
         <td></td>
         <td><a href="https://github.com/beydah">Home</a></td>
@@ -70,8 +78,10 @@
         <td><a href="https://github.com/beydah/asset/blob/main/file/profile/contact.md">Contact</a></td>
         <td><a href="https://github.com/beydah/asset/blob/main/file/profile/contact.md">Hire</a></td>
         <td></td>
-    </tr></br>
+    </tr>
+    <br>
     Copyright 2023 Beydah Saglam
+</div>
 </div>
 
 <!--
