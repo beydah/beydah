@@ -98,9 +98,6 @@
     </a>
     <br><br>
     <!-- FOOTER MENU -->
-    <a href="https://github.com/beydah">
-        <img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-    </a>
     <a href="https://www.hackerrank.com/beydah">
         <img src="https://img.shields.io/badge/-Hacker_Rank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank">
     </a>
