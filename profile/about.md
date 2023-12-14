@@ -7,22 +7,22 @@
         <td><a href="https://github.com/beydah">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/home_off.png" align="right" alt="Home Button">
         </a></td>
-        <td><a href="https://github.com/beydah/asset/blob/main/file/profile/about.md">
+        <td><a href="https://github.com/beydah/beydah/blob/main/file/profile/about.md">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/about_on.png" align="right"  alt="About Button">
         </a></td>
-        <td><a href="https://github.com/beydah/asset/blob/main/file/profile/repository.md">
+        <td><a href="https://github.com/beydah/beydah/blob/main/file/profile/repository.md">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/repo_off.png" align="right"  alt="Repo Button">
         </a></td>
-        <td><a href="https://github.com/beydah/asset/blob/main/file/profile/contact.md">
+        <td><a href="https://github.com/beydah/beydah/blob/main/file/profile/contact.md">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/contact_off.png" align="right" alt="Contact Button">
         </a></td>
-        <td><a href="https://github.com/beydah/asset/blob/main/file/profile/contact.md">
+        <td><a href="https://github.com/beydah/beydah/blob/main/file/profile/contact.md">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/hire_focus.png" align="right" alt="Hire Button">
         </a></td>
 </tr></table></div>
 
 <h1>About Me</h1>
-<div align = "center"><a href = "https://github.com/beydah/asset/blob/main/file/profile/about.md">
+<div align = "center"><a href = "https://github.com/beydah/beydah/blob/main/file/profile/about.md">
         <img src = "https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt = "Random Quotes">
 </a></div>
 
@@ -30,11 +30,11 @@
 
 Hello, I'm Beydah, a software developer with diverse GitHub projects. Exploring Front-End and Back-End, seeking internships, and eager to collaborate. Contact: [info.beydahsaglam@gmail.com](mailto:info.beydahsaglam@gmail.com) or [linkedin/beydah](https://www.linkedin.com/in/beydah/). Have a great day!
 
-<a href="https://github.com/beydah/asset/blob/main/file/profile/about.md"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
+<a href="https://github.com/beydah/beydah/blob/main/file/profile/about.md"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
 
 <details>
 <summary><h2>Curriculum Vitae</h2></summary>   
-<div align = "center"> <a href = "https://github.com/beydah/asset/blob/main/file/profile/about.md">
+<div align = "center"> <a href = "https://github.com/beydah/beydah/blob/main/file/profile/about.md">
         <img src = "https://github-profile-trophy.vercel.app/?username=beydah&theme=nord&no-frame=false&no-bg=true&margin-w=4" alt = "Trophies">
 </a></div>
 
@@ -152,49 +152,49 @@ You can download my updated CV from the following link:
 </a></div>
 </details>
 
-<a href="https://github.com/beydah/asset/blob/main/file/profile/about.md"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
+<a href="https://github.com/beydah/beydah/blob/main/file/profile/about.md"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
 
 <div align = "center">
 <h2>Statistics</h2>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=beydah&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)](https://github.com/beydah/asset/blob/main/file/profile/about.md)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=beydah&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)](https://github.com/beydah/beydah/blob/main/file/profile/about.md)
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=beydah&theme=dark&hide=contribs,prs)](https://github.com/beydah/asset/blob/main/file/profile/about.md)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=beydah&theme=dark&hide=contribs,prs)](https://github.com/beydah/beydah/blob/main/file/profile/about.md)
 
-[![GitHub Strike](https://github-readme-streak-stats.herokuapp.com/?user=beydah&theme=dark&hide_border=false)](https://github.com/beydah/asset/blob/main/file/profile/about.md)
+[![GitHub Strike](https://github-readme-streak-stats.herokuapp.com/?user=beydah&theme=dark&hide_border=false)](https://github.com/beydah/beydah/blob/main/file/profile/about.md)
 
-[![Roadmap Stats](https://api.roadmap.sh/v1-badge/wide/64c14cb8fcdcf9c5d50ffab2?variant=dark&roadmaps=sql%2Ccpp%2Cprompt-engineering%2Cfull-stack)]([https://github.com/beydah](https://github.com/beydah/asset/blob/main/file/profile/about.md))
+[![Roadmap Stats](https://api.roadmap.sh/v1-badge/wide/64c14cb8fcdcf9c5d50ffab2?variant=dark&roadmaps=sql%2Ccpp%2Cprompt-engineering%2Cfull-stack)]([https://github.com/beydah](https://github.com/beydah/beydah/blob/main/file/profile/about.md))
 
-<a href="https://github.com/beydah/asset/blob/main/file/profile/about.md"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
+<a href="https://github.com/beydah/beydah/blob/main/file/profile/about.md"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
 
 <h2>Tech Stack</h2>
 
-[![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)](https://github.com/beydah/asset/blob/main/file/profile/about.md)
-[![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://github.com/beydah/asset/blob/main/file/profile/about.md)
-[![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)](https://github.com/beydah/asset/blob/main/file/profile/about.md)
-[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://github.com/beydah/asset/blob/main/file/profile/about.md)
+[![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)](https://github.com/beydah/beydah/blob/main/file/profile/about.md)
+[![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://github.com/beydah/beydah/blob/main/file/profile/about.md)
+[![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)](https://github.com/beydah/beydah/blob/main/file/profile/about.md)
+[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://github.com/beydah/beydah/blob/main/file/profile/about.md)
 
-[![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)](https://github.com/beydah/asset/blob/main/file/profile/about.md)
-[![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)](https://github.com/beydah/asset/blob/main/file/profile/about.md)
-[![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)](https://github.com/beydah/asset/blob/main/file/profile/about.md)
-[![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://github.com/beydah/asset/blob/main/file/profile/about.md)
+[![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)](https://github.com/beydah/beydah/blob/main/file/profile/about.md)
+[![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)](https://github.com/beydah/beydah/blob/main/file/profile/about.md)
+[![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)](https://github.com/beydah/beydah/blob/main/file/profile/about.md)
+[![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://github.com/beydah/beydah/blob/main/file/profile/about.md)
 
-[![Microsoft SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)](https://github.com/beydah/asset/blob/main/file/profile/about.md)
-[![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)](https://github.com/beydah/asset/blob/main/file/profile/about.md)
-[![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)](https://github.com/beydah/asset/blob/main/file/profile/about.md)
-[![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)](https://github.com/beydah/asset/blob/main/file/profile/about.md)
+[![Microsoft SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)](https://github.com/beydah/beydah/blob/main/file/profile/about.md)
+[![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)](https://github.com/beydah/beydah/blob/main/file/profile/about.md)
+[![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)](https://github.com/beydah/beydah/blob/main/file/profile/about.md)
+[![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)](https://github.com/beydah/beydah/blob/main/file/profile/about.md)
 
-[![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)](https://github.com/beydah/asset/blob/main/file/profile/about.md)
-[![Adobe Photoshop](https://img.shields.io/badge/adobephotoshop-%2331A8FF.svg?style=for-the-badge&logo=adobephotoshop&logoColor=white)](https://github.com/beydah/asset/blob/main/file/profile/about.md)
-[![Adobe After Effects](https://img.shields.io/badge/Adobe%20After%20Effects-9999FF.svg?style=for-the-badge&logo=Adobe%20After%20Effects&logoColor=white)](https://github.com/beydah/asset/blob/main/file/profile/about.md)
-[![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)](https://github.com/beydah/asset/blob/main/file/profile/about.md)
+[![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)](https://github.com/beydah/beydah/blob/main/file/profile/about.md)
+[![Adobe Photoshop](https://img.shields.io/badge/adobephotoshop-%2331A8FF.svg?style=for-the-badge&logo=adobephotoshop&logoColor=white)](https://github.com/beydah/beydah/blob/main/file/profile/about.md)
+[![Adobe After Effects](https://img.shields.io/badge/Adobe%20After%20Effects-9999FF.svg?style=for-the-badge&logo=Adobe%20After%20Effects&logoColor=white)](https://github.com/beydah/beydah/blob/main/file/profile/about.md)
+[![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)](https://github.com/beydah/beydah/blob/main/file/profile/about.md)
 
-[![Git](https://img.shields.io/badge/Git-fc6d26?style=for-the-badge&logo=git&logoColor=white)](https://github.com/beydah/asset/blob/main/file/profile/about.md)
-[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/beydah/asset/blob/main/file/profile/about.md)
-[![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)](https://github.com/beydah/asset/blob/main/file/profile/about.md)
-[![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)](https://github.com/beydah/asset/blob/main/file/profile/about.md)
+[![Git](https://img.shields.io/badge/Git-fc6d26?style=for-the-badge&logo=git&logoColor=white)](https://github.com/beydah/beydah/blob/main/file/profile/about.md)
+[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/beydah/beydah/blob/main/file/profile/about.md)
+[![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)](https://github.com/beydah/beydah/blob/main/file/profile/about.md)
+[![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)](https://github.com/beydah/beydah/blob/main/file/profile/about.md)
 
-<a href="https://github.com/beydah/asset/blob/main/file/profile/about.md"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
+<a href="https://github.com/beydah/beydah/blob/main/file/profile/about.md"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
 
 <!-- FOOTER MENU -->
 <a href="https://www.hackerrank.com/beydah">
@@ -207,15 +207,15 @@ You can download my updated CV from the following link:
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
 </a>
 <br>
-<a href="https://github.com/beydah/asset/blob/main/file/profile/about.md">
+<a href="https://github.com/beydah/beydah/blob/main/file/profile/about.md">
     <img src="https://visitcount.itsvg.in/api?id=beydah&label=Profile%20Views&color=12&icon=5&pretty=false" alt="Profile Views">
 </a>
 <br><br>
 <a href="https://github.com/beydah">Home</a>
-<a href="https://github.com/beydah/asset/blob/main/file/profile/about.md">About</a>
-<a href="https://github.com/beydah/asset/blob/main/file/profile/repository.md">Repo</a>
-<a href="https://github.com/beydah/asset/blob/main/file/profile/contact.md">Contact</a>
-<a href="https://github.com/beydah/asset/blob/main/file/profile/contact.md">Hire</a>
+<a href="https://github.com/beydah/beydah/blob/main/file/profile/about.md">About</a>
+<a href="https://github.com/beydah/beydah/blob/main/file/profile/repository.md">Repo</a>
+<a href="https://github.com/beydah/beydah/blob/main/file/profile/contact.md">Contact</a>
+<a href="https://github.com/beydah/beydah/blob/main/file/profile/contact.md">Hire</a>
 <br>
 Copyright 2023 Beydah Saglam
 </div>
