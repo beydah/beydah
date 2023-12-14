@@ -7,16 +7,16 @@
         <td><a href="https://github.com/beydah">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/home_off.png" align="right" alt="Home Button">
         </a></td>
-        <td><a href="https://github.com/beydah/beydah/blob/main/file/profile/about.md">
+        <td><a href="https://github.com/beydah/beydah/blob/main/profile/about.md">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/about_on.png" align="right"  alt="About Button">
         </a></td>
-        <td><a href="https://github.com/beydah/beydah/blob/main/file/profile/repository.md">
+        <td><a href="https://github.com/beydah/beydah/blob/main/profile/repository.md">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/repo_off.png" align="right"  alt="Repo Button">
         </a></td>
-        <td><a href="https://github.com/beydah/beydah/blob/main/file/profile/contact.md">
+        <td><a href="https://github.com/beydah/beydah/blob/main/profile/contact.md">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/contact_off.png" align="right" alt="Contact Button">
         </a></td>
-        <td><a href="https://github.com/beydah/beydah/blob/main/file/profile/contact.md">
+        <td><a href="https://github.com/beydah/beydah/blob/main/profile/contact.md">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/hire_focus.png" align="right" alt="Hire Button">
         </a></td>
 </tr></table></div>
