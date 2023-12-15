@@ -8,16 +8,16 @@
         <td><a href="https://github.com/beydah">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/home_on.png" align="right" alt="Home Button">
         </a></td>
-        <td><a href="https://github.com/beydah/asset/blob/main/file/profile/about.md">
+        <td><a href="https://github.com/beydah/beydah/blob/main/profile/about.md">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/about_off.png" align="right"  alt="About Button">
         </a></td>
-        <td><a href="https://github.com/beydah/asset/blob/main/file/profile/repository.md">
+        <td><a href="https://github.com/beydah/beydah/blob/main/profile/repository.md">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/repo_off.png" align="right"  alt="Repo Button">
         </a></td>
-        <td><a href="https://github.com/beydah/asset/blob/main/file/profile/contact.md">
+        <td><a href="https://github.com/beydah/beydah/blob/main/profile/contact.md">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/contact_off.png" align="right" alt="Contact Button">
         </a></td>
-        <td><a href="https://github.com/beydah/asset/blob/main/file/profile/contact.md">
+        <td><a href="https://github.com/beydah/beydah/blob/main/profile/contact.md">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/hire_focus.png" align="right" alt="Hire Button">
         </a></td>
     </tr></table>
@@ -27,10 +27,10 @@
         <img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_site_slide_1.png" alt="Profile Site Slide 1">
     </a>
     <table><tr>
-        <td><a href="https://github.com/beydah/asset/blob/main/file/profile/contact.md">
+        <td><a href="https://github.com/beydah/beydah/blob/main/profile/contact.md">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/hire_focus.png" align="right" style="width: 50%;" alt="Hire Button">
         </a></td>
-        <td><a href="https://github.com/beydah/asset/blob/main/file/profile/repository.md">
+        <td><a href="https://github.com/beydah/beydah/blob/main/profile/repository.md">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/portfolio_off.png" align="left" style="width: 50%;" alt="Portfolio Button">
         </a></td>
         <td style="width: 10%;"></td>
@@ -52,13 +52,13 @@
         <td style="width: 10%;"></td>
         <td style="width: 10%;"></td>
         <td style="width: 10%;"></td>
-        <td><a href="https://github.com/beydah/asset/blob/main/file/profile/about.md">
+        <td><a href="https://github.com/beydah/beydah/blob/main/profile/about.md">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/about_focus.png" align="right" style="width: 50%;" alt="About Button">
         </a></td>      
-        <td><a href="https://github.com/beydah/asset/blob/main/file/profile/about.md#education">
+        <td><a href="https://github.com/beydah/beydah/blob/main/profile/about.md#education">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/education_off.png" align="right" style="width: 50%;" alt="Education Button">
         </a></td>
-        <td><a href="https://github.com/beydah/asset/blob/main/file/profile/about.md#experience">
+        <td><a href="https://github.com/beydah/beydah/blob/main/profile/about.md#experience">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/experience_off.png" align="left" style="width: 50%;" alt="Experience Button">
         </a></td>
     </tr></table>
@@ -113,10 +113,10 @@
     </a>
     <br><br>
     <a href="https://github.com/beydah">Home</a>
-    <a href="https://github.com/beydah/asset/blob/main/file/profile/about.md">About</a>
-    <a href="https://github.com/beydah/asset/blob/main/file/profile/repository.md">Repo</a>
-    <a href="https://github.com/beydah/asset/blob/main/file/profile/contact.md">Contact</a>
-    <a href="https://github.com/beydah/asset/blob/main/file/profile/contact.md">Hire</a>
+    <a href="https://github.com/beydah/beydah/blob/main/profile/about.md">About</a>
+    <a href="https://github.com/beydah/beydah/blob/main/profile/repository.md">Repo</a>
+    <a href="https://github.com/beydah/beydah/blob/main/profile/contact.md">Contact</a>
+    <a href="https://github.com/beydah/beydah/blob/main/profile/contact.md">Hire</a>
     <br>
     Copyright 2023 Beydah Saglam
 </div>
