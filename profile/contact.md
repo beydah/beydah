@@ -5,10 +5,10 @@
             <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/logo/beydah_colorful_white.png" align="left" style="width: 100%;"  alt="Beydah Logo"></a></td>
             <td></td>
             <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/home_off.png" align="right" style="width: 100%;"  alt="Home Button"></a></td>
-            <td><a href="https://github.com/beydah/asset/blob/main/file/profile/about.md"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/about_off.png" align="right" style="width: 100%;"  alt="About Button"></a></td>
-            <td><a href="https://github.com/beydah/asset/blob/main/file/profile/repository.md"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/repo_off.png" align="right" style="width: 100%;"  alt="Repo Button"></a></td>
-            <td><a href="https://github.com/beydah/asset/blob/main/file/profile/contact.md"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/contact_on.png" align="right" style="width: 100%;"  alt="Contact Button"></a></td>
-            <td><a href="https://github.com/beydah/asset/blob/main/file/profile/contact.md"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/hire_on.png" align="right" style="width: 100%;"  alt="Hire Button"></a></td>
+            <td><a href="https://github.com/beydah/beydah/blob/main/profile/about.md"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/about_off.png" align="right" style="width: 100%;"  alt="About Button"></a></td>
+            <td><a href="https://github.com/beydah/beydah/blob/main/profile/repository.md"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/repo_off.png" align="right" style="width: 100%;"  alt="Repo Button"></a></td>
+            <td><a href="https://github.com/beydah/beydah/blob/main/profile/contact.md"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/contact_on.png" align="right" style="width: 100%;"  alt="Contact Button"></a></td>
+            <td><a href="https://github.com/beydah/beydah/blob/main/profile/contact.md"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/hire_on.png" align="right" style="width: 100%;"  alt="Hire Button"></a></td>
         </tr>
     </table>
 </div>
@@ -20,10 +20,10 @@ CONTACT PAGE
     <tr>
         <td></td>
         <td><a href="https://github.com/beydah">Home</a></td>
-        <td><a href="https://github.com/beydah/asset/blob/main/file/profile/about.md">About</a></td>
-        <td><a href="https://github.com/beydah/asset/blob/main/file/profile/repository.md">Repo</a></td>
-        <td><a href="https://github.com/beydah/asset/blob/main/file/profile/contact.md">Contact</a></td>
-        <td><a href="https://github.com/beydah/asset/blob/main/file/profile/contact.md">Hire</a></td>
+        <td><a href="https://github.com/beydah/beydah/blob/main/profile/about.md">About</a></td>
+        <td><a href="https://github.com/beydah/beydah/blob/main/profile/repository.md">Repo</a></td>
+        <td><a href="https://github.com/beydah/beydah/blob/main/profile/contact.md">Contact</a></td>
+        <td><a href="https://github.com/beydah/beydah/blob/main/profile/contact.md">Hire</a></td>
         <td></td>
     </tr></br>
     Copyright 2023 Beydah Saglam
