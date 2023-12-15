@@ -2,9 +2,9 @@
     <!-- HEADER MENU -->
     <table style="width: 100%;">
         <tr>
-            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/beydah/main/logo/beydah_colorful_white.png" align="left" style="width: 100%;"  alt="Beydah Logo"></a></td>
+            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/logo/beydah_colorful_white.png" align="left" style="width: 100%;"  alt="Beydah Logo"></a></td>
             <td></td>
-            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/beydah/main/button/home_off.png" align="right" style="width: 100%;"  alt="Home Button"></a></td>
+            <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/home_off.png" align="right" style="width: 100%;"  alt="Home Button"></a></td>
             <td><a href="https://github.com/beydah/beydah/blob/main/profile/about.md"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/about_off.png" align="right" style="width: 100%;"  alt="About Button"></a></td>
             <td><a href="https://github.com/beydah/beydah/blob/main/profile/experience.md"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/repo_on.png" align="right" style="width: 100%;"  alt="Repo Button"></a></td>
             <td><a href="https://github.com/beydah/beydah/blob/main/profile/contact.md"><img src="https://raw.githubusercontent.com/beydah/asset/main/button/contact_off.png" align="right" style="width: 100%;"  alt="Contact Button"></a></td>
