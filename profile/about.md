@@ -145,9 +145,9 @@ BilgeIs - Visual Design Principles' validates my understanding and application o
 <h3>Download Full CV</h3>
 
 You can download my updated CV from the following link:
-[_Download Full Europass Global CV_](https://github.com/beydah/asset/raw/main/resume/beydah_saglam_europass_cv_eng.pdf)
+[_Download Full Europass Global CV_](https://github.com/beydah/asset/raw/main/resume/beydahSaglam_europassCV_eng.pdf)
 
-<div align="left"><a href="https://github.com/beydah/asset/raw/main/resume/beydah_saglam_europass_cv_eng.pdf">
+<div align="left"><a href="https://github.com/beydah/asset/raw/main/resume/beydahSaglam_europassCV_eng.pdf">
         <img src="https://raw.githubusercontent.com/beydah/asset/main/button/download_cv_focus.png" style="width: 15%;" alt="Download CV Button">
 </a></div>
 </details>
