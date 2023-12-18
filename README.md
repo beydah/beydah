@@ -24,7 +24,7 @@
     <!-- SITE SLIDE 1 -->
     <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/banner/profile_upper.gif" alt="GIF"></a>
     <a href="https://github.com/beydah">
-        <img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_site_slide_1.png" alt="Profile Site Slide 1">
+        <img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_slide_1.png" alt="Profile Site Slide 1">
     </a>
     <table><tr>
         <td><a href="https://github.com/beydah/beydah/blob/main/profile/contact.md">
@@ -64,11 +64,11 @@
     </tr></table>
     <br>
     <a href="https://github.com/beydah">
-        <img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_site_slide_2.png" alt="Profile Site Slide 1">
+        <img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_slide_2.png" alt="Profile Site Slide 1">
     </a>
     <table><tr>
         <td style="width: 10%;"></td>
-        <td><a href="https://github.com/beydah/asset/raw/main/resume/beydah_saglam_europass_cv_eng.pdf">
+        <td><a href="https://github.com/beydah/asset/raw/main/resume/beydahSaglam_europassCV_eng.pdf">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/download_cv_off.png" align="left" style="width: 25%;" alt="Download CV Button">
         </a></td>      
         <td style="width: 10%;"></td>
@@ -81,17 +81,17 @@
     <a href="https://github.com/beydah"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a></br></br>
     <!-- SITE SLIDE 3 -->    
     <a href="https://github.com/beydah">
-        <img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_site_slide_3.png" alt="Profile Site Slide 3">
+        <img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_slide_3.png" alt="Profile Site Slide 3">
     </a>
     <a href="https://github.com/beydah"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a></br></br>
     <!-- SITE SLIDE 4 -->
     <a href="https://github.com/beydah">
-        <img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_site_slide_4.png" alt="Profile Site Slide 4">
+        <img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_slide_4.png" alt="Profile Site Slide 4">
     </a>
     <a href="https://github.com/beydah"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a></br></br>
     <!-- SITE SLIDE 5 -->
     <a href="https://github.com/beydah">
-        <img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_site_slide_5.png" alt="Profile Site Slide 5">
+        <img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_slide_5.png" alt="Profile Site Slide 5">
     </a>
     <a href="https://github.com/beydah">
         <img src="https://raw.githubusercontent.com/beydah/asset/main/banner/profile_lower.gif" alt="GIF">
