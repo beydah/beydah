@@ -15,6 +15,8 @@
 
 CONTACT PAGE
 
+<a href="mailto:info.beydahsaglam@gmail.com">Send email</a>
+
 <div align="center">
     <!-- FOOTER MENU -->
     <tr>
