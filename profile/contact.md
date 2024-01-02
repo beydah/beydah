@@ -15,19 +15,12 @@
 
 CONTACT PAGE
 
-KISA TANITIM [DAHA FAZLASI İÇİN ZİYARET ET -> ABOUT PAGE]
-PROJELERİM TANITIM [DAHA FAZLASI İÇİN ZİYARET ET -> REPO PAGE]
+Karşılama Mesajı: [CONTANT PAGE]
+Kısa Kişisel Açıklama: [About Page Link]
+Kısa Kariyer Açıklama: [Repo Page Link]
+Pozisyon Beklentilerim: [CV & Aradığım Pozisyon Nitelikleri]
+İletişim Bilgileri: [Mail, Media & Maps]
 
-ÇALIŞMAYA AÇIK OLDUĞUM POZİSYONLAR
-
-CV INDIR VE MAIL AT
-
-SOSYAL MEDYA HESAPLARIM
-
-[CV TARZI]
-
-<a href="mailto:info.beydahsaglam@gmail.com">Send email</a>
-<a href="https://www.linkedin.com/in/beydah/">Follow in LinkedIn</a>
 
 <div align="center">
     <!-- FOOTER MENU -->
