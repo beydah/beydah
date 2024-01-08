@@ -13,14 +13,34 @@
     </table>
 </div>
 
-CONTACT PAGE
+<h2>Hire Me</h2>
+<h3>Kısaca About</h3>
+About Özet Açıklama
+[About Link]
 
-Karşılama Mesajı: [CONTANT PAGE]
-Kısa Kişisel Açıklama: [About Page Link]
-Kısa Kariyer Açıklama: [Repo Page Link]
-Pozisyon Beklentilerim: [CV & Aradığım Pozisyon Nitelikleri]
-İletişim Bilgileri: [Mail, Media & Maps]
+<h3>Kısaca Repo</h3>
+Repo Özet Açıklama
+[Repo Link]
 
+<h3>Pozisyon Beklentilerim</h3>
+Konum: İstanbul(Avrupa)
+Çalışma Tercihi: İş Yerinde / Hibrit
+Pozisyon Seviyesi: Yeni Başlayan / Stajyer
+Çalışma Şekli: Stajyer / Part Time
+
+<h3>Açık Olduğum Pozisyonlar</h3>
+Frontend Developer
+Web Tasarımcı
+Backend Developer
+Software Developer
+
+[CV Indir]
+
+<h2>Contact Me</h2>
+<h3>Mail</h3>
+<h3>LinkedIn</h3>
+<h3>Google Form</h3>
+<h3>Google Maps</h3>
 
 <div align="center">
     <!-- FOOTER MENU -->
