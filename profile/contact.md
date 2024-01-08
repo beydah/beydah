@@ -40,7 +40,14 @@ Software Developer
 <h3>Mail</h3>
 <h3>LinkedIn</h3>
 <h3>Google Form</h3>
-<h3>Google Maps</h3>
+
+<div align="center">
+    <div align = "left">Adres: Gaziosmanpasa / Istanbul</div>
+    <a href="https://www.google.com/maps/place/Gaziosmanpa%C5%9Fa%2F%C4%B0stanbul"><img src="https://raw.githubusercontent.com/beydah/asset/main/banner/map_gaziosmanpasa.jpg"style="width: 100%;"  alt="Google Maps - Gaziosmanpasa / Istanbul"></a>
+    <div align = "center"><a href = "https://www.google.com/maps/place/Gaziosmanpa%C5%9Fa%2F%C4%B0stanbul">Daha Büyük Haritayı Görüntüle</div>
+</div>
+
+<a href="https://github.com/beydah/beydah/blob/main/profile/about.md"><img src="https://i.imgur.com/waxVImv.png" style="width: 100%;" alt="Colorful Stick"></a>
 
 <div align="center">
     <!-- FOOTER MENU -->
