@@ -43,7 +43,7 @@ Software Developer
 
 <div align="center">
     <div align = "left">Adres: Gaziosmanpasa / Istanbul</div>
-    <a href="https://www.google.com/maps/place/Gaziosmanpa%C5%9Fa%2F%C4%B0stanbul"><img src="https://raw.githubusercontent.com/beydah/asset/main/banner/map_gaziosmanpasa.jpg"style="width: 100%;"  alt="Google Maps - Gaziosmanpasa / Istanbul"></a>
+    <a href="https://www.google.com/maps/place/Gaziosmanpa%C5%9Fa%2F%C4%B0stanbul"><img src="https://raw.githubusercontent.com/beydah/asset/main/banner/map_gaziosmanpasa.png"style="width: 100%;"  alt="Google Maps - Gaziosmanpasa / Istanbul"></a>
     <div align = "center"><a href = "https://www.google.com/maps/place/Gaziosmanpa%C5%9Fa%2F%C4%B0stanbul">Daha Büyük Haritayı Görüntüle</div>
 </div>
 
