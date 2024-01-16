@@ -117,7 +117,7 @@ _Activities and Communities: Yesilay Student Club · Kizilay Student Club_
 <details>  
 <summary><h4>Programming Fundamentals - Duke University</h4></summary>
 
-BilgeIs - Visual Design Principles' validates my understanding and application of **key principles in visual design**.
+"Duke University - Programming Fundamentals" course provided me with the opportunity to fill in the gaps in my foundation, allowing me to improve myself in **algorithmic design**, **problem generalization**, **algorithmic thinking**, and the **fundamentals of the C language**.
 
 [_View Certificate_](https://coursera.org/share/5475b650f08e815bc9e2862d2f0fc1b6)
 
