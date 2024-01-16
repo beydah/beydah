@@ -115,6 +115,15 @@ _Activities and Communities: Yesilay Student Club · Kizilay Student Club_
 
 <h3>Certifications</h3>
 <details>  
+<summary><h4>Programming Fundamentals - Duke University</h4></summary>
+
+BilgeIs - Visual Design Principles' validates my understanding and application of **key principles in visual design**.
+
+[_View Certificate_](https://coursera.org/share/5475b650f08e815bc9e2862d2f0fc1b6)
+
+</details>
+
+<details>  
 <summary><h4>Structured Query Language - Hacker Rank</h4></summary>
 
 My "Structured Query Language - Hacker Rank" certificate documents my proficiency in **database management** and **SQL queries**.
@@ -130,15 +139,6 @@ This certificate encompasses a series of SQL-based tasks that I successfully com
 Google - Digital Marketing' is obtained to document my competence in acquiring fundamental knowledge and skills in the field of **digital marketing**.
 
 [_View Certificate_](https://github.com/beydah/asset/blob/main/certificate/google_digital_marketing.pdf)
-
-</details>
-
-<details>  
-<summary><h4>Visual Design Principles - BilgeIs</h4></summary>
-
-BilgeIs - Visual Design Principles' validates my understanding and application of **key principles in visual design**.
-
-[_View Certificate_](https://github.com/beydah/asset/blob/main/certificate/bilgeis_visual_design_prenciples.pdf)
 
 </details>
 
