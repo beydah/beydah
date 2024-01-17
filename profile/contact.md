@@ -51,14 +51,28 @@ Software Developer
 
 <div align="center">
     <!-- FOOTER MENU -->
-    <tr>
-        <td></td>
-        <td><a href="https://github.com/beydah">Home</a></td>
-        <td><a href="https://github.com/beydah/beydah/blob/main/profile/about.md">About</a></td>
-        <td><a href="https://github.com/beydah/beydah/blob/main/profile/repository.md">Repo</a></td>
-        <td><a href="https://github.com/beydah/beydah/blob/main/profile/contact.md">Contact</a></td>
-        <td><a href="https://github.com/beydah/beydah/blob/main/profile/contact.md">Hire</a></td>
-        <td></td>
-    </tr></br>
-    Copyright 2023 Beydah Saglam
+    <a href="https://www.hackerrank.com/beydah">
+        <img src="https://img.shields.io/badge/-Hacker_Rank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank">
+    </a>
+    <a href="https://stackoverflow.com/users/21352065/beydah">
+        <img src="https://img.shields.io/badge/-Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="Stack Overflow">
+    </a>
+    <a href="https://www.behance.com/beydah">
+        <img src="https://img.shields.io/badge/Behance-1769ff?style=for-the-badge&logo=behance&logoColor=white" alt="Behance">
+    </a>
+    <a href="https://linkedin.com/in/beydah">
+        <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+    </a>
+    <br>
+    <a href="https://github.com/beydah/beydah/blob/main/profile/contact.md">
+        <img src="https://visitcount.itsvg.in/api?id=beydah&label=Profile%20Views&color=12&icon=5&pretty=false" alt="Profile Views">
+    </a>
+    <br><br>
+    <a href="https://github.com/beydah">Home</a>
+    <a href="https://github.com/beydah/beydah/blob/main/profile/about.md">About</a>
+    <a href="https://github.com/beydah/beydah/blob/main/profile/repository.md">Repo</a>
+    <a href="https://github.com/beydah/beydah/blob/main/profile/contact.md">Contact</a>
+    <a href="https://github.com/beydah/beydah/blob/main/profile/contact.md">Hire</a>
+    <br>
+    Copyright 2024 Beydah Saglam
 </div>
