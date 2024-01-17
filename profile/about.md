@@ -231,5 +231,5 @@ You can download my updated CV from the following link:
 <a href="https://github.com/beydah/beydah/blob/main/profile/contact.md">Contact</a>
 <a href="https://github.com/beydah/beydah/blob/main/profile/contact.md">Hire</a>
 <br>
-Copyright 2023 Beydah Saglam
+Copyright 2024 Beydah Saglam
 </div>
