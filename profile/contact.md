@@ -30,9 +30,8 @@ Pozisyon Seviyesi: Yeni Başlayan / Stajyer
 
 <h3>Açık Olduğum Pozisyonlar</h3>
 Frontend Developer
-Web Tasarımcı
-Backend Developer
 Software Developer
+Hardware Developer
 
 [CV Indir]
 
