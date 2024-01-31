@@ -163,7 +163,7 @@ You can download my updated CV from the following link:
 
 [![GitHub Strike](https://github-readme-streak-stats.herokuapp.com/?user=beydah&theme=dark&hide_border=false)](https://github.com/beydah/beydah/blob/main/profile/about.md)
 
-[![Roadmap Stats](https://api.roadmap.sh/v1-badge/wide/64c14cb8fcdcf9c5d50ffab2?variant=dark&roadmaps=sql%2Ccpp%2Cprompt-engineering%2Cfull-stack)]([https://github.com/beydah](https://github.com/beydah/beydah/blob/main/profile/about.md))
+[![Roadmap Stats](https://api.roadmap.sh/v1-badge/wide/64c14cb8fcdcf9c5d50ffab2?variant=dark&roadmaps=cpp%2Csql%2Cux-design%2Cprompt-engineering)](https://github.com/beydah/beydah/blob/main/profile/about.md)
 
 <a href="https://github.com/beydah/beydah/blob/main/profile/about.md"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
 
