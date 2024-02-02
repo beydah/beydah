@@ -104,7 +104,7 @@ _Sep 2022 - Jun 2024_
 
 During my Computer Programming education, I received comprehensive training, covering **programming fundamentals**, **network**, **database**, graphics, office apps, **visual programming**, **web and mobile development**, **OS**, **AI**, and **Python**. This diverse training expanded my expertise and, coupled with practical project experience, prepared me for real-world applications.
 
-_Activities and Communities: AIESEC Member · Google Developer Student Club · Software and Informatics Club_
+_Activities and Communities: 42 Echole Member · AIESEC Member · Google Developer Student Club · Software and Informatics Club_
 
 </details>
 
@@ -147,6 +147,7 @@ Google - Digital Marketing' is obtained to document my competence in acquiring f
 [_View Certificate_](https://github.com/beydah/asset/blob/main/certificate/google_digital_marketing.pdf)
 
 </details>
+</details>
 
 <h3>Download Full CV</h3>
 
@@ -156,7 +157,6 @@ You can download my updated CV from the following link:
 <div align="left"><a href="https://github.com/beydah/asset/raw/main/resume/CV_Europass_Ilkay-Beydah-Saglam.pdf">
         <img src="https://raw.githubusercontent.com/beydah/asset/main/button/download_cv_focus.png" style="width: 15%;" alt="Download CV Button">
 </a></div>
-</details>
 
 <a href="https://github.com/beydah/beydah/blob/main/profile/about.md"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
 
