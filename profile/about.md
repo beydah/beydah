@@ -17,7 +17,7 @@
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/contact_off.png" align="right" alt="Contact Button">
         </a></td>
         <td><a href="https://github.com/beydah/beydah/blob/main/profile/contact.md">
-            <img src="https://raw.githubusercontent.com/beydah/asset/main/button/hire_focus.png" align="right" alt="Hire Button">
+            <img src="https://raw.githubusercontent.com/beydah/asset/main/button/hire_focus.png" align="right" alt="Hire Butthttps://api.roadmap.sh/v1-badge/wide/64c14cb8fcdcf9c5d50ffab2?variant=dark&roadmaps=cpp%2Csql%2Cux-design%2Cprompt-engineeringon">
         </a></td>
 </tr></table></div>
 
@@ -28,7 +28,7 @@
 
 <h2>Beydah Saglam | Software Developer</h2>
 
-Hello, I'm Beydah, a software developer with diverse GitHub projects. Exploring Front-End and Back-End, seeking internships, and eager to collaborate. Contact: [info.beydahsaglam@gmail.com](mailto:info.beydahsaglam@gmail.com) or [linkedin/beydah](https://www.linkedin.com/in/beydah/). Have a great day!
+Hello, I'm Beydah, a software developer with diverse GitHub projects. Exploring Full Stack and Embedded Software, seeking internships, and eager to collaborate. Contact: [info.beydahsaglam@gmail.com](mailto:info.beydahsaglam@gmail.com) or [linkedin/beydah](https://www.linkedin.com/in/beydah/). Have a great day!
 
 <a href="https://github.com/beydah/beydah/blob/main/profile/about.md"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
 
@@ -42,7 +42,7 @@ Hello, I'm Beydah, a software developer with diverse GitHub projects. Exploring 
 <details>  
 <summary><h4>Business Development Manager - AIESEC</h4></summary>
 
-_Jun 2023 - Aug 2023 (3 Months)_
+_06 / 2023 - 09 / 2023 (3 Months)_
 
 **Managed data**, **oversaw processes**, and **communicated with customers**. Excelling in B2B lead conversion, I maintained transparency by reporting to the Team Leader.
 
@@ -53,7 +53,7 @@ _Skills: Corporate Communication · **Data Entry** · Data Management · Meeting
 <details>  
 <summary><h4>Back-End Observation Intern - Fintorly</h4></summary>
 
-_Nov 2022 - Apr 2023 (6 Months)_
+_10 / 2022 - 04 / 2023 (6 Months)_
 
 I joined to enhance the **C#**, **.NET**, and **Back-End skills** I gained in university. Thanks to this internship and supportive teammates, I actively participated in projects, deepened my expertise, and honed my overall software development abilities.
 
@@ -63,30 +63,36 @@ _Skills: C# · .NET · **SQL** · **Git** · GitHub_
 
 <h3>Projects</h3>  
 <details>  
-<summary><h4>Open Source University Database</h4></summary>
+<summary><h4>CV Analyzer - Desktop App</h4></summary>
 
-Open Source University Database Design project aims to develop a database solution for
-**effectively managing student information**, course schedules, and academic data at universities.
+**Speed up your recruitment processes** with CV Analyzer! **Pre-rank candidates by determining keywords**, save time.
+Find the most suitable candidates immediately thanks to detailed CV analysis. **Make the right decisions by delving into skills, experience and suitability**.
+**Optimize your recruiting process** with performance analytics and statistics. Quickly access continuous improvement opportunities.
+Manage recruitment with one click with **user-friendly interface**. Find candidates who meet your desired criteria with filtering options.
 
-[_Click For Repository_](https://github.com/beydah/UniversityDB-OpenSRC)
-
-</details>
-
-<details>  
-<summary><h4>Open Source Hospital Database</h4></summary>
-
-The Open Source Hospital Database Design project aims to create a database solution for **managing hospital operations** and storing **hospital data efficiently**
-
-[_Click For Repository_](https://github.com/beydah/HospitalDB-OpenSRC)
+[_Not Released Yet_](https://github.com/beydah/beydah/blob/main/profile/about.md)
 
 </details>
 
 <details>  
-<summary><h4>Open Source Hotel Database</h4></summary>
+<summary><h4>Viatra - Desktop & Mobile App</h4></summary>
 
-The Open Source Hotel Database Design project aims to **efficiently manage hotel reservations**, **guest information**, and business data for hotel establishments.
+It offers **specific daily clothing suggestions**, taking into account every detail from weather to age, from gender to personal preferences.
+Viatra suggests combinations that are age-appropriate, **weather-sensitive and according to trends** and keeps your style up to date.
+Act without compromising your elegance on rainy days, and maintain your style on sunny days.
 
-[_Click For Repository_](https://github.com/beydah/HotelDB-OpenSRC)
+[_Not Released Yet_](https://github.com/beydah/beydah/blob/main/profile/about.md)
+
+</details>
+
+<details>  
+<summary><h4>Social Media Database Template - Database</h4></summary>
+
+**Open source and free**, this **customizable database** offers **developers a quick start**.
+It gives developers the chance to quickly organize and customize social media data.
+**Analyze your social media data**, **create reports and improve your strategies** using the database.
+
+[_Click For Repository_](https://github.com/beydah/Social-Media-Database-Template)
 
 </details>
 
@@ -98,7 +104,7 @@ _Sep 2022 - Jun 2024_
 
 During my Computer Programming education, I received comprehensive training, covering **programming fundamentals**, **network**, **database**, graphics, office apps, **visual programming**, **web and mobile development**, **OS**, **AI**, and **Python**. This diverse training expanded my expertise and, coupled with practical project experience, prepared me for real-world applications.
 
-_Activities and Communities: 42 Echole Member · AIESEC Member · Google Developer Student Club · Software and Informatics Club_
+_Activities and Communities: AIESEC Member · Google Developer Student Club · Software and Informatics Club_
 
 </details>
 
@@ -145,9 +151,9 @@ Google - Digital Marketing' is obtained to document my competence in acquiring f
 <h3>Download Full CV</h3>
 
 You can download my updated CV from the following link:
-[_Download Full Europass Global CV_](https://github.com/beydah/asset/raw/main/resume/beydahSaglam_europassCV_eng.pdf)
+[_Download Full Europass Global CV_](https://github.com/beydah/asset/raw/main/resume/CV_Europass_Ilkay-Beydah-Saglam.pdf)
 
-<div align="left"><a href="https://github.com/beydah/asset/raw/main/resume/beydahSaglam_europassCV_eng.pdf">
+<div align="left"><a href="https://github.com/beydah/asset/raw/main/resume/CV_Europass_Ilkay-Beydah-Saglam.pdf">
         <img src="https://raw.githubusercontent.com/beydah/asset/main/button/download_cv_focus.png" style="width: 15%;" alt="Download CV Button">
 </a></div>
 </details>
@@ -196,8 +202,8 @@ You can download my updated CV from the following link:
 [![ARDUINO](https://img.shields.io/badge/ARDUINO-00979D?style=for-the-badge&logo=Arduino&logoColor=white)](https://github.com/beydah/beydah/blob/main/profile/about.md)
 [![RASPBERRY PI](https://img.shields.io/badge/RASPBERRY%20PI-C51A4A?style=for-the-badge&logo=Raspberry-Pi)](https://github.com/beydah/beydah/blob/main/profile/about.md)
 
-![MICROSOFT WORD](https://img.shields.io/badge/MS%20WORD-2B579A?style=for-the-badge&logo=microsoft-word&logoColor=white)
-![MICROSOFT EXCEL](https://img.shields.io/badge/MS%20EXCEL-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+[![MICROSOFT WORD](https://img.shields.io/badge/MS%20WORD-2B579A?style=for-the-badge&logo=microsoft-word&logoColor=white)](https://github.com/beydah/beydah/blob/main/profile/about.md)
+[![MICROSOFT EXCEL](https://img.shields.io/badge/MS%20EXCEL-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)](https://github.com/beydah/beydah/blob/main/profile/about.md)
 [![GOOGLE FORMS](https://img.shields.io/badge/GOOGLE%20FORMS-%234285F4.svg?style=for-the-badge&logo=google-forms&logoColor=white)](https://github.com/beydah/beydah/blob/main/profile/about.md)
 [![GOOGLE SHEETS](https://img.shields.io/badge/GOOGLE%20SHEETS-%234285F4.svg?style=for-the-badge&logo=google-sheets&logoColor=white)](https://github.com/beydah/beydah/blob/main/profile/about.md)
 [![CANVA](https://img.shields.io/badge/CANVA-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)](https://github.com/beydah/beydah/blob/main/profile/about.md)
