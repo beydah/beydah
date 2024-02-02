@@ -14,36 +14,58 @@
 </div>
 
 <h2>Hire Me</h2>
-<h3>Kısaca About</h3>
-About Özet Açıklama
-[About Link]
+<h3>Briefly About Me</h3>
 
-<h3>Kısaca Repo</h3>
+Hello, I am Beydah Saglam, I am a software developer and I am interested in Web Software and Embedded Software. I'm looking for internship opportunities. [_Click to see more statistics._](https://github.com/beydah/beydah/blob/main/profile/about.md)
+
+<h3>Briefly Repository</h3>
+
 Repo Özet Açıklama
-[Repo Link]
+[_Click to see more details._](https://github.com/beydah/beydah/blob/main/profile/repository.md)
 
-<h3>Pozisyon Beklentilerim</h3>
-Konum: İstanbul(Avrupa)
-Çalışma Tercihi: İş Yerinde / Hibrit
-Pozisyon Seviyesi: Yeni Başlayan / Stajyer
-Çalışma Şekli: Stajyer / Part Time
+<h3>The Positions I Am Open to Working In</h3>
 
-<h3>Açık Olduğum Pozisyonlar</h3>
-Frontend Developer
-Software Developer
-Hardware Developer
+- Frontend Developer
+- Desktop Developer
+- Software Developer
+- Hardware Developer
 
-[CV Indir]
+<h3>My Position Expectations</h3>
+
+- Location: Istanbul(Europe)
+- Working Models: Physical / Hybrid
+- Forms of Employment: Internship / Full Time
+- Position Level: Beginner / Internship
+
+<h3>Download Full CV</h3>
+
+You can download my updated CV from the following link:
+[_Download Full Europass Global CV_](https://github.com/beydah/asset/raw/main/resume/CV_Europass_Ilkay-Beydah-Saglam.pdf)
+
+<div align="left"><a href="https://github.com/beydah/asset/raw/main/resume/CV_Europass_Ilkay-Beydah-Saglam.pdf">
+        <img src="https://raw.githubusercontent.com/beydah/asset/main/button/download_cv_focus.png" style="width: 15%;" alt="Download CV Button">
+</a></div>
 
 <h2>Contact Me</h2>
-<h3>Mail</h3>
-<h3>LinkedIn</h3>
-<h3>Google Form</h3>
+
+<h3>
+
+You can regularly send me your job offers via the job offer form: [Job Offer Form](https://forms.gle/jQxszaUrbFM2cae4A)
+
+Mail: [info.beydahsaglam@gmail.com](mailto:info.beydahsaglam@gmail.com)
+
+LinkedIn: [linkedin.com/in/beydah](https://www.linkedin.com/in/beydah)
+
+</h3>
 
 <div align="center">
-    <div align = "left">Adres: Gaziosmanpasa / Istanbul</div>
+    <div align = "left">Address: 
+        <a href="https://www.google.com/maps/place/Gaziosmanpa%C5%9Fa%2F%C4%B0stanbul">Gaziosmanpasa / Istanbul</a>
+    </div>
     <a href="https://www.google.com/maps/place/Gaziosmanpa%C5%9Fa%2F%C4%B0stanbul"><img src="https://raw.githubusercontent.com/beydah/asset/main/banner/map_gaziosmanpasa.png"style="width: 100%;"  alt="Google Maps - Gaziosmanpasa / Istanbul"></a>
-    <div align = "center"><a href = "https://www.google.com/maps/place/Gaziosmanpa%C5%9Fa%2F%C4%B0stanbul">Daha Büyük Haritayı Görüntüle</div>
+    <div align = "center">
+        <a href = "https://www.google.com/maps/place/Gaziosmanpa%C5%9Fa%2F%C4%B0stanbul">View in Google Map</a>
+    </div>
 </div>
 
 <a href="https://github.com/beydah/beydah/blob/main/profile/about.md"><img src="https://i.imgur.com/waxVImv.png" style="width: 100%;" alt="Colorful Stick"></a>
