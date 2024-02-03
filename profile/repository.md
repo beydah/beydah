@@ -14,61 +14,96 @@
 </div>
 
 <h1>Repository Info</h1>
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+
+Purposes of Using GitHub Repository: Promotion of my open source projects, folder of my codes for educational purposes, folder of my non-code files. Apart from Markdown and SQL languages, I have generally created repositories in the following languages:
 
 <div align="center">
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=beydah&hide_progress=false&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)](https://github.com/beydah/beydah)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=beydah&hide_progress=false&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)](https://github.com/beydah/beydah/blob/main/profile/repository.md)
 
 </div>
 
-<h2>GitHub Readme Profile</h2>
+<a href="https://github.com/beydah/beydah/blob/main/profile/repository.md"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+<h2>Open Source Projects</h2>
+
+I offered the MVP or Prototype solutions I produced to some problems as open source. These folders can benefit the community and you. _(Example: Social Media Database, CV Analyzer...)_
+
+<h2>Codes for Educational Purposes</h2>
+
+I bulk-folded some of the small and simple codes I wrote to learn. These folders do not provide direct benefit to the community. But I may have some small algorithms or solutions you are looking for. _(Example: C & Algorithm, C++ & Game...)_
+
+<h2>Non-Code Files</h2>
+
+Some folders you will see in my repository are non-code. In these folders you can see my public CVs, certificates, designs and even some png buttons that I created for use on github. These folders provide no benefit to the community. _(Example: asset, edurepo...)_
+
+<a href="https://github.com/beydah/beydah/blob/main/profile/repository.md"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
+
+<h3>GitHub Site</h3>
+
+This may be the first time I have created a Website-like profile on GitHub, written only in HTML and Markdown. I call this profile GitHub Site. Inspired by my GitHub Site, you can build your own GitHub Site by using the codes as you wish.
+
+[_GitHub Site Link_](https://github.com/beydah/beydah)
 
 <div align="center">
 
-[![Beydah Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=beydah&repo=beydah&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)](https://github.com/beydah/beydah)
+[![GitHub Site Card](https://github-readme-stats.vercel.app/api/pin/?username=beydah&repo=beydah&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)](https://github.com/beydah/beydah/blob/main/profile/repository.md)
 
 </div>
 
-<h2>Social Media Database</h2>
+<a href="https://github.com/beydah/beydah/blob/main/profile/repository.md"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+<h3>Social Media Database</h3>
+
+Open source and free, this customizable database offers developers a quick start. It gives developers the chance to quickly organize and customize social media data. Analyze your social media data, create reports and improve your strategies using the database.
+
+[Social Media Database Link](https://github.com/beydah/Social-Media-Database)
 
 <div align="center">
 
-[![Beydah Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=beydah&repo=Social-Media-Database&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)](https://github.com/beydah/Social-Media-Database)
+[![Social Media Database Card](https://github-readme-stats.vercel.app/api/pin/?username=beydah&repo=Social-Media-Database&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)](https://github.com/beydah/beydah/blob/main/profile/repository.md)
 
 </div>
 
-<h2>SQL & Database</h2>
+<a href="https://github.com/beydah/beydah/blob/main/profile/repository.md"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+<h3>SQL & Database</h3>
+
+You can test your own small codes and develop prototypes in some of the simple databases I have created. This folder contains hospital, hotel, school, bank databases and necessary explanations.
+
+[_SQL & Database Link_](https://github.com/beydah/SQL-and-Database)
 
 <div align="center">
 
-[![Beydah Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=beydah&repo=SQL-and-Database&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)](https://github.com/beydah/SQL-and-Database)
+[![SQL & Database Card](https://github-readme-stats.vercel.app/api/pin/?username=beydah&repo=SQL-and-Database&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)](https://github.com/beydah/beydah/blob/main/profile/repository.md)
 
 </div>
 
-<h2>C & Algorithm</h2>
+<a href="https://github.com/beydah/beydah/blob/main/profile/repository.md"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+<h3>C & Algorithm</h3>
+
+This folder contains some codes I created for educational purposes. Don't just call it education, there are some good algorithms inside.
+
+[_C & Algorithm Link_](https://github.com/beydah/C-and-Algorithm)
 
 <div align="center">
 
-[![Beydah Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=beydah&repo=C-and-Algorithm&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)](https://github.com/beydah/C-and-Algorithm)
+[![C & Algorithm Card](https://github-readme-stats.vercel.app/api/pin/?username=beydah&repo=C-and-Algorithm&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)](https://github.com/beydah/beydah/blob/main/profile/repository.md)
 
 </div>
 
-<h2>C++ & Game</h2>
+<a href="https://github.com/beydah/beydah/blob/main/profile/repository.md"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+<h3>C++ & Game</h3>
+
+This folder contains some codes I created for educational purposes. Don't just call it education, there are some good algorithms inside.
+
+[_C++ & Game Link_](https://github.com/beydah/C-and-Game)
 
 <div align="center">
 
-[![Beydah Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=beydah&repo=Cpp-and-Game&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)](https://github.com/beydah/Cpp-and-Game)
+[![C++ & Game Card](https://github-readme-stats.vercel.app/api/pin/?username=beydah&repo=Cpp-and-Game&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)](https://github.com/beydah/beydah/blob/main/profile/repository.md)
 
 </div>
 
