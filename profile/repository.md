@@ -1,5 +1,5 @@
+<!-- HEADER MENU -->
 <div align="center">
-    <!-- HEADER MENU -->
     <table style="width: 100%;">
         <tr>
             <td><a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/logo/beydah_colorful_white.png" align="left" style="width: 100%;"  alt="Beydah Logo"></a></td>
@@ -13,10 +13,67 @@
     </table>
 </div>
 
-REPOSITORY BEFORE PAGE
+<h1>Repository Info</h1>
+Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 
 <div align="center">
-    <!-- FOOTER MENU -->
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=beydah&hide_progress=false&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)](https://github.com/beydah/beydah)
+
+</div>
+
+<h2>GitHub Readme Profile</h2>
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+
+<div align="center">
+
+[![Beydah Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=beydah&repo=beydah&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)](https://github.com/beydah/beydah)
+
+</div>
+
+<h2>Social Media Database</h2>
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+
+<div align="center">
+
+[![Beydah Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=beydah&repo=Social-Media-Database&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)](https://github.com/beydah/Social-Media-Database)
+
+</div>
+
+<h2>SQL & Database</h2>
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+
+<div align="center">
+
+[![Beydah Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=beydah&repo=SQL-and-Database&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)](https://github.com/beydah/SQL-and-Database)
+
+</div>
+
+<h2>C & Algorithm</h2>
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+
+<div align="center">
+
+[![Beydah Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=beydah&repo=C-and-Algorithm&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)](https://github.com/beydah/C-and-Algorithm)
+
+</div>
+
+<h2>C++ & Game</h2>
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+
+<div align="center">
+
+[![Beydah Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=beydah&repo=Cpp-and-Game&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)](https://github.com/beydah/Cpp-and-Game)
+
+</div>
+
+<!-- FOOTER MENU -->
+<div align="center">
     <a href="https://www.hackerrank.com/beydah">
         <img src="https://img.shields.io/badge/-Hacker_Rank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank">
     </a>
