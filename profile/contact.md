@@ -35,7 +35,7 @@ Repo Özet Açıklama
 - Location: Istanbul(Europe)
 - Working Models: Physical / Hybrid
 - Forms of Employment: Internship / Full Time
-- Position Level: Beginner / Internship
+- Position Level: Internship / Beginner
 
 <h3>Download Full CV</h3>
 
