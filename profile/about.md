@@ -92,7 +92,7 @@ Act without compromising your elegance on rainy days, and maintain your style on
 It gives developers the chance to quickly organize and customize social media data.
 **Analyze your social media data**, **create reports and improve your strategies** using the database.
 
-[_Click For Repository_](https://github.com/beydah/Social-Media-Database-Template)
+[_Click For Repository_](https://github.com/beydah/Social-Media-Database)
 
 </details>
 
