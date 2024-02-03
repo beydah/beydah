@@ -16,11 +16,12 @@
 <h2>Hire Me</h2>
 <h3>Briefly About Me</h3>
 
-Hello, I am Beydah Saglam, I am a software developer and I am interested in Web Software and Embedded Software. I'm looking for internship opportunities. [_Click to see more statistics._](https://github.com/beydah/beydah/blob/main/profile/about.md)
+Hello, I am Beydah Saglam, I am a software developer and I am interested in Web Software and Embedded Software. I'm looking for internship opportunities.
+[_Click to see more statistics._](https://github.com/beydah/beydah/blob/main/profile/about.md)
 
 <h3>Briefly Repository</h3>
 
-Repo Özet Açıklama
+Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 [_Click to see more details._](https://github.com/beydah/beydah/blob/main/profile/repository.md)
 
 <h3>The Positions I Am Open to Working In</h3>
