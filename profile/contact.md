@@ -17,12 +17,16 @@
 <h3>Briefly About Me</h3>
 
 Hello, I am Beydah Saglam, I am a software developer and I am interested in Web Software and Embedded Software. I'm looking for internship opportunities.
+
 [_Click to see more statistics._](https://github.com/beydah/beydah/blob/main/profile/about.md)
 
-<h3>Briefly Repository</h3>
+<h3>Briefly Repository Info</h3>
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+Since I use a different methodology in my GitHub repository, if you want to review my projects, I recommend you take a look here first.
+
 [_Click to see more details._](https://github.com/beydah/beydah/blob/main/profile/repository.md)
+
+<a href="https://github.com/beydah/beydah/blob/main/profile/contact.md"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
 
 <h3>The Positions I Am Open to Working In</h3>
 
@@ -38,6 +42,8 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 - Forms of Employment: Internship / Full Time
 - Position Level: Internship / Beginner
 
+<a href="https://github.com/beydah/beydah/blob/main/profile/contact.md"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
+
 <h3>Download Full CV</h3>
 
 You can download my updated CV from the following link:
@@ -46,6 +52,8 @@ You can download my updated CV from the following link:
 <div align="left"><a href="https://github.com/beydah/asset/raw/main/resume/CV_Europass_Ilkay-Beydah-Saglam.pdf">
         <img src="https://raw.githubusercontent.com/beydah/asset/main/button/download_cv_focus.png" style="width: 15%;" alt="Download CV Button">
 </a></div>
+
+<a href="https://github.com/beydah/beydah/blob/main/profile/contact.md"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
 
 <h2>Contact Me</h2>
 
@@ -59,6 +67,8 @@ LinkedIn: [linkedin.com/in/beydah](https://www.linkedin.com/in/beydah)
 
 </h3>
 
+<a href="https://github.com/beydah/beydah/blob/main/profile/contact.md"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
+
 <div align="center">
     <div align = "left">Address: 
         <a href="https://www.google.com/maps/place/Gaziosmanpa%C5%9Fa%2F%C4%B0stanbul">Gaziosmanpasa / Istanbul</a>
@@ -69,7 +79,7 @@ LinkedIn: [linkedin.com/in/beydah](https://www.linkedin.com/in/beydah)
     </div>
 </div>
 
-<a href="https://github.com/beydah/beydah/blob/main/profile/about.md"><img src="https://i.imgur.com/waxVImv.png" style="width: 100%;" alt="Colorful Stick"></a>
+<br>
 
 <div align="center">
     <!-- FOOTER MENU -->
