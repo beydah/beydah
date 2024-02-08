@@ -41,7 +41,7 @@ Some folders you will see in my repository are non-code. In these folders you ca
 
 <h3>GitHub Site</h3>
 
-This may be the first time I have created a Website-like profile on GitHub, written only in HTML and Markdown. I call this profile GitHub Site. Inspired by my GitHub Site, you can build your own GitHub Site by using the codes as you wish.
+This may be the first time I have created a **Website-like profile on GitHub**, written **only in HTML and Markdown**. I call this profile GitHub Site. Inspired by my GitHub Site, **you can build your own GitHub Site** by using the codes as you wish.
 
 [_GitHub Site Link_](https://github.com/beydah/beydah)
 
@@ -55,7 +55,7 @@ This may be the first time I have created a Website-like profile on GitHub, writ
 
 <h3>Social Media Database</h3>
 
-Open source and free, this customizable database offers developers a quick start. It gives developers the chance to quickly organize and customize social media data. Analyze your social media data, create reports and improve your strategies using the database.
+Open source and free, this **customizable database** offers developers a **quick start**. It gives developers the chance to **quickly organize and customize social media data**. **Analyze your social media data**, create reports and improve your strategies using the database.
 
 [Social Media Database Link](https://github.com/beydah/Social-Media-Database)
 
@@ -69,7 +69,7 @@ Open source and free, this customizable database offers developers a quick start
 
 <h3>Binance Trading Bot</h3>
 
-With this software, you can test historical data with Backtest algorithms, and by providing an API connection, you can make transactions 24/7 with the algorithm you choose. RSI, BOLL, SMA etc. included in the software. You can set up your own algorithm with functions..
+With this software, you can **test historical data with Backtest algorithms**, and by providing an API connection, you can make **transactions 24/7 with the algorithm** you choose. **RSI**, **BOLL**, **SMA** etc. included in the software. You can set up your own algorithm with functions..
 
 [_Binance Trading Bot Link_](https://github.com/beydah/Binance-Trading-Bot)
 
