@@ -71,7 +71,7 @@ Open source and free, this customizable database offers developers a quick start
 
 With this software, you can test historical data with Backtest algorithms, and by providing an API connection, you can make transactions 24/7 with the algorithm you choose. RSI, BOLL, SMA etc. included in the software. You can set up your own algorithm with functions..
 
-[_SQL & Database Link_](https://github.com/beydah/Binance-Trading-Bot)
+[_Binance Trading Bot Link_](https://github.com/beydah/Binance-Trading-Bot)
 
 <div align="center">
 
