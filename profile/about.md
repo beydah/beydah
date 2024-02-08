@@ -55,9 +55,9 @@ _Skills: Corporate Communication · **Data Entry** · Data Management · Meeting
 
 _10 / 2022 - 04 / 2023 (6 Months)_
 
-I joined to enhance the **C#**, **.NET**, and **Back-End skills** I gained in university. Thanks to this internship and supportive teammates, I actively participated in projects, deepened my expertise, and honed my overall software development abilities.
+I joined to enhance the **C#**, **.NET**, and Back-End skills I gained in university. Thanks to this internship and supportive teammates, I actively participated in projects, deepened my expertise, and honed my overall software development abilities.
 
-_Skills: C# · .NET · **SQL** · **Git** · GitHub_
+_Skills: C# · .NET · **SQL** · **Git** · **Web Fundamentals**_
 
 </details>
 
@@ -75,13 +75,13 @@ Manage recruitment with one click with **user-friendly interface**. Find candida
 </details>
 
 <details>  
-<summary><h4>Viatra - Desktop & Mobile App</h4></summary>
+<summary><h4>Binance Trading Bot - Desktop App</h4></summary>
 
-It offers **specific daily clothing suggestions**, taking into account every detail from weather to age, from gender to personal preferences.
-Viatra suggests combinations that are age-appropriate, **weather-sensitive and according to trends** and keeps your style up to date.
-Act without compromising your elegance on rainy days, and maintain your style on sunny days.
+My personal software, developed with Python, Pandas and Numpy, has the ability to **backtest** and **auto-buy and sell 24/7** on the **Binance platform**.
+It can use historical data to analyze your strategies or learn from past data according to the parameters you specify and make automatic real buy-sell transactions with current data.
+By using this software, you can increase your **investment performance** and **evaluate opportunities in financial markets more quickly** and effectively.
 
-[_Not Released Yet_](https://github.com/beydah/beydah/blob/main/profile/about.md)
+[_Click For Repository_](https://github.com/beydah/Binance-Trading-Bot)
 
 </details>
 
