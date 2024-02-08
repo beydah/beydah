@@ -67,15 +67,15 @@ Open source and free, this customizable database offers developers a quick start
 
 <a href="https://github.com/beydah/beydah/blob/main/profile/repository.md"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
 
-<h3>SQL & Database</h3>
+<h3>Binance Trading Bot</h3>
 
-You can test your own small codes and develop prototypes in some of the simple databases I have created. This folder contains hospital, hotel, school, bank databases and necessary explanations.
+With this software, you can test historical data with Backtest algorithms, and by providing an API connection, you can make transactions 24/7 with the algorithm you choose. RSI, BOLL, SMA etc. included in the software. You can set up your own algorithm with functions..
 
-[_SQL & Database Link_](https://github.com/beydah/SQL-and-Database)
+[_SQL & Database Link_](https://github.com/beydah/Binance-Trading-Bot)
 
 <div align="center">
 
-[![SQL & Database Card](https://github-readme-stats.vercel.app/api/pin/?username=beydah&repo=SQL-and-Database&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)](https://github.com/beydah/beydah/blob/main/profile/repository.md)
+[![Binance Trading Bot Card](https://github-readme-stats.vercel.app/api/pin/?username=beydah&repo=Binance-Trading-Bot&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)](https://github.com/beydah/beydah/blob/main/profile/repository.md)
 
 </div>
 
