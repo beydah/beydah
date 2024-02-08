@@ -16,7 +16,7 @@
 <h2>Hire Me</h2>
 <h3>Briefly About Me</h3>
 
-Hello, I am Beydah Saglam, I am a software developer and I am interested in Web Software and Embedded Software. I'm looking for internship opportunities.
+Hello, I am Beydah Saglam, I am a **software developer** and I am interested in **Web Software** and **Embedded Software**. I'm looking for internship opportunities.
 
 [_Click to see more statistics._](https://github.com/beydah/beydah/blob/main/profile/about.md)
 
