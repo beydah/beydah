@@ -44,9 +44,9 @@ Hello, I'm Beydah, a software developer with diverse GitHub projects. Exploring 
 
 _06 / 2023 - 09 / 2023 (3 Months)_
 
-**Managed data**, **oversaw processes**, and **communicated with customers**. Excelling in B2B lead conversion, I maintained transparency by reporting to the Team Leader.
+**Managed data**, **oversaw processes**, and communicated with customers. Excelling in B2B lead conversion, I maintained transparency by reporting to the Team Leader.
 
-_Skills: Corporate Communication · **Data Entry** · Data Management · Meeting Planning · **Marketing Strategy**_
+_Skills: **Business Development**, **Data Entry**, **Data Management**, Meeting Planning, Corporate Communications_
 
 </details>
 
@@ -55,13 +55,37 @@ _Skills: Corporate Communication · **Data Entry** · Data Management · Meeting
 
 _10 / 2022 - 04 / 2023 (6 Months)_
 
-I joined to enhance the **C#**, **.NET**, and Back-End skills I gained in university. Thanks to this internship and supportive teammates, I actively participated in projects, deepened my expertise, and honed my overall software development abilities.
+I joined to enhance the **C#**, **.NET**, and **Back-End** skills I gained in university. Thanks to this internship and supportive teammates, I actively participated in projects, deepened my expertise, and honed my overall software development abilities.
 
-_Skills: C# · .NET · **SQL** · **Git** · **Web Fundamentals**_
+_Skills: C#, **Git**, **GitHub**, Visual Studio, Notion_
+
+</details>
+
+<details>  
+<summary><h4>Nurse Asistant Intern - Yeni Yuzyil Univeristy Private Gaziosmanpasa Hospital</h4></summary>
+
+_10 / 2018 - 04 / 2019 (6 Months)_
+
+I interned in Ophthalmology and Emergency Services, honing **crisis management** skills and earning recognition for efficient care.
+
+_Skills: **Teamwork**, Time Management, **Emergency Management**, **Business Initiatives**, **Professional Responsibility**_
 
 </details>
 
 <h3>Projects</h3>  
+<details>  
+<summary><h4>Binance Trading Bot - Desktop App</h4></summary>
+
+My personal software, developed with Python, Pandas and Numpy, has the ability to **backtest** and **auto-buy and sell 24/7** on the **Binance platform**.
+It can use historical data to analyze your strategies or learn from past data according to the parameters you specify and make automatic real buy-sell transactions with current data.
+By using this software, you can increase your **investment performance** and **evaluate opportunities in financial markets more quickly** and effectively.
+
+_Skills: **Python**, **Pandas**, **Numpy**, **Web Services API**, **Debian**_
+
+[_Click For Repository_](https://github.com/beydah/Binance-Trading-Bot)
+
+</details>
+
 <details>  
 <summary><h4>CV Analyzer - Desktop App</h4></summary>
 
@@ -70,18 +94,9 @@ Find the most suitable candidates immediately thanks to detailed CV analysis. **
 **Optimize your recruiting process** with performance analytics and statistics. Quickly access continuous improvement opportunities.
 Manage recruitment with one click with **user-friendly interface**. Find candidates who meet your desired criteria with filtering options.
 
+_Skills: **.NET**, **ASP.NET**, **Multi-Layer Architecture**, **UI Design**, **UX Design**_
+
 [_Not Released Yet_](https://github.com/beydah/beydah/blob/main/profile/about.md)
-
-</details>
-
-<details>  
-<summary><h4>Binance Trading Bot - Desktop App</h4></summary>
-
-My personal software, developed with Python, Pandas and Numpy, has the ability to **backtest** and **auto-buy and sell 24/7** on the **Binance platform**.
-It can use historical data to analyze your strategies or learn from past data according to the parameters you specify and make automatic real buy-sell transactions with current data.
-By using this software, you can increase your **investment performance** and **evaluate opportunities in financial markets more quickly** and effectively.
-
-[_Click For Repository_](https://github.com/beydah/Binance-Trading-Bot)
 
 </details>
 
@@ -91,6 +106,8 @@ By using this software, you can increase your **investment performance** and **e
 **Open source and free**, this **customizable database** offers **developers a quick start**.
 It gives developers the chance to quickly organize and customize social media data.
 **Analyze your social media data**, **create reports and improve your strategies** using the database.
+
+_Skills: **Database Design**, **Database Development**, **Database Management**, **Relational Databases**, **Databases**_
 
 [_Click For Repository_](https://github.com/beydah/Social-Media-Database)
 
@@ -104,18 +121,9 @@ _Sep 2022 - Jun 2024_
 
 During my Computer Programming education, I received comprehensive training, covering **programming fundamentals**, **network**, **database**, graphics, office apps, **visual programming**, **web and mobile development**, **OS**, **AI**, and **Python**. This diverse training expanded my expertise and, coupled with practical project experience, prepared me for real-world applications.
 
+_Skills: **Web Design**, **Web Development**, **OOP**, **Network Management**, **Cloud Management**_
+
 _Activities and Communities: 42 Echole Member · AIESEC Member · Google Developer Student Club · Software and Informatics Club_
-
-</details>
-
-<details>  
-<summary><h4>Nurse Assistant - Gaziosmanpasa Health Vocational High School</h4></summary>
-
-_Sep 2015 - Jun 2019_
-
-My education started as a Nurse's goal but ended as a Nurse Assistant due to regulations. I hitchhiked across Turkey, becoming a Traveler. In high school, I cherished each moment, earning **achievement certificates**.
-
-_Activities and Communities: Yesilay Student Club · Kizilay Student Club_
 
 </details>
 
@@ -124,6 +132,8 @@ _Activities and Communities: Yesilay Student Club · Kizilay Student Club_
 <summary><h4>Programming Fundamentals - Duke University</h4></summary>
 
 "Duke University - Programming Fundamentals" course provided me with the opportunity to fill in the gaps in my foundation, allowing me to improve myself in **algorithmic design**, **problem generalization**, **algorithmic thinking**, and the **fundamentals of the C language**.
+
+_Skills: Programming, **C**, **C++**, Algorithm Design, Creative Problem Solving_
 
 [_View Certificate_](https://coursera.org/share/5475b650f08e815bc9e2862d2f0fc1b6)
 
@@ -135,6 +145,8 @@ _Activities and Communities: Yesilay Student Club · Kizilay Student Club_
 My "Structured Query Language - Hacker Rank" certificate documents my proficiency in **database management** and **SQL queries**.
 This certificate encompasses a series of SQL-based tasks that I successfully completed on the HackerRank platform.
 
+_Skills SQL, **T-SQL**, **SQL Tuning**, **Microsoft SQL Server**, **MySQL**_
+
 [_View Certificate_](https://www.hackerrank.com/certificates/9fc20ff92432)
 
 </details>
@@ -143,6 +155,8 @@ This certificate encompasses a series of SQL-based tasks that I successfully com
 <summary><h4>Digital Marketing - Google</h4></summary>
 
 Google - Digital Marketing' is obtained to document my competence in acquiring fundamental knowledge and skills in the field of **digital marketing**.
+
+_Skills: Digital Marketing, **SEO**, **SMO**, **SEO Copywriting**, **Keyword Research**_
 
 [_View Certificate_](https://github.com/beydah/asset/blob/main/certificate/google_digital_marketing.pdf)
 
