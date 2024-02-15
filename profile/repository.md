@@ -79,34 +79,6 @@ With this software, you can **test historical data with Backtest algorithms**, a
 
 </div>
 
-<a href="https://github.com/beydah/beydah/blob/main/profile/repository.md"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
-
-<h3>C & Algorithm</h3>
-
-This folder contains some codes I created for educational purposes. Don't just call it education, there are some good algorithms inside.
-
-[_C & Algorithm Link_](https://github.com/beydah/C-and-Algorithm)
-
-<div align="center">
-
-[![C & Algorithm Card](https://github-readme-stats.vercel.app/api/pin/?username=beydah&repo=C-and-Algorithm&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)](https://github.com/beydah/beydah/blob/main/profile/repository.md)
-
-</div>
-
-<a href="https://github.com/beydah/beydah/blob/main/profile/repository.md"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
-
-<h3>C++ & Game</h3>
-
-This folder contains some codes I created for educational purposes. Don't just call it education, there are some good algorithms inside.
-
-[_C++ & Game Link_](https://github.com/beydah/C-and-Game)
-
-<div align="center">
-
-[![C++ & Game Card](https://github-readme-stats.vercel.app/api/pin/?username=beydah&repo=Cpp-and-Game&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)](https://github.com/beydah/beydah/blob/main/profile/repository.md)
-
-</div>
-
 <!-- FOOTER MENU -->
 <div align="center">
     <a href="https://www.hackerrank.com/beydah">
