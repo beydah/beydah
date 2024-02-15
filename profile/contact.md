@@ -31,9 +31,9 @@ Since I use a different methodology in my GitHub repository, if you want to revi
 <h3>The Positions I Am Open to Working In</h3>
 
 - Frontend Developer
+- Backend Developer
 - Software Developer
-- Industrial Desktop Software Developer
-- Industrial Embedded Software Developer
+- IoT Developer
 
 <h3>My Position Expectations</h3>
 
