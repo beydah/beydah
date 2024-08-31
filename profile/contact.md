@@ -30,10 +30,8 @@ Since I use a different methodology in my GitHub repository, if you want to revi
 
 <h3>The Positions I Am Open to Working In</h3>
 
-- Frontend Developer
-- Backend Developer
-- Software Developer
-- IoT Developer
+- Jr. Fullstack Developer
+- Jr. Software Developer
 
 <h3>My Position Expectations</h3>
 
