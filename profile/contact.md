@@ -45,9 +45,9 @@ Since I use a different methodology in my GitHub repository, if you want to revi
 <h3>Download Full CV</h3>
 
 You can download my updated CV from the following link:
-[_Download Full Europass Global CV_](https://github.com/beydah/asset/raw/main/resume/CV_Europass_Ilkay-Beydah-Saglam.pdf)
+[_Download Full Global CV_](https://github.com/beydah/asset/raw/main/resume/CV_Ilkay-Beydah-Saglam_ENG_Public.pdf)
 
-<div align="left"><a href="https://github.com/beydah/asset/raw/main/resume/CV_Europass_Ilkay-Beydah-Saglam.pdf">
+<div align="left"><a href="https://github.com/beydah/asset/raw/main/resume/CV_Ilkay-Beydah-Saglam_ENG_Public.pdf">
         <img src="https://raw.githubusercontent.com/beydah/asset/main/button/download_cv_focus.png" style="width: 15%;" alt="Download CV Button">
 </a></div>
 
