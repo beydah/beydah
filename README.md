@@ -68,7 +68,7 @@
     </a>
     <table><tr>
         <td style="width: 10%;"></td>
-        <td><a href="https://github.com/beydah/asset/raw/main/resume/CV_Europass_Ilkay-Beydah-Saglam.pdf">
+        <td><a href="https://github.com/beydah/asset/raw/main/resume/CV_Ilkay-Beydah-Saglam_ENG_Public.pdf">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/download_cv_off.png" align="left" style="width: 25%;" alt="Download CV Button">
         </a></td>      
         <td style="width: 10%;"></td>
