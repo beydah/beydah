@@ -37,7 +37,7 @@ Since I use a different methodology in my GitHub repository, if you want to revi
 
 - Location: Istanbul(Europe)
 - Working Models: Physical / Hybrid
-- Forms of Employment: Internship / Part Time
+- Forms of Employment: Full Time / Part Time
 - Position Level: Internship / Beginner
 
 <a href="https://github.com/beydah/beydah/blob/main/profile/contact.md"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
