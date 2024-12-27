@@ -104,7 +104,7 @@
     <a href="https://stackoverflow.com/users/21352065/beydah">
         <img src="https://img.shields.io/badge/-Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="Stack Overflow">
     </a>
-    <a href="https://www.behance.com/beydahsaglam">
+    <a href="https://www.behance.com/beydah">
         <img src="https://img.shields.io/badge/Behance-1769ff?style=for-the-badge&logo=behance&logoColor=white" alt="Behance">
     </a>
     <a href="https://linkedin.com/in/beydah">
