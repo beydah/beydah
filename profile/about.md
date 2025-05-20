@@ -28,7 +28,7 @@
 
 <h2>Beydah Saglam | Software Developer</h2>
 
-Hello, I'm Beydah, a software developer with diverse GitHub projects. Exploring Full Stack and Embedded Software, seeking internships, and eager to collaborate. Contact: [info.beydahsaglam@gmail.com](mailto:info.beydahsaglam@gmail.com) or [linkedin/beydah](https://www.linkedin.com/in/beydah/). Have a great day!
+I am a solution-oriented, open-to-learning and constantly improving software and solution developer. I combined my technical knowledge with my business discipline with the experiences I gained in both individual projects and corporate environments. I developed desktop and web-based projects in languages ​​such as Python, C#, SQL; I provided digital solutions by creating SEO-compatible sites with WordPress. I also have practical experience in API integrations, version control systems (Git/GitHub) and basic networking knowledge. I aim to add value to technical projects with my teamwork skills, communication skills and analytical thinking ability. While prioritizing user experience in the projects I develop, I aim to contribute to the digital transformation processes of institutions with strategic thinking.
 
 <a href="https://github.com/beydah/beydah/blob/main/profile/about.md"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
 
@@ -40,6 +40,28 @@ Hello, I'm Beydah, a software developer with diverse GitHub projects. Exploring 
 
 <h3>Experience</h3>
 <details>  
+<summary><h4>E-Commerce and Warehouse Assistant - Babion</h4></summary>
+
+_08 / 2024 - 04 / 2025 (9 Months)_
+
+I actively participated in operations like **inventory control**, receiving goods, and **sales support**. I **analyzed workflows** and contributed to **process improvement** initiatives. To boost efficiency, I **optimized data flows** and proposed digital solutions for manual tasks. Working in a fast-paced environment enhanced my teamwork and communication skills. Throughout, I supported operational efficiency with practical, solution-focused approaches.
+
+_Skills: **Team Coordination**, Organizational Skills, **Data-Based Decision Making**, **Customer-Focused Approach**, Inventory Accuracy_
+
+</details>
+
+<details>  
+<summary><h4>Computer Programmer Intern - Istanbul Metropolitan Municipality</h4></summary>
+
+_04 / 2024 - 06 / 2024 (6 Months)_
+
+During my internship, I gained hands-on experience in **software testing** and enhanced my technical skills in camera systems, **security**, and **network technologies**. I contributed to project processes by creating workflows using **Trello** and participating actively in team meetings. I prepared detailed test reports and supported analysis and evaluation phases. I improved my proficiency in office programs through various reports and presentations. In the final phase, I worked in the **IBB Wi-Fi** unit and developed foundational knowledge of network infrastructures.
+
+_Skills: Performance Optimization, **Technical Documentation Skills**, **Computer Networking** Fundamentals, Operational Planning, **Task Management**_
+
+</details>
+
+<details>  
 <summary><h4>Business Development Manager - AIESEC</h4></summary>
 
 _06 / 2023 - 09 / 2023 (3 Months)_
@@ -50,53 +72,29 @@ _Skills: **Business Development**, **Data Entry**, **Data Management**, Meeting 
 
 </details>
 
-<details>  
-<summary><h4>Back-End Observation Intern - Fintorly</h4></summary>
-
-_10 / 2022 - 04 / 2023 (6 Months)_
-
-I joined to enhance the **C#**, **.NET**, and **Back-End** skills I gained in university. Thanks to this internship and supportive teammates, I actively participated in projects, deepened my expertise, and honed my overall software development abilities.
-
-_Skills: C#, **Git**, **GitHub**, Visual Studio, Notion_
-
-</details>
-
-<details>  
-<summary><h4>Nurse Asistant Intern - Yeni Yuzyil Univeristy Private Gaziosmanpasa Hospital</h4></summary>
-
-_10 / 2018 - 04 / 2019 (6 Months)_
-
-I interned in Ophthalmology and Emergency Services, honing **crisis management** skills and earning recognition for efficient care.
-
-_Skills: **Teamwork**, Time Management, **Emergency Management**, **Business Initiatives**, **Professional Responsibility**_
-
-</details>
-
 <h3>Projects</h3>  
 <details>  
 <summary><h4>Binance Trading Bot - Desktop App</h4></summary>
 
-My personal software, developed with Python, Pandas and Numpy, has the ability to **backtest** and **auto-buy and sell 24/7** on the **Binance platform**.
-It can use historical data to analyze your strategies or learn from past data according to the parameters you specify and make automatic real buy-sell transactions with current data.
-By using this software, you can increase your **investment performance** and **evaluate opportunities in financial markets more quickly** and effectively.
+Using the Binance API, I developed an **investment bot** that can perform **real-time transactions**. By integrating with the **Telegram API**, I informed users with instant transaction notifications and created an interactive system by receiving user inputs via Telegram. I analyzed the technical difficulties I encountered during the development process and improved my ability to produce solutions and research. I deeply understood the working principles of APIs. I managed the project with **Git** and **GitHub** to ensure version control and document my code in a way that would be suitable for sharing with open source developers. Thanks to this project, I not only improved my Python programming skills but also gained valuable insights into software development processes.
 
-_Skills: **Python**, **Pandas**, **Numpy**, **Web Services API**, **Debian**_
+_Skills: **Python**, **JSON**, Git, **API**, Code Optimization_
 
 [_Click For Repository_](https://github.com/beydah/Binance-Trading-Bot)
 
 </details>
 
 <details>  
-<summary><h4>CV Analyzer - Desktop App</h4></summary>
+<summary><h4>CV Analyser - Desktop App</h4></summary>
 
-**Speed up your recruitment processes** with CV Analyzer! **Pre-rank candidates by determining keywords**, save time.
+**Speed up your recruitment processes** with CV Analyser! **Pre-rank candidates by determining keywords**, save time.
 Find the most suitable candidates immediately thanks to detailed CV analysis. **Make the right decisions by delving into skills, experience and suitability**.
 **Optimize your recruiting process** with performance analytics and statistics. Quickly access continuous improvement opportunities.
 Manage recruitment with one click with **user-friendly interface**. Find candidates who meet your desired criteria with filtering options.
 
 _Skills: **.NET**, **ASP.NET**, **Multi-Layer Architecture**, **UI Design**, **UX Design**_
 
-[_Not Released Yet_](https://github.com/beydah/beydah/blob/main/profile/about.md)
+[_Click For Repository_](https://github.com/beydah/CV-Analyser)
 
 </details>
 
