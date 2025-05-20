@@ -121,5 +121,5 @@
     <a href="https://github.com/beydah/beydah/blob/main/profile/contact.md">Contact</a>
     <a href="https://github.com/beydah/beydah/blob/main/profile/contact.md">Hire</a>
     <br>
-    Copyright 2024 Beydah Saglam
+    Copyright 2025 Beydah Saglam
 </div>
