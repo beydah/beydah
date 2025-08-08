@@ -98,17 +98,14 @@
     </a>
     <br><br>
     <!-- FOOTER MENU -->
-    <a href="https://www.hackerrank.com/beydah">
-        <img src="https://img.shields.io/badge/-Hacker_Rank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank">
-    </a>
-    <a href="https://stackoverflow.com/users/21352065/beydah">
-        <img src="https://img.shields.io/badge/-Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="Stack Overflow">
-    </a>
-    <a href="https://www.behance.com/beydah">
-        <img src="https://img.shields.io/badge/Behance-1769ff?style=for-the-badge&logo=behance&logoColor=white" alt="Behance">
+    <a href="https://beydahsaglam.com">
+        <img src="https://img.shields.io/badge/Website-%23000000.svg?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website">
     </a>
     <a href="https://linkedin.com/in/beydah">
         <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+    </a>
+    <a href="https://bionluk.com/beydah">
+        <img src="https://img.shields.io/badge/Bionluk-%23FF073A.svg?style=for-the-badge&logoColor=white" alt="Bionluk">
     </a>
     <br>
     <a href="https://github.com/beydah">
