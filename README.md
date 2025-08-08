@@ -27,10 +27,10 @@
         <img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_slide_1.png" alt="Profile Site Slide 1">
     </a>
     <table><tr>
-        <td><a href="https://github.com/beydah/beydah/blob/main/profile/contact.md">
+        <td><a href="https://beydahsaglam.com/contact/">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/hire_focus.png" align="right" style="width: 50%;" alt="Hire Button">
         </a></td>
-        <td><a href="https://github.com/beydah/beydah/blob/main/profile/repository.md">
+        <td><a href="https://beydahsaglam.com/project/">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/portfolio_off.png" align="left" style="width: 50%;" alt="Portfolio Button">
         </a></td>
         <td style="width: 10%;"></td>
@@ -52,7 +52,7 @@
         <td style="width: 10%;"></td>
         <td style="width: 10%;"></td>
         <td style="width: 10%;"></td>
-        <td><a href="https://github.com/beydah/beydah/blob/main/profile/about.md">
+        <td><a href="https://beydahsaglam.com/about/">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/about_focus.png" align="right" style="width: 50%;" alt="About Button">
         </a></td>      
         <td><a href="https://github.com/beydah/beydah/blob/main/profile/about.md#education">
@@ -98,13 +98,13 @@
     </a>
     <br><br>
     <!-- FOOTER MENU -->
-    <a href="https://beydahsaglam.com">
+    <a href="https://beydahsaglam.com" target="_blank">
         <img src="https://img.shields.io/badge/Website-%23000000.svg?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website">
     </a>
-    <a href="https://linkedin.com/in/beydah">
+    <a href="https://linkedin.com/in/beydah" target="_blank">
         <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
     </a>
-    <a href="https://bionluk.com/beydah">
+    <a href="https://bionluk.com/beydah" target="_blank">
         <img src="https://img.shields.io/badge/Bionluk-%23FF073A.svg?style=for-the-badge&logoColor=white" alt="Bionluk">
     </a>
     <br>
