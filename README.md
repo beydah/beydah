@@ -53,7 +53,7 @@
         <td style="width: 10%;"></td>
         <td style="width: 10%;"></td>
         <td><a href="https://beydahsaglam.com/about/">
-            <img src="https://raw.githubusercontent.com/beydah/asset/main/button/about_focus.png" align="right" style="width: 50%;" alt="About Button">
+            <img src="https://raw.githubusercontent.com/beydah/asset/main/button/about_on.png" align="right" style="width: 50%;" alt="About Button">
         </a></td>      
         <td><a href="https://github.com/beydah/beydah/blob/main/profile/about.md#education">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/education_off.png" align="right" style="width: 50%;" alt="Education Button">
@@ -104,8 +104,8 @@
     <a href="https://linkedin.com/in/beydah" target="_blank">
         <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
     </a>
-    <a href="https://bionluk.com/beydah" target="_blank">
-        <img src="https://img.shields.io/badge/Bionluk-%23FF073A.svg?style=for-the-badge&logoColor=white" alt="Bionluk">
+    <a href="https://www.fiverr.com/ilkaysaglam" target="_blank">
+        <img src="https://img.shields.io/badge/Fiverr-%1DBF73.svg?style=for-the-badge&logoColor=white" alt="Fiverr">
     </a>
     <br>
     <a href="https://github.com/beydah">
