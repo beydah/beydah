@@ -57,7 +57,7 @@ You can download my updated CV from the following link:
 
 <h3>
 
-You can regularly send me your job offers via: [Job Offer Form](https://forms.gle/jQxszaUrbFM2cae4A)
+You can regularly send me your job offers via: [Contact Form](https://beydahsaglam.com/contact/)
 
 Mail: [info.beydahsaglam@gmail.com](mailto:info.beydahsaglam@gmail.com)
 
@@ -106,3 +106,4 @@ LinkedIn: [linkedin.com/in/beydah](https://www.linkedin.com/in/beydah)
     <br>
     Copyright 2024 Beydah Saglam
 </div>
+
