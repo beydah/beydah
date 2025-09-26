@@ -14,13 +14,10 @@
 </div>
 
 <h2>Hire Me</h2>
-<h3>Briefly About Me</h3>
 
 Hello, I am Beydah Saglam, I am a **software developer** and I am interested in **Web Software** and **Embedded Software**. I'm looking for internship opportunities.
 
 [_Click to see more statistics._](https://github.com/beydah/beydah/blob/main/profile/about.md)
-
-<h3>Briefly Repository Info</h3>
 
 Since I use a different methodology in my GitHub repository, if you want to review my projects, I recommend you take a look here first.
 
@@ -30,15 +27,15 @@ Since I use a different methodology in my GitHub repository, if you want to revi
 
 <h3>The Positions I Am Open to Working In</h3>
 
-- Jr. Fullstack Developer
-- Jr. Software Developer
+- Fullstack Developer
+- Backend Developer
 
 <h3>My Position Expectations</h3>
 
 - Location: Istanbul(Europe)
 - Working Models: Physical / Hybrid
 - Forms of Employment: Full Time / Part Time
-- Position Level: Internship / Beginner
+- Position Level: Junior / Mid
 
 <a href="https://github.com/beydah/beydah/blob/main/profile/contact.md"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
 
@@ -106,4 +103,5 @@ LinkedIn: [linkedin.com/in/beydah](https://www.linkedin.com/in/beydah)
     <br>
     Copyright 2024 Beydah Saglam
 </div>
+
 
