@@ -29,27 +29,9 @@ Purposes of Using GitHub Repository: Promotion of my open source projects, folde
 
 I offered the MVP or Prototype solutions I produced to some problems as open source. These folders can benefit the community and you. _(Example: Social Media Database, CV Analyzer...)_
 
-<h2>Codes for Educational Purposes</h2>
-
-I bulk-folded some of the small and simple codes I wrote to learn. These folders do not provide direct benefit to the community. But I may have some small algorithms or solutions you are looking for. _(Example: C & Algorithm, C++ & Game...)_
-
 <h2>Non-Code Files</h2>
 
 Some folders you will see in my repository are non-code. In these folders you can see my public CVs, certificates, designs and even some png buttons that I created for use on github. These folders provide no benefit to the community. _(Example: asset, edurepo...)_
-
-<a href="https://github.com/beydah/beydah/blob/main/profile/repository.md"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
-
-<h3>GitHub Site</h3>
-
-This may be the first time I have created a **Website-like profile on GitHub**, written **only in HTML and Markdown**. I call this profile GitHub Site. Inspired by my GitHub Site, **you can build your own GitHub Site** by using the codes as you wish.
-
-[_GitHub Site Link_](https://github.com/beydah/beydah)
-
-<div align="center">
-
-[![GitHub Site Card](https://github-readme-stats.vercel.app/api/pin/?username=beydah&repo=beydah&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)](https://github.com/beydah/beydah/blob/main/profile/repository.md)
-
-</div>
 
 <a href="https://github.com/beydah/beydah/blob/main/profile/repository.md"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
 
@@ -79,6 +61,14 @@ With this software, you can **test historical data with Backtest algorithms**, a
 
 </div>
 
+<a href="https://github.com/beydah/beydah/blob/main/profile/repository.md"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
+
+<h3>Other Projects</h3>
+
+[_See all repository with this link_](https://github.com/beydah?tab=repositories)
+
+[_See all project on my personal website with this link_](https://beydahsaglam.com/project/)
+
 <!-- FOOTER MENU -->
 <div align="center">
     <a href="https://www.hackerrank.com/beydah">
@@ -106,3 +96,4 @@ With this software, you can **test historical data with Backtest algorithms**, a
     <br>
     Copyright 2025 Beydah Saglam
 </div>
+
