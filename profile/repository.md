@@ -57,20 +57,17 @@ Open source and free, this **customizable database** offers developers a **quick
 
 <!-- FOOTER MENU -->
 <div align="center">
-    <a href="https://www.hackerrank.com/beydah">
-        <img src="https://img.shields.io/badge/-Hacker_Rank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank">
+    <a href="https://beydahsaglam.com" target="_blank">
+        <img src="https://img.shields.io/badge/Website-%23000000.svg?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website">
     </a>
-    <a href="https://stackoverflow.com/users/21352065/beydah">
-        <img src="https://img.shields.io/badge/-Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="Stack Overflow">
-    </a>
-    <a href="https://www.behance.com/beydah">
-        <img src="https://img.shields.io/badge/Behance-1769ff?style=for-the-badge&logo=behance&logoColor=white" alt="Behance">
-    </a>
-    <a href="https://linkedin.com/in/beydah">
+    <a href="https://linkedin.com/in/beydah" target="_blank">
         <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
     </a>
+    <a href="https://www.fiverr.com/ilkaysaglam" target="_blank">
+        <img src="https://img.shields.io/badge/Fiverr-%1DBF73.svg?style=for-the-badge&logoColor=white" alt="Fiverr">
+    </a>
     <br>
-    <a href="https://github.com/beydah/beydah/blob/main/profile/repository.md">
+    <a href="https://github.com/beydah">
         <img src="https://visitcount.itsvg.in/api?id=beydah&label=Profile%20Views&color=12&icon=5&pretty=false" alt="Profile Views">
     </a>
     <br><br>
@@ -82,5 +79,6 @@ Open source and free, this **customizable database** offers developers a **quick
     <br>
     Copyright 2025 Beydah Saglam
 </div>
+
 
 
