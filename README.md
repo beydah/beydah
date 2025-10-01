@@ -79,16 +79,6 @@
         <td style="width: 10%;"></td>
     </tr></table>
     <a href="https://github.com/beydah"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a></br></br>
-    <!-- SITE SLIDE 3 -->    
-    <a href="https://github.com/beydah">
-        <img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_slide_3.png" alt="Profile Site Slide 3">
-    </a>
-    <a href="https://github.com/beydah"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a></br></br>
-    <!-- SITE SLIDE 4 -->
-    <a href="https://github.com/beydah">
-        <img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_slide_4.png" alt="Profile Site Slide 4">
-    </a>
-    <a href="https://github.com/beydah"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a></br></br>
     <!-- SITE SLIDE 5 -->
     <a href="https://github.com/beydah">
         <img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_slide_5.png" alt="Profile Site Slide 5">
