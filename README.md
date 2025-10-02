@@ -22,7 +22,9 @@
         </a></td>
     </tr></table>
     <!-- SITE SLIDE 1 -->
-    <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/banner/profile_upper.gif" alt="GIF"></a>
+    <a href="https://github.com/beydah">
+        <img src="https://raw.githubusercontent.com/beydah/asset/main/banner/profile_upper.gif" alt="GIF">
+    </a>
     <a href="https://github.com/beydah">
         <img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_slide_1.png" alt="Profile Site Slide 1">
     </a>
@@ -34,52 +36,21 @@
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/portfolio_off.png" align="left" style="width: 50%;" alt="Portfolio Button">
         </a></td>
         <td style="width: 10%;"></td>
-        <td><a href="https://www.linkedin.com/in/beydah/" target="_blank">
+        <td><a href="https://www.linkedin.com/in/beydah/">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/logo/linkedin_circle_colorful.png" style="width: 75%;" alt="LinkedIn Link">
         </a></td>      
-        <td><a href="https://www.behance.net/beydah" target="_blank">
+        <td><a href="https://www.behance.net/beydah">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/logo/behance_circle_colorful.png" style="width: 75%;" alt="Behance Link">
         </a></td>          
-        <td><a href="https://www.hackerrank.com/profile/beydah" target="_blank">
+        <td><a href="https://www.hackerrank.com/profile/beydah">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/logo/hackerrank_circle_colorful.png" style="width: 75%;" alt="HackerRank Link">
         </a></td>                               
         <td style="width: 10%;"></td>
     </tr></table>
-    <a href="https://github.com/beydah"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a></br></br>
-    <!-- SITE SLIDE 2 -->
-    <table><tr>
-        <td style="width: 10%;"></td>
-        <td style="width: 10%;"></td>
-        <td style="width: 10%;"></td>
-        <td style="width: 10%;"></td>
-        <td><a href="https://beydahsaglam.com/about/">
-            <img src="https://raw.githubusercontent.com/beydah/asset/main/button/about_on.png" align="right" style="width: 50%;" alt="About Button">
-        </a></td>      
-        <td><a href="https://github.com/beydah/beydah/blob/main/profile/about.md#education">
-            <img src="https://raw.githubusercontent.com/beydah/asset/main/button/education_off.png" align="right" style="width: 50%;" alt="Education Button">
-        </a></td>
-        <td><a href="https://github.com/beydah/beydah/blob/main/profile/about.md#experience">
-            <img src="https://raw.githubusercontent.com/beydah/asset/main/button/experience_off.png" align="left" style="width: 50%;" alt="Experience Button">
-        </a></td>
-    </tr></table>
-    <br>
     <a href="https://github.com/beydah">
-        <img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_slide_2.png" alt="Profile Site Slide 1">
-    </a>
-    <table><tr>
-        <td style="width: 10%;"></td>
-        <td><a href="https://github.com/beydah/asset/raw/main/resume/CV_Ilkay-Beydah-Saglam_Public.pdf">
-            <img src="https://raw.githubusercontent.com/beydah/asset/main/button/download_cv_off.png" align="left" style="width: 25%;" alt="Download CV Button">
-        </a></td>      
-        <td style="width: 10%;"></td>
-        <td style="width: 10%;"></td>
-        <td style="width: 10%;"></td>
-        <td style="width: 10%;"></td>
-        <td style="width: 10%;"></td>
-        <td style="width: 10%;"></td>
-    </tr></table>
-    <a href="https://github.com/beydah"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a></br></br>
-    <!-- SITE SLIDE 5 -->
+        <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick">
+    </a><br><br>
+    <!-- SITE SLIDE 2 -->
     <a href="https://github.com/beydah">
         <img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_slide_5.png" alt="Profile Site Slide 5">
     </a>
@@ -88,25 +59,27 @@
     </a>
     <br><br>
     <!-- FOOTER MENU -->
-    <a href="https://beydahsaglam.com" target="_blank">
+    <a href="https://beydahsaglam.com">
         <img src="https://img.shields.io/badge/Website-%23000000.svg?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website">
     </a>
-    <a href="https://linkedin.com/in/beydah" target="_blank">
+    <a href="https://linkedin.com/in/beydah">
         <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
     </a>
-    <a href="https://www.fiverr.com/ilkaysaglam" target="_blank">
+    <a href="https://www.fiverr.com/ilkaysaglam">
         <img src="https://img.shields.io/badge/Fiverr-%1DBF73.svg?style=for-the-badge&logoColor=white" alt="Fiverr">
     </a>
-    <br>
+    <br><br>
+    <!-- PROFILE VIEWS BADGE -->
     <a href="https://github.com/beydah">
-        <img src="https://visitcount.itsvg.in/api?id=beydah&label=Profile%20Views&color=12&icon=5&pretty=false" alt="Profile Views">
+        <img src="https://visitcount.itsvg.in/api?id=beydah&label=Profile%20Views&color=12&icon=5&pretty=false" alt="Profile Views: 404">
     </a>
     <br><br>
-    <a href="https://github.com/beydah">Home</a>
-    <a href="https://github.com/beydah/beydah/blob/main/profile/about.md">About</a>
-    <a href="https://github.com/beydah/beydah/blob/main/profile/repository.md">Repo</a>
-    <a href="https://github.com/beydah/beydah/blob/main/profile/contact.md">Contact</a>
+    <!-- TEXT LINKS -->
+    <a href="https://github.com/beydah">Home</a> |
+    <a href="https://github.com/beydah/beydah/blob/main/profile/about.md">About</a> |
+    <a href="https://github.com/beydah/beydah/blob/main/profile/repository.md">Repo</a> |
+    <a href="https://github.com/beydah/beydah/blob/main/profile/contact.md">Contact</a> |
     <a href="https://github.com/beydah/beydah/blob/main/profile/contact.md">Hire</a>
-    <br>
-    Copyright 2025 Beydah Saglam
+    <br><br>
+    Copyright © 2025 Beydah Saglam
 </div>
