@@ -47,9 +47,6 @@
         </a></td>                               
         <td style="width: 10%;"></td>
     </tr></table>
-    <a href="https://github.com/beydah">
-        <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick">
-    </a><br><br>
     <!-- SITE SLIDE 2 -->
     <a href="https://github.com/beydah">
         <img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_slide_5.png" alt="Profile Site Slide 5">
