@@ -8,16 +8,16 @@
         <td><a href="https://github.com/beydah">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/home_on.png" align="right" alt="Home Button">
         </a></td>
-        <td><a href="https://beydahsaglam.com/about/">
+        <td><a href="https://beydahsaglam.com/about">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/about_off.png" align="right"  alt="About Button">
         </a></td>
         <td><a href="https://github.com/beydah?tab=repositories">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/repo_off.png" align="right"  alt="Repo Button">
         </a></td>
-        <td><a href="https://beydahsaglam.com/contact/">
+        <td><a href="https://beydahsaglam.com/contact">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/contact_off.png" align="right" alt="Contact Button">
         </a></td>
-        <td><a href="https://beydahsaglam.com/contact/">
+        <td><a href="https://beydahsaglam.com/contact">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/hire_focus.png" align="right" alt="Hire Button">
         </a></td>
     </tr></table>
@@ -25,14 +25,11 @@
 <div align="center">
     <!-- MAIN -->
     <br><br>
-    <a href="https://github.com/beydah">
-        <img src="https://raw.githubusercontent.com/beydah/asset/main/banner/profile_upper.gif" alt="Home Section 1">
-    </a>
-    <br><br>
-    <a href="https://github.com/beydah">
-        <img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_slide_1.png" alt="Home Section 2">
-    </a>
-    <br><br>
+    <a href="https://github.com/beydah"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
+    <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/banner/profile_upper.gif" alt="Home Section 1"></a>
+    <br>
+    <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_slide_1.png" alt="Home Section 2"></a>
+    <br>
     <table><tr>
         <td><a href="https://beydahsaglam.com/contact/">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/hire_focus.png" align="right" style="width: 50%;" alt="Hire Button">
@@ -48,14 +45,54 @@
             <img src="https://raw.githubusercontent.com/beydah/asset/main/logo/linkedin_circle_colorful.png" style="width: 75%;" alt="LinkedIn Link">
         </a></td>      
     </tr></table>
-    <br><br>
+    <br>
+    <table><tr>
+        <td align="center" valign="top">
+            <h2>Statistics</h2>
+            <a href="https://github.com/beydah">
+                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=beydah&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" style="width:500px;" alt="Top Langs">
+            </a>
+            <br>
+            <a href="https://github.com/beydah">
+                <img src="https://github-readme-stats.vercel.app/api?username=beydah&theme=dark&hide=contribs,prs" style="width:500px;" alt="GitHub Stats">
+            </a>
+            <br>
+            <a href="https://github.com/beydah">
+                <img src="https://github-readme-streak-stats.herokuapp.com/?user=beydah&theme=dark&hide_border=false" style="width:500px;" alt="GitHub Strike">
+            </a>
+            <br>
+            <a href="https://github.com/beydah">
+                <img src="https://roadmap.sh/card/wide/65a873aa0c54812283f88bee?variant=dark&roadmaps=68a3e65c5fec7ae671ffb2ff%2Cengineering-manager%2Cfrontend%3Fr%3Dfrontend-beginner%2Cbackend%3Fr%3Dbackend-beginner" style="width:500px;" alt="Roadmap Stats">
+            </a>
+        </td>
+        <td align="center" valign="top">
+            <h2>Tech Stack</h2>
+            <a href="https://github.com/beydah">
+                <img src="https://img.shields.io/badge/PYTHON-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="PYTHON">
+            </a>
+            <a href="https://github.com/beydah">
+                <img src="https://img.shields.io/badge/PYTHON-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="PYTHON">
+            </a>
+            <a href="https://github.com/beydah">
+                <img src="https://img.shields.io/badge/PYTHON-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="PYTHON">
+            </a>
+            <a href="https://github.com/beydah">
+                <img src="https://img.shields.io/badge/PYTHON-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="PYTHON">
+            </a>
+            <a href="https://github.com/beydah">
+                <img src="https://img.shields.io/badge/PYTHON-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="PYTHON">
+            </a>
+        </td>
+    </tr></table>
+    <br>
     <a href="https://github.com/beydah">
         <img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_slide_5.png" alt="Home Secion 3">
     </a>
-    <br><br>
+    <br>
     <a href="https://github.com/beydah">
         <img src="https://raw.githubusercontent.com/beydah/asset/main/banner/profile_lower.gif" alt="Home Section 4">
     </a>
+    <a href="https://github.com/beydah"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
     <br><br>
 </div>
 <div align="center">
@@ -71,10 +108,10 @@
     </a>
     <br><br>
     <a href="https://github.com/beydah">Home</a> |
-    <a href="https://beydahsaglam.com/about/">About</a> |
+    <a href="https://beydahsaglam.com/about">About</a> |
     <a href="https://github.com/beydah?tab=repositories">Repo</a> |
-    <a href="https://beydahsaglam.com/contact/">Contact</a> |
-    <a href="https://beydahsaglam.com/contact/">Hire</a>
+    <a href="https://beydahsaglam.com/contact">Contact</a> |
+    <a href="https://beydahsaglam.com/contact">Hire</a>
     <br><br>
     Copyright © 2025 Beydah Saglam
 </div>
