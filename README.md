@@ -64,21 +64,36 @@
             </a>
         </td>
         <td align="center" valign="top">
-            <h2>Tech Stack</h2>
+            <h2>Stack</h2>
             <a href="https://github.com/beydah">
-                <img src="https://img.shields.io/badge/PYTHON-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="PYTHON">
+                <img src="https://img.shields.io/badge/PINESCRIPT-FF9900?style=for-the-badge&logo=tradingview&logoColor=white" alt="Pine Script">
             </a>
             <a href="https://github.com/beydah">
-                <img src="https://img.shields.io/badge/PYTHON-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="PYTHON">
+                <img src="https://img.shields.io/badge/PYTHON-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python">
             </a>
             <a href="https://github.com/beydah">
-                <img src="https://img.shields.io/badge/PYTHON-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="PYTHON">
+                <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=.net&logoColor=white" alt=".NET">
             </a>
             <a href="https://github.com/beydah">
-                <img src="https://img.shields.io/badge/PYTHON-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="PYTHON">
+                <img src="https://img.shields.io/badge/WORDPRESS-21759B?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress">
             </a>
             <a href="https://github.com/beydah">
-                <img src="https://img.shields.io/badge/PYTHON-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="PYTHON">
+                <img src="https://img.shields.io/badge/TAILWIND%20CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
+            </a>
+            <a href="https://github.com/beydah">
+                <img src="https://img.shields.io/badge/REACT-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React">
+            </a>
+            <a href="https://github.com/beydah">
+                <img src="https://img.shields.io/badge/NEXT.JS-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js">
+            </a>
+            <a href="https://github.com/beydah">
+                <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL">
+            </a>
+            <a href="https://github.com/beydah">
+                <img src="https://img.shields.io/badge/REST%20API-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="REST API">
+            </a>
+            <a href="https://github.com/beydah">
+                <img src="https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="NGINX">
             </a>
         </td>
     </tr></table>
