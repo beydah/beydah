@@ -71,10 +71,10 @@
     </a>
     <br><br>
     <a href="https://github.com/beydah">Home</a> |
-    <a href="https://github.com/beydah/beydah/blob/main/profile/about.md">About</a> |
-    <a href="https://github.com/beydah/beydah/blob/main/profile/repository.md">Repo</a> |
-    <a href="https://github.com/beydah/beydah/blob/main/profile/contact.md">Contact</a> |
-    <a href="https://github.com/beydah/beydah/blob/main/profile/contact.md">Hire</a>
+    <a href="https://beydahsaglam.com/about/">About</a> |
+    <a href="https://github.com/beydah?tab=repositories">Repo</a> |
+    <a href="https://beydahsaglam.com/contact/">Contact</a> |
+    <a href="https://beydahsaglam.com/contact/">Hire</a>
     <br><br>
     Copyright © 2025 Beydah Saglam
 </div>
