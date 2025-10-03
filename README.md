@@ -61,10 +61,10 @@
 <div align="center">
     <!-- FOOTER -->
     <a href="https://beydahsaglam.com">
-        <img src="https://img.shields.io/badge/Website-%23000000.svg?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website Link">
+        <img src="https://img.shields.io/badge/Website-%23000000.svg?style=for-the-badge&logoColor=white" alt="Website Link">
     </a>
     <a href="https://linkedin.com/in/beydah">
-        <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Link">
+        <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logoColor=white" alt="LinkedIn Link">
     </a>
     <a href="https://www.fiverr.com/ilkaysaglam">
         <img src="https://img.shields.io/badge/Fiverr-%1DBF73.svg?style=for-the-badge&logoColor=white" alt="Fiverr Link">
