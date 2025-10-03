@@ -99,7 +99,7 @@
     </tr></table>
     <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_slide_5.png" alt="Home Secion 3"></a>
     <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/banner/profile_lower.gif" alt="Home Section 4"></a>
-    <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/banner/github-user-contribution.svg" alt="GitHub Contributions"/></a>
+    <img src="https://raw.githubusercontent.com/beydah/asset/main/banner/github-user-contribution.svg" alt="GitHub Snake"/>
     <a href="https://github.com/beydah"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
     <br><br>
 </div>
