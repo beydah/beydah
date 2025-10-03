@@ -24,10 +24,9 @@
 </div>
 <div align="center">
     <!-- MAIN -->
-    <br><br>
     <a href="https://github.com/beydah"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
-    <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/banner/profile_upper.gif" alt="Home Section 1"></a>
     <br>
+    <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/banner/profile_upper.gif" alt="Home Section 1"></a>
     <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_slide_1.png" alt="Home Section 2"></a>
     <br>
     <table><tr>
@@ -45,7 +44,6 @@
             <img src="https://raw.githubusercontent.com/beydah/asset/main/logo/linkedin_circle_colorful.png" style="width: 75%;" alt="LinkedIn Link">
         </a></td>      
     </tr></table>
-    <br>
     <table><tr>
         <td align="center" valign="top">
             <h2>Statistics</h2>
@@ -84,14 +82,8 @@
             </a>
         </td>
     </tr></table>
-    <br>
-    <a href="https://github.com/beydah">
-        <img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_slide_5.png" alt="Home Secion 3">
-    </a>
-    <br>
-    <a href="https://github.com/beydah">
-        <img src="https://raw.githubusercontent.com/beydah/asset/main/banner/profile_lower.gif" alt="Home Section 4">
-    </a>
+    <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_slide_5.png" alt="Home Secion 3"></a>
+    <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/banner/profile_lower.gif" alt="Home Section 4"></a>
     <a href="https://github.com/beydah"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
     <br><br>
 </div>
