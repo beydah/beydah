@@ -36,16 +36,12 @@
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/portfolio_off.png" align="left" style="width: 50%;" alt="Portfolio Button">
         </a></td>
         <td style="width: 10%;"></td>
+        <td style="width: 10%;"></td>
+        <td style="width: 10%;"></td>
+        <td style="width: 10%;"></td>
         <td><a href="https://www.linkedin.com/in/beydah/">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/logo/linkedin_circle_colorful.png" style="width: 75%;" alt="LinkedIn Link">
         </a></td>      
-        <td><a href="https://www.behance.net/beydah">
-            <img src="https://raw.githubusercontent.com/beydah/asset/main/logo/behance_circle_colorful.png" style="width: 75%;" alt="Behance Link">
-        </a></td>          
-        <td><a href="https://www.hackerrank.com/profile/beydah">
-            <img src="https://raw.githubusercontent.com/beydah/asset/main/logo/hackerrank_circle_colorful.png" style="width: 75%;" alt="HackerRank Link">
-        </a></td>                               
-        <td style="width: 10%;"></td>
     </tr></table>
     <!-- SITE SLIDE 2 -->
     <a href="https://github.com/beydah">
