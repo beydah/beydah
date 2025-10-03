@@ -26,7 +26,6 @@
     <!-- MAIN -->
     <a href="https://github.com/beydah"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
     <br>
-    <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/banner/profile_upper.gif" alt="Home Section 1"></a>
     <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_slide_1.png" alt="Home Section 2"></a>
     <br>
     <table><tr>
@@ -98,7 +97,6 @@
         </td>
     </tr></table>
     <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_slide_5.png" alt="Home Secion 3"></a>
-    <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/banner/profile_lower.gif" alt="Home Section 4"></a>
     <a href="https://github.com/beydah"><img src="https://raw.githubusercontent.com/beydah/asset/main/banner/github-user-contribution.svg" alt="GitHub Snake"/></a>
     <a href="https://github.com/beydah"><img src="https://i.imgur.com/waxVImv.png" alt="Colorful Stick"></a>
     <br><br>
