@@ -1,5 +1,5 @@
 <div align="center">
-    <!-- HEADER MENU -->
+    <!-- HEADER -->
     <table><tr>
         <td><a href="https://github.com/beydah">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/logo/beydah_colorful_blue.png" align="left" alt="Beydah Logo">
@@ -21,7 +21,9 @@
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/hire_focus.png" align="right" alt="Hire Button">
         </a></td>
     </tr></table>
-    <!-- SITE SLIDE 1 -->
+</div>
+<div align="center">
+    <!-- MAIN -->
     <a href="https://github.com/beydah">
         <img src="https://raw.githubusercontent.com/beydah/asset/main/banner/profile_upper.gif" alt="GIF">
     </a>
@@ -29,7 +31,7 @@
         <img src="https://raw.githubusercontent.com/beydah/asset/main/image/profile_slide_1.png" alt="Profile Site Slide 1">
     </a>
     <table><tr>
-        <td><a href="https://beydahsaglam.com/contact/">
+        <td><a href="https://beydahsaglam.com/contact/" target="_blank">
             <img src="https://raw.githubusercontent.com/beydah/asset/main/button/hire_focus.png" align="right" style="width: 50%;" alt="Hire Button">
         </a></td>
         <td><a href="https://beydahsaglam.com/project/">
@@ -51,7 +53,9 @@
         <img src="https://raw.githubusercontent.com/beydah/asset/main/banner/profile_lower.gif" alt="GIF">
     </a>
     <br><br>
-    <!-- FOOTER MENU -->
+</div>
+<div align="center">
+    <!-- FOOTER -->
     <a href="https://beydahsaglam.com">
         <img src="https://img.shields.io/badge/Website-%23000000.svg?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website">
     </a>
@@ -60,11 +64,6 @@
     </a>
     <a href="https://www.fiverr.com/ilkaysaglam">
         <img src="https://img.shields.io/badge/Fiverr-%1DBF73.svg?style=for-the-badge&logoColor=white" alt="Fiverr">
-    </a>
-    <br><br>
-    <!-- PROFILE VIEWS BADGE -->
-    <a href="https://github.com/beydah">
-        <img src="https://visitcount.itsvg.in/api?id=beydah&label=Profile%20Views&color=12&icon=5&pretty=false" alt="Profile Views: 404">
     </a>
     <br><br>
     <!-- TEXT LINKS -->
