@@ -81,7 +81,7 @@
                 <img src="https://img.shields.io/badge/TAILWIND%20CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
             </a>
             <a href="https://github.com/beydah">
-                <img src="https://img.shields.io/badge/REACT-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React">
+                <img src="https://img.shields.io/badge/REACT-21A1F1?style=for-the-badge&logo=react&logoColor=white&textColor=white" alt="React">
             </a>
             <a href="https://github.com/beydah">
                 <img src="https://img.shields.io/badge/NEXT.JS-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js">
