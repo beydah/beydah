@@ -70,7 +70,6 @@
             <a href="https://github.com/beydah">
                 <img src="https://img.shields.io/badge/PINESCRIPT-FF9900?style=for-the-badge&logo=tradingview&logoColor=white" alt="Pine Script">
             </a>
-            <br>
             <a href="https://github.com/beydah">
                 <img src="https://img.shields.io/badge/PYTHON-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python">
             </a>
@@ -84,19 +83,18 @@
             <a href="https://github.com/beydah">
                 <img src="https://img.shields.io/badge/REACT-21A1F1?style=for-the-badge&logo=react&logoColor=white&textColor=white" alt="React">
             </a>
-            <br>
             <a href="https://github.com/beydah">
                 <img src="https://img.shields.io/badge/NEXT.JS-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js">
             </a>
             <a href="https://github.com/beydah">
-                <img src="https://img.shields.io/badge/REST%20API-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="REST API">
+                <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL">
             </a>
             <br>
             <a href="https://github.com/beydah">
-                <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL">
+                <img src="https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="NGINX">
             </a>
             <a href="https://github.com/beydah">
-                <img src="https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="NGINX">
+                <img src="https://img.shields.io/badge/REST%20API-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="REST API">
             </a>
         </td>
     </tr></table>
