@@ -46,12 +46,12 @@
     <table><tr>
         <td align="center" valign="top">
             <h2>Statistics</h2>
-                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=beydah&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" style="width:500px;" alt="Top Langs">
+                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=beydah&theme=default&show_icons=true&hide_border=true&layout=compact" alt="Top Langs">
             <br>
-                <img src="https://github-readme-stats.vercel.app/api?username=beydah&theme=dark&hide=contribs,prs" style="width:500px;" alt="GitHub Stats">
+                <img src="https://github-readme-stats.vercel.app/api?username=beydah&theme=default&show_icons=true&hide_border=true&count_private=true" style="width:500px;" alt="GitHub Stats">
             <br>
             <a href="https://github.com/beydah">
-                <img src="https://github-readme-streak-stats.herokuapp.com/?user=beydah&theme=dark&hide_border=false" style="width:500px;" alt="GitHub Strike">
+                <img src="https://streak-stats.demolab.com?user=beydah&theme=default&hide_border=true" alt="GitHub Strike">
             </a>
             <br>
             <a href="https://github.com/beydah">
