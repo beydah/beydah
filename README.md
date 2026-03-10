@@ -46,13 +46,9 @@
     <table><tr>
         <td align="center" valign="top">
             <h2>Statistics</h2>
-            <a href="https://github.com/beydah">
                 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=beydah&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" style="width:500px;" alt="Top Langs">
-            </a>
             <br>
-            <a href="https://github.com/beydah">
                 <img src="https://github-readme-stats.vercel.app/api?username=beydah&theme=dark&hide=contribs,prs" style="width:500px;" alt="GitHub Stats">
-            </a>
             <br>
             <a href="https://github.com/beydah">
                 <img src="https://github-readme-streak-stats.herokuapp.com/?user=beydah&theme=dark&hide_border=false" style="width:500px;" alt="GitHub Strike">
