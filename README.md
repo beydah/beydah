@@ -46,16 +46,19 @@
     <table><tr>
         <td align="center" valign="top">
             <h2>Statistics</h2>
-                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=beydah&theme=default&show_icons=true&hide_border=true&layout=compact" alt="Top Langs">
+                <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2500&pause=500&width=435&separator=%3C&lines=printf(%22hello+world...%22);%3Cprintf(%22i+am+beydah...%22);%3Cprintf(%22i+am+a+product+developer...%22);%3Cprintf(%22i+code+my+own+world...%22);" alt="Hero Desc">
             <br>
-                <img src="https://github-readme-stats.vercel.app/api?username=beydah&theme=default&show_icons=true&hide_border=true&count_private=true" style="width:500px;" alt="GitHub Stats">
+                <img src="" alt="">
             <br>
             <a href="https://github.com/beydah">
-                <img src="https://streak-stats.demolab.com?user=beydah&theme=default&hide_border=true" alt="GitHub Strike">
+                <img src="https://github-readme-stats.vercel.app/api?username=beydah&show_icons=true&theme=radical" alt="">
             </a>
             <br>
             <a href="https://github.com/beydah">
-                <img src="https://roadmap.sh/card/wide/65a873aa0c54812283f88bee?variant=dark&roadmaps=68a3e65c5fec7ae671ffb2ff%2Cengineering-manager%2Cfrontend%3Fr%3Dfrontend-beginner%2Cbackend%3Fr%3Dbackend-beginner" style="width:500px;" alt="Roadmap Stats">
+                <img src="https://streak-stats.demolab.com?user=beydah&theme=windows-dark&border_radius=5" alt="Strike">
+            </a>
+            <a href="https://github.com/beydah">
+                <img src="https://github-readme-activity-graph.vercel.app/graph?username=beydah&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff&area=true&hide_border=true" alt="Heat">
             </a>
         </td>
         <td align="center" valign="top">
