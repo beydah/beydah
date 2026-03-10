@@ -46,12 +46,8 @@
     <table><tr>
         <td align="center" valign="top">
             <h2>Statistics</h2>
-                <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2500&pause=500&width=435&separator=%3C&lines=printf(%22hello+world...%22);%3Cprintf(%22i+am+beydah...%22);%3Cprintf(%22i+am+a+product+developer...%22);%3Cprintf(%22i+code+my+own+world...%22);" alt="Hero Desc">
-            <br>
-                <img src="" alt="">
-            <br>
             <a href="https://github.com/beydah">
-                <img src="https://github-readme-stats.vercel.app/api?username=beydah&show_icons=true&theme=radical" alt="">
+                <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2500&pause=500&width=435&separator=%3C&lines=printf(%22hello+world...%22);%3Cprintf(%22i+am+beydah...%22);%3Cprintf(%22i+am+a+product+developer...%22);%3Cprintf(%22i+code+my+own+world...%22);" alt="Hero Desc">
             </a>
             <br>
             <a href="https://github.com/beydah">
