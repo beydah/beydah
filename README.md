@@ -55,7 +55,7 @@
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=%F0%9F%9A%80+Building+intelligent+software+solutions;%F0%9F%A4%96+AI+Agents,+Web+Apps,+Mobile+Apps" alt="Typing animation - Building intelligent software solutions; AI Agents, Web Apps, Mobile Apps" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=%F0%9F%9A%80+Building+intelligent+software+solutions;%F0%9F%A4%96+AI+Agents,+Web+Apps,+Trade+Bots" alt="Typing animation - Building intelligent software solutions; AI Agents, Web Apps, Trade Bots" />
 
 <br><br>
 
