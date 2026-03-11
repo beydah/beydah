@@ -63,14 +63,14 @@
 <a href="https://beydahsaglam.com/contact/">
   <img src="https://img.shields.io/badge/🤝_HIRE_ME-2ea44f?style=for-the-badge&logoColor=white" alt="Hire Me — Contact Beydah Saglam for freelance or full-time opportunities" />
 </a>&nbsp;
-<a href="https://beydahsaglam.com/project/">
-  <img src="https://img.shields.io/badge/📂_PORTFOLIO-6e40c9?style=for-the-badge&logoColor=white" alt="View Portfolio — Beydah Saglam's Projects" />
+<a href="https://github.com/beydah?tab=repositories">
+  <img src="https://img.shields.io/badge/�_REPOSITORIES-6e40c9?style=for-the-badge&logoColor=white" alt="View Repositories — Beydah Saglam's GitHub Projects" />
 </a>&nbsp;
 <a href="https://linkedin.com/in/beydah">
   <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Beydah Saglam LinkedIn Profile" />
 </a>&nbsp;
 <a href="mailto:hello@beydahsaglam.com">
-  <img src="https://img.shields.io/badge/EMAIL_ME-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Send Email to Beydah Saglam" />
+  <img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Send Email to Beydah Saglam" />
 </a>
 
 <br>
