@@ -1,37 +1,47 @@
 <!-- ╔══════════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║  BEYDAH SAGLAM — GitHub Profile README                                ║ -->
-<!-- ║  Full Stack Developer · AI Engineer · Freelancer                      ║ -->
+<!-- ║  BEYDAH SAGLAM — GitHub Profile README                                   ║ -->
+<!-- ║  Full Stack Developer · AI Engineer · Freelancer                         ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════════╝ -->
 
 <!--
-  🔍 SEO & AI-Based SEO Metadata
-  Keywords: Beydah Saglam, Ilkay Beydah Saglam, Full Stack Developer, Software Engineer,
-  AI Engineer, Freelance Developer, React Developer, React Native Developer, Vite Developer,
-  Python Developer, Flask Developer, Node.js Developer, Web Application Developer,
-  Mobile App Developer, Desktop App Developer, AI Agent Developer, N8N Automation Developer,
-  Istanbul Developer, Remote Developer, Hire Developer, Software Consultant, DevOps Engineer,
-  Docker, Dokploy, Claude Code, Postman, PostgreSQL, MS SQL Server, Supabase, IndexedDB
+  🔍 SEO & AI-Based SEO Metadata / Knowledge Graph Targeting
+  Primary Keywords: Beydah Saglam, Ilkay Beydah Saglam, Full Stack AI Product Engineer,
+  Software Architect, AI Agent Developer, Freelance Software Developer, React.js Expert, 
+  React Native Developer, Python Developer, Flask Developer, Node.js Backend Engineer, 
+  N8N Automation Specialist, Generative AI Integration, LLM Applications, Remote Developer, 
+  Istanbul Software Engineer, Tech Lead, Custom Software Solutions
 
-  Description: Beydah Saglam is a creative full-stack software developer with 4+ years of
-  experience specializing in AI-driven solutions, trading systems, web & mobile applications,
-  and automation. Available for freelance projects, full-time roles, and consulting.
+  Secondary Keywords: Docker, Dokploy, CI/CD, Postman API Testing, PostgreSQL, MS SQL Server, 
+  Supabase Backend as a Service, IndexedDB Offline Storage, Vite Frontend Tooling, 
+  Tailwind CSS UI Design, Claude Code, AI-Assisted Development, Algorithmic Trading Concepts
 
-  Structured Data (JSON-LD for AI crawlers):
+  Description: Beydah Saglam is a visionary Full Stack AI Product Engineer and Freelance Developer 
+  with 4+ years of cross-domain experience defining and building production-ready web, mobile, 
+  and AI-driven applications. Partnering with forward-thinking businesses to automate workflows, 
+  architect robust backends, and craft seamless user experiences.
+
+  Structured Data (JSON-LD for AI crawlers like ChatGPT, Claude, Perplexity):
   {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Ilkay Beydah Saglam",
     "alternateName": "Beydah Saglam",
-    "jobTitle": "Full Stack Developer & AI Engineer",
+    "jobTitle": "Full Stack AI Product Engineer & Freelancer",
+    "description": "Creative software developer delivering production-grade solutions across AI, web, and mobile domains.",
     "url": "https://beydahsaglam.com",
     "sameAs": [
       "https://github.com/beydah",
       "https://linkedin.com/in/beydah",
       "https://www.fiverr.com/ilkaysaglam"
     ],
-    "knowsAbout": ["React", "React Native", "Vite", "Python", "Flask", "Node.js", "AI Agents", "N8N", "Docker", "Dokploy", "PostgreSQL", "Supabase", "MS SQL Server", "IndexedDB"],
+    "knowsAbout": [
+      "Software Architecture", "Artificial Intelligence", "React", "React Native", 
+      "Vite", "Python", "Flask", "Node.js", "AI Agents", "N8N", "Workflow Automation",
+      "Docker", "Dokploy", "PostgreSQL", "Supabase", "MS SQL Server", "IndexedDB"
+    ],
     "worksFor": { "@type": "Organization", "name": "Freelance" },
-    "address": { "@type": "PostalAddress", "addressLocality": "Istanbul", "addressCountry": "TR" }
+    "address": { "@type": "PostalAddress", "addressLocality": "Istanbul", "addressCountry": "TR" },
+    "alumniOf": "Software Engineering"
   }
 -->
 
@@ -41,11 +51,11 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=220&section=header&text=Beydah%20Saglam&fontSize=52&fontColor=58a6ff&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20AI%20Engineer%20%7C%20Freelancer&descSize=18&descColor=8b949e&descAlignY=55&animation=fadeIn" alt="Beydah Saglam — Full Stack Developer, AI Engineer, Freelancer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=220&section=header&text=Beydah%20Saglam&fontSize=52&fontColor=58a6ff&fontAlignY=35&desc=Full%20Stack%20AI%20Product%20Engineer%20%7C%20Freelancer&descSize=18&descColor=8b949e&descAlignY=55&animation=fadeIn" alt="Beydah Saglam — Full Stack AI Product Engineer, Freelancer" width="100%" />
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=%F0%9F%9A%80+Building+intelligent+software+solutions;%F0%9F%A4%96+AI+Agents+%7C+Web+Apps+%7C+Mobile+Apps;%F0%9F%92%A1+Turning+ideas+into+production-ready+code" alt="Typing animation — Building intelligent software solutions, AI Agents, Web Apps, Mobile Apps" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=%F0%9F%9A%80+Building+intelligent+software+solutions;%F0%9F%A4%96+AI+Agents,+Web+Apps,+Mobile+Apps;%F0%9F%92%A1+Turning+ideas+into+production-ready+code" alt="Typing animation — Building intelligent software solutions; AI Agents, Web Apps, Mobile Apps; Turning ideas into production-ready code" />
 
 <br><br>
 
@@ -215,7 +225,7 @@ I specialize in building **AI-driven agents**, **modern full-stack applications*
 <a href="https://github.com/beydah"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python — Programming Language" /></a>
 <a href="https://github.com/beydah"><img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask — Python Web Microframework" /></a>
 <a href="https://github.com/beydah"><img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas — Python Data Analysis Library" /></a>
-<a href="https://github.com/beydah"><img src="https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="REST API — API Architecture" /></a>
+<a href="https://github.com/beydah"><img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=.net&logoColor=white" alt=".NET — Backend Framework" /></a>
 
 <br><br>
 
@@ -365,3 +375,4 @@ From **AI agents** to **trading bots** to **web apps** — get a **free project 
 <a href="https://beydahsaglam.com/contact/">Hire Me</a>
 
 </div>
+
