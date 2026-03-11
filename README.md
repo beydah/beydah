@@ -45,7 +45,7 @@
 <br>
 
 <a href="https://github.com/beydah">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=%F0%9F%9A%80+Building+intelligent+software+solutions;%F0%9F%A4%96+AI+Agents+%7C+Trading+Bots+%7C+Web+Apps;%F0%9F%92%A1+Turning+ideas+into+production-ready+code" alt="Typing animation — Building intelligent software solutions, AI Agents, Trading Bots, Web Apps, Turning ideas into production-ready code" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=%F0%9F%9A%80+Building+intelligent+software+solutions;%F0%9F%A4%96+AI+Agents+%7C+Trading+Bots+%7C+Web+Apps;%F0%9F%92%A1+Turning+ideas+into+production-ready+code" alt="Typing animation — Building intelligent software solutions, AI Agents, Trading Bots, Web Apps" />
 </a>
 
 <br><br>
@@ -93,7 +93,7 @@ I specialize in building **AI-driven agents**, **algorithmic trading systems**, 
 🌍 **Based in:** Istanbul, Turkey — Open to remote & global projects  
 💼 **Status:** Available for freelance, contract, and full-time opportunities  
 🎯 **Focus:** AI Agents · Trading Systems · Full-Stack Web & Mobile Apps  
-📧 **Contact:** [hello@beydahsaglam.com](mailto:hello@beydahsaglam.com)
+📧 **Contact:** [info.beydahsaglam@gmail.com](mailto:info.beydahsaglam@gmail.com)
 
 </td>
 <td width="40%" align="center">
@@ -298,29 +298,6 @@ I specialize in building **AI-driven agents**, **algorithmic trading systems**, 
 <br>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- FEATURED PROJECTS -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-## 🏆 Featured Projects
-
-*A selection of my recent work — [View All Projects →](https://beydahsaglam.com/project/)*
-
-<br>
-
-<a href="https://github.com/beydah?tab=repositories">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=beydah&repo=beydah&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=3fb950&text_color=c9d1d9" alt="Beydah Saglam Profile Repository" />
-</a>
-<a href="https://github.com/beydah?tab=repositories">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=beydah&repo=asset&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=3fb950&text_color=c9d1d9" alt="Beydah Saglam Asset Repository" />
-</a>
-
-</div>
-
-<br>
-
-<!-- ═══════════════════════════════════════════════════════════════════ -->
 <!-- CONTACT & CTA -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
@@ -371,14 +348,11 @@ From **AI agents** to **trading bots** to **web apps** — get a **free project 
 <a href="https://beydahsaglam.com">
   <img src="https://img.shields.io/badge/🌐_Website-beydahsaglam.com-0d1117?style=for-the-badge&labelColor=0d1117" alt="Beydah Saglam Personal Website" />
 </a>&nbsp;
-<a href="mailto:hello@beydahsaglam.com">
-  <img src="https://img.shields.io/badge/📧_Email-hello@beydahsaglam.com-0d1117?style=for-the-badge&labelColor=0d1117" alt="Email Beydah Saglam" />
+<a href="mailto:info.beydahsaglam@gmail.com">
+  <img src="https://img.shields.io/badge/📧_Email-info.beydahsaglam@gmail.com-0d1117?style=for-the-badge&labelColor=0d1117" alt="Email Beydah Saglam" />
 </a>&nbsp;
 <a href="https://linkedin.com/in/beydah">
   <img src="https://img.shields.io/badge/💼_LinkedIn-beydah-0d1117?style=for-the-badge&labelColor=0d1117" alt="Beydah Saglam LinkedIn" />
-</a>&nbsp;
-<a href="https://github.com/beydah">
-  <img src="https://img.shields.io/badge/🐙_GitHub-beydah-0d1117?style=for-the-badge&labelColor=0d1117" alt="Beydah Saglam GitHub" />
 </a>&nbsp;
 <a href="https://www.fiverr.com/ilkaysaglam">
   <img src="https://img.shields.io/badge/💚_Fiverr-ilkaysaglam-0d1117?style=for-the-badge&labelColor=0d1117" alt="Beydah Saglam Fiverr" />
