@@ -1,4 +1,4 @@
-<!-- ╔══════════════════════════════════════════════════════════════════════════╗ -->
+﻿<!-- ╔══════════════════════════════════════════════════════════════════════════╗ -->
 <!-- ║  BEYDAH SAGLAM — GitHub Profile README                                   ║ -->
 <!-- ║  Full Stack Developer · AI Engineer · Freelancer                         ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════════╝ -->
@@ -55,7 +55,7 @@
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=%F0%9F%9A%80+Building+intelligent+software+solutions;%F0%9F%A4%96+AI+Agents,+Web+Apps,+Mobile+Apps;%F0%9F%92%A1+Turning+ideas+into+production-ready+code" alt="Typing animation — Building intelligent software solutions; AI Agents, Web Apps, Mobile Apps; Turning ideas into production-ready code" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=%F0%9F%9A%80+Building+intelligent+software+solutions;%F0%9F%A4%96+AI+Agents,+Web+Apps,+Mobile+Apps" alt="Typing animation — Building intelligent software solutions; AI Agents, Web Apps, Mobile Apps" />
 
 <br><br>
 
@@ -105,7 +105,7 @@ I specialize in building **AI-driven agents**, **modern full-stack applications*
 <br>
 
 <!-- QUICK STATS BAR -->
-<img src="https://img.shields.io/badge/🕐_4%2B_YEARS-Experience-58a6ff?style=flat-square&labelColor=0d1117" alt="4+ Years of Software Development Experience" />&nbsp;
+<img src="https://img.shields.io/badge/🕐_2%2B_YEARS-Experience-58a6ff?style=flat-square&labelColor=0d1117" alt="2+ Years of Software Development Experience" />&nbsp;
 <img src="https://img.shields.io/badge/🚀_25%2B-Projects_Delivered-3fb950?style=flat-square&labelColor=0d1117" alt="25+ Projects Successfully Delivered" />&nbsp;
 <img src="https://img.shields.io/badge/🛠️_15%2B-Technologies-f78166?style=flat-square&labelColor=0d1117" alt="15+ Technologies Mastered" />&nbsp;
 <img src="https://img.shields.io/badge/🌐_Remote-Friendly-da70d6?style=flat-square&labelColor=0d1117" alt="Remote Work Available" />
@@ -162,7 +162,7 @@ I specialize in building **AI-driven agents**, **modern full-stack applications*
 <tr>
 <td align="center" width="33%">
 <br>
-<img src="https://img.shields.io/badge/�️-0d1117?style=flat-square" width="60" alt="Desktop Application Development" />
+<img src="https://img.shields.io/badge/💻-0d1117?style=flat-square" width="60" alt="Desktop Application Development" />
 <h3>Desktop Applications</h3>
 <p>Powerful desktop tools built with <strong>Python</strong>, <strong>Flask</strong>, and <strong>Pandas</strong> for data-heavy workflows, or modern web tech packaged as native desktop apps.</p>
 <a href="https://beydahsaglam.com/content/service/desktop-app/1772/">
@@ -172,7 +172,7 @@ I specialize in building **AI-driven agents**, **modern full-stack applications*
 </td>
 <td align="center" width="33%">
 <br>
-<img src="https://img.shields.io/badge/�️-0d1117?style=flat-square" width="60" alt="Database Design" />
+<img src="https://img.shields.io/badge/🗄️-0d1117?style=flat-square" width="60" alt="Database Design" />
 <h3>Database & Backend</h3>
 <p>Robust data layers with <strong>PostgreSQL</strong>, <strong>MS SQL Server</strong>, <strong>Supabase</strong>, and <strong>IndexedDB</strong>. RESTful APIs tested and documented with <strong>Postman</strong>.</p>
 <a href="https://beydahsaglam.com/contact/">
