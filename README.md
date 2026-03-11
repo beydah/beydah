@@ -6,10 +6,11 @@
 <!--
   🔍 SEO & AI-Based SEO Metadata
   Keywords: Beydah Saglam, Ilkay Beydah Saglam, Full Stack Developer, Software Engineer,
-  AI Engineer, Freelance Developer, React Developer, Next.js Developer, Python Developer,
-  .NET Developer, Trading Bot Developer, TradingView Pine Script, Web Application Developer,
-  Mobile App Developer, Desktop App Developer, AI Agent Developer, Istanbul Developer,
-  Remote Developer, Hire Developer, Software Consultant, DevOps Engineer, N8N Automation
+  AI Engineer, Freelance Developer, React Developer, React Native Developer, Vite Developer,
+  Python Developer, Flask Developer, Node.js Developer, Web Application Developer,
+  Mobile App Developer, Desktop App Developer, AI Agent Developer, N8N Automation Developer,
+  Istanbul Developer, Remote Developer, Hire Developer, Software Consultant, DevOps Engineer,
+  Docker, Dokploy, Claude Code, Postman, PostgreSQL, MS SQL Server, Supabase, IndexedDB
 
   Description: Beydah Saglam is a creative full-stack software developer with 4+ years of
   experience specializing in AI-driven solutions, trading systems, web & mobile applications,
@@ -28,7 +29,7 @@
       "https://linkedin.com/in/beydah",
       "https://www.fiverr.com/ilkaysaglam"
     ],
-    "knowsAbout": ["React", "Next.js", "Python", ".NET", "AI Agents", "Trading Bots", "Pine Script", "TradingView", "N8N", "DevOps"],
+    "knowsAbout": ["React", "React Native", "Vite", "Python", "Flask", "Node.js", "AI Agents", "N8N", "Docker", "Dokploy", "PostgreSQL", "Supabase", "MS SQL Server", "IndexedDB"],
     "worksFor": { "@type": "Organization", "name": "Freelance" },
     "address": { "@type": "PostalAddress", "addressLocality": "Istanbul", "addressCountry": "TR" }
   }
@@ -44,9 +45,7 @@
 
 <br>
 
-<a href="https://github.com/beydah">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=%F0%9F%9A%80+Building+intelligent+software+solutions;%F0%9F%A4%96+AI+Agents+%7C+Trading+Bots+%7C+Web+Apps;%F0%9F%92%A1+Turning+ideas+into+production-ready+code" alt="Typing animation — Building intelligent software solutions, AI Agents, Trading Bots, Web Apps" />
-</a>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=%F0%9F%9A%80+Building+intelligent+software+solutions;%F0%9F%A4%96+AI+Agents+%7C+Web+Apps+%7C+Mobile+Apps;%F0%9F%92%A1+Turning+ideas+into+production-ready+code" alt="Typing animation — Building intelligent software solutions, AI Agents, Web Apps, Mobile Apps" />
 
 <br><br>
 
@@ -80,35 +79,24 @@
 
 ## 🧑‍💻 About Me
 
-</div>
+<img src="https://github-readme-stats.vercel.app/api?username=beydah&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=3fb950&text_color=c9d1d9&ring_color=58a6ff" alt="Beydah Saglam GitHub Stats — Commits, PRs, Issues, Contributions" width="60%" />
 
-<table>
-<tr>
-<td width="60%">
+<br><br>
 
-**Creative software developer** with **4+ years** of hands-on experience delivering production-grade solutions across **AI, fintech, web, and mobile** domains.
+**Creative software developer** with **4+ years** of hands-on experience delivering production-grade solutions across **AI, web, and mobile** domains.
 
-I specialize in building **AI-driven agents**, **algorithmic trading systems**, and **modern full-stack applications** using cutting-edge technologies. My approach combines clean architecture, innovative design, and a deep understanding of business requirements to deliver software that truly adds value.
+I specialize in building **AI-driven agents**, **modern full-stack applications**, and **automation workflows** using cutting-edge technologies. My approach combines clean architecture, innovative design, and a deep understanding of business requirements to deliver software that truly adds value.
 
 🌍 **Based in:** Istanbul, Turkey — Open to remote & global projects  
 💼 **Status:** Available for freelance, contract, and full-time opportunities  
-🎯 **Focus:** AI Agents · Trading Systems · Full-Stack Web & Mobile Apps  
+🎯 **Focus:** AI Agents · Full-Stack Web & Mobile Apps · Automation  
 📧 **Contact:** [info.beydahsaglam@gmail.com](mailto:info.beydahsaglam@gmail.com)
 
-</td>
-<td width="40%" align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=beydah&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=3fb950&text_color=c9d1d9&ring_color=58a6ff" alt="Beydah Saglam GitHub Stats — Commits, PRs, Issues, Contributions" width="100%" />
-
-</td>
-</tr>
-</table>
-
-<div align="center">
+<br>
 
 <!-- QUICK STATS BAR -->
 <img src="https://img.shields.io/badge/🕐_4%2B_YEARS-Experience-58a6ff?style=flat-square&labelColor=0d1117" alt="4+ Years of Software Development Experience" />&nbsp;
-<img src="https://img.shields.io/badge/🚀_50%2B-Projects_Delivered-3fb950?style=flat-square&labelColor=0d1117" alt="50+ Projects Successfully Delivered" />&nbsp;
+<img src="https://img.shields.io/badge/🚀_25%2B-Projects_Delivered-3fb950?style=flat-square&labelColor=0d1117" alt="25+ Projects Successfully Delivered" />&nbsp;
 <img src="https://img.shields.io/badge/🛠️_15%2B-Technologies-f78166?style=flat-square&labelColor=0d1117" alt="15+ Technologies Mastered" />&nbsp;
 <img src="https://img.shields.io/badge/🌐_Remote-Friendly-da70d6?style=flat-square&labelColor=0d1117" alt="Remote Work Available" />
 
@@ -134,7 +122,7 @@ I specialize in building **AI-driven agents**, **algorithmic trading systems**, 
 <br>
 <img src="https://img.shields.io/badge/🤖-0d1117?style=flat-square" width="60" alt="AI Agent Development" />
 <h3>AI Agents & Automation</h3>
-<p>Custom AI agents, chatbots, LLM integrations, and N8N workflow automations that streamline operations and boost productivity.</p>
+<p>Custom AI agents, LLM integrations, and <strong>N8N</strong> workflow automations — powered by modern AI tooling including <strong>Claude</strong> — that streamline operations and boost productivity.</p>
 <a href="https://beydahsaglam.com/content/service/ai-agent/2372/">
   <img src="https://img.shields.io/badge/Learn_More-→-58a6ff?style=flat-square&labelColor=0d1117" alt="Learn more about AI Agent Development" />
 </a>
@@ -142,21 +130,21 @@ I specialize in building **AI-driven agents**, **algorithmic trading systems**, 
 </td>
 <td align="center" width="33%">
 <br>
-<img src="https://img.shields.io/badge/📊-0d1117?style=flat-square" width="60" alt="Trading Bot and TradingView Indicator Development" />
-<h3>Trading Bots & Indicators</h3>
-<p>Algorithmic trading bots for Binance & ByBit, custom TradingView indicators with Pine Script, and signal automation via webhooks.</p>
-<a href="https://beydahsaglam.com/content/service/trade-bot/2019/">
-  <img src="https://img.shields.io/badge/Learn_More-→-58a6ff?style=flat-square&labelColor=0d1117" alt="Learn more about Trading Bot Development" />
+<img src="https://img.shields.io/badge/🌐-0d1117?style=flat-square" width="60" alt="Web Application Development" />
+<h3>Web Applications</h3>
+<p>Modern, responsive web apps with <strong>React</strong>, <strong>Vite</strong>, and <strong>Tailwind CSS</strong>. Backed by <strong>Node.js</strong> or <strong>Python/Flask</strong> APIs, from SaaS platforms to e-commerce.</p>
+<a href="https://beydahsaglam.com/content/service/web-app/2009/">
+  <img src="https://img.shields.io/badge/Learn_More-→-58a6ff?style=flat-square&labelColor=0d1117" alt="Learn more about Web Application Development" />
 </a>
 <br><br>
 </td>
 <td align="center" width="33%">
 <br>
-<img src="https://img.shields.io/badge/🌐-0d1117?style=flat-square" width="60" alt="Web Application Development" />
-<h3>Web Applications</h3>
-<p>Modern, responsive web apps built with React, Next.js, and Tailwind CSS. From landing pages to complex SaaS platforms and e-commerce solutions.</p>
-<a href="https://beydahsaglam.com/content/service/web-app/2009/">
-  <img src="https://img.shields.io/badge/Learn_More-→-58a6ff?style=flat-square&labelColor=0d1117" alt="Learn more about Web Application Development" />
+<img src="https://img.shields.io/badge/📱-0d1117?style=flat-square" width="60" alt="Mobile Application Development" />
+<h3>Mobile Applications</h3>
+<p>Cross-platform mobile apps with <strong>React Native</strong>, delivering smooth performance and beautiful UI on both iOS and Android — sharing code with the web layer.</p>
+<a href="https://beydahsaglam.com/content/service/mobile-app/2369/">
+  <img src="https://img.shields.io/badge/Learn_More-→-58a6ff?style=flat-square&labelColor=0d1117" alt="Learn more about Mobile App Development" />
 </a>
 <br><br>
 </td>
@@ -164,19 +152,9 @@ I specialize in building **AI-driven agents**, **algorithmic trading systems**, 
 <tr>
 <td align="center" width="33%">
 <br>
-<img src="https://img.shields.io/badge/📱-0d1117?style=flat-square" width="60" alt="Mobile Application Development" />
-<h3>Mobile Applications</h3>
-<p>Cross-platform mobile experiences with modern frameworks, delivering smooth performance and beautiful UI on both iOS and Android.</p>
-<a href="https://beydahsaglam.com/content/service/mobile-app/2369/">
-  <img src="https://img.shields.io/badge/Learn_More-→-58a6ff?style=flat-square&labelColor=0d1117" alt="Learn more about Mobile App Development" />
-</a>
-<br><br>
-</td>
-<td align="center" width="33%">
-<br>
-<img src="https://img.shields.io/badge/🖥️-0d1117?style=flat-square" width="60" alt="Desktop Application Development" />
+<img src="https://img.shields.io/badge/�️-0d1117?style=flat-square" width="60" alt="Desktop Application Development" />
 <h3>Desktop Applications</h3>
-<p>Powerful desktop solutions with .NET and modern frameworks, tailored for business process automation, data analysis, and productivity tools.</p>
+<p>Powerful desktop tools built with <strong>Python</strong>, <strong>Flask</strong>, and <strong>Pandas</strong> for data-heavy workflows, or modern web tech packaged as native desktop apps.</p>
 <a href="https://beydahsaglam.com/content/service/desktop-app/1772/">
   <img src="https://img.shields.io/badge/Learn_More-→-58a6ff?style=flat-square&labelColor=0d1117" alt="Learn more about Desktop Application Development" />
 </a>
@@ -184,9 +162,19 @@ I specialize in building **AI-driven agents**, **algorithmic trading systems**, 
 </td>
 <td align="center" width="33%">
 <br>
+<img src="https://img.shields.io/badge/�️-0d1117?style=flat-square" width="60" alt="Database Design" />
+<h3>Database & Backend</h3>
+<p>Robust data layers with <strong>PostgreSQL</strong>, <strong>MS SQL Server</strong>, <strong>Supabase</strong>, and <strong>IndexedDB</strong>. RESTful APIs tested and documented with <strong>Postman</strong>.</p>
+<a href="https://beydahsaglam.com/contact/">
+  <img src="https://img.shields.io/badge/Learn_More-→-58a6ff?style=flat-square&labelColor=0d1117" alt="Learn more about Database & Backend" />
+</a>
+<br><br>
+</td>
+<td align="center" width="33%">
+<br>
 <img src="https://img.shields.io/badge/☁️-0d1117?style=flat-square" width="60" alt="DevOps and Cloud Deployment" />
 <h3>DevOps & Deployment</h3>
-<p>End-to-end deployment with NGINX, Docker, CI/CD pipelines, and cloud infrastructure. Reliable, scalable, and production-ready environments.</p>
+<p>End-to-end deployment with <strong>Docker</strong> and <strong>Dokploy</strong>. CI/CD pipelines, containerised services, and scalable infrastructure — production-ready from day one.</p>
 <a href="https://beydahsaglam.com/contact/">
   <img src="https://img.shields.io/badge/Learn_More-→-58a6ff?style=flat-square&labelColor=0d1117" alt="Learn more about DevOps & Deployment" />
 </a>
@@ -213,21 +201,20 @@ I specialize in building **AI-driven agents**, **algorithmic trading systems**, 
 <img src="https://img.shields.io/badge/FRONTEND-58a6ff?style=for-the-badge&logoColor=white" alt="Frontend Technologies" />
 <br><br>
 <a href="https://github.com/beydah"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React — Frontend UI Library" /></a>
-<a href="https://github.com/beydah"><img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js — React Framework for Production" /></a>
+<a href="https://github.com/beydah"><img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native — Cross-Platform Mobile Framework" /></a>
+<a href="https://github.com/beydah"><img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite — Next Generation Frontend Tooling" /></a>
 <a href="https://github.com/beydah"><img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS — Utility-First CSS Framework" /></a>
-<a href="https://github.com/beydah"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript — Programming Language" /></a>
-<a href="https://github.com/beydah"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript — Type-Safe JavaScript" /></a>
 <a href="https://github.com/beydah"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 — Markup Language" /></a>
-<a href="https://github.com/beydah"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 — Styling Language" /></a>
 
 <br><br>
 
 <!-- BACKEND -->
 <img src="https://img.shields.io/badge/BACKEND-3fb950?style=for-the-badge&logoColor=white" alt="Backend Technologies" />
 <br><br>
-<a href="https://github.com/beydah"><img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET — Backend Framework" /></a>
-<a href="https://github.com/beydah"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python — Programming Language" /></a>
 <a href="https://github.com/beydah"><img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js — JavaScript Runtime" /></a>
+<a href="https://github.com/beydah"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python — Programming Language" /></a>
+<a href="https://github.com/beydah"><img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask — Python Web Microframework" /></a>
+<a href="https://github.com/beydah"><img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas — Python Data Analysis Library" /></a>
 <a href="https://github.com/beydah"><img src="https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="REST API — API Architecture" /></a>
 
 <br><br>
@@ -235,30 +222,22 @@ I specialize in building **AI-driven agents**, **algorithmic trading systems**, 
 <!-- DATABASE -->
 <img src="https://img.shields.io/badge/DATABASE-f78166?style=for-the-badge&logoColor=white" alt="Database Technologies" />
 <br><br>
-<a href="https://github.com/beydah"><img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL — Relational Database" /></a>
-<a href="https://github.com/beydah"><img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase — Backend as a Service" /></a>
 <a href="https://github.com/beydah"><img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL — Database Query Language" /></a>
+<a href="https://github.com/beydah"><img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL — Relational Database" /></a>
+<a href="https://github.com/beydah"><img src="https://img.shields.io/badge/MS_SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="MS SQL Server — Microsoft Relational Database" /></a>
+<a href="https://github.com/beydah"><img src="https://img.shields.io/badge/IndexedDB-FF8C00?style=for-the-badge&logo=googlechrome&logoColor=white" alt="IndexedDB — Client-Side Database" /></a>
+<a href="https://github.com/beydah"><img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase — Backend as a Service" /></a>
 
 <br><br>
 
 <!-- DEVOPS & TOOLS -->
 <img src="https://img.shields.io/badge/DEVOPS_&_TOOLS-da70d6?style=for-the-badge&logoColor=white" alt="DevOps and Tools" />
 <br><br>
-<a href="https://github.com/beydah"><img src="https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="NGINX — Web Server & Reverse Proxy" /></a>
 <a href="https://github.com/beydah"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker — Containerization Platform" /></a>
+<a href="https://github.com/beydah"><img src="https://img.shields.io/badge/Dokploy-6e40c9?style=for-the-badge&logoColor=white" alt="Dokploy — Self-Hosted Deployment Platform" /></a>
 <a href="https://github.com/beydah"><img src="https://img.shields.io/badge/N8N-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="N8N — Workflow Automation" /></a>
-<a href="https://github.com/beydah"><img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git — Version Control" /></a>
-<a href="https://github.com/beydah"><img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code — Code Editor" /></a>
-
-<br><br>
-
-<!-- TRADING & CMS -->
-<img src="https://img.shields.io/badge/TRADING_&_CMS-FF9900?style=for-the-badge&logoColor=white" alt="Trading and CMS Technologies" />
-<br><br>
-<a href="https://github.com/beydah"><img src="https://img.shields.io/badge/Pine_Script-131722?style=for-the-badge&logo=tradingview&logoColor=white" alt="Pine Script — TradingView Scripting Language" /></a>
-<a href="https://github.com/beydah"><img src="https://img.shields.io/badge/TradingView-131722?style=for-the-badge&logo=tradingview&logoColor=white" alt="TradingView — Charting Platform" /></a>
-<a href="https://github.com/beydah"><img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress — Content Management System" /></a>
-<a href="https://github.com/beydah"><img src="https://img.shields.io/badge/WooCommerce-96588A?style=for-the-badge&logo=woocommerce&logoColor=white" alt="WooCommerce — E-Commerce Platform" /></a>
+<a href="https://github.com/beydah"><img src="https://img.shields.io/badge/Claude_Code-D97706?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code — AI-Powered Coding Assistant" /></a>
+<a href="https://github.com/beydah"><img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman — API Development & Testing Tool" /></a>
 
 </div>
 
