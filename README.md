@@ -148,28 +148,8 @@ I specialize in building **AI-driven agents**, **modern full-stack applications*
 </a>
 <br><br>
 </td>
-<td align="center" width="33%">
-<br>
-<img src="https://img.shields.io/badge/📱-0d1117?style=flat-square" width="60" alt="Mobile Application Development" />
-<h3>Mobile Applications</h3>
-<p>Cross-platform mobile apps with <strong>React Native</strong>, delivering smooth performance and beautiful UI on both iOS and Android - sharing code with the web layer.</p>
-<a href="https://beydahsaglam.com/content/service/mobile-app/2369/">
-  <img src="https://img.shields.io/badge/Learn_More-→-58a6ff?style=flat-square&labelColor=0d1117" alt="Learn more about Mobile App Development" />
-</a>
-<br><br>
-</td>
 </tr>
 <tr>
-<td align="center" width="33%">
-<br>
-<img src="https://img.shields.io/badge/💻-0d1117?style=flat-square" width="60" alt="Desktop Application Development" />
-<h3>Desktop Applications</h3>
-<p>Powerful desktop tools built with <strong>Python</strong>, <strong>Flask</strong>, and <strong>Pandas</strong> for data-heavy workflows, or modern web tech packaged as native desktop apps.</p>
-<a href="https://beydahsaglam.com/content/service/desktop-app/1772/">
-  <img src="https://img.shields.io/badge/Learn_More-→-58a6ff?style=flat-square&labelColor=0d1117" alt="Learn more about Desktop Application Development" />
-</a>
-<br><br>
-</td>
 <td align="center" width="33%">
 <br>
 <img src="https://img.shields.io/badge/🗄️-0d1117?style=flat-square" width="60" alt="Database Design" />
