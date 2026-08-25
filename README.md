@@ -59,7 +59,7 @@
 
 <br><br>
 
-<!-- CTA BUTTONS -->
+<!-- CTA BUTTONS 
 <a href="https://beydahsaglam.com/contact/">
   <img src="https://img.shields.io/badge/🤝_HIRE_ME-2ea44f?style=for-the-badge&logoColor=white" alt="Hire Me - Contact Beydah Saglam for freelance or full-time opportunities" />
 </a>&nbsp;
@@ -72,6 +72,7 @@
 <a href="mailto:hello@beydahsaglam.com">
   <img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Send Email to Beydah Saglam" />
 </a>
+-->
 
 <br>
 
@@ -98,9 +99,9 @@
 I specialize in building **AI-driven agents**, **modern full-stack applications**, and **automation workflows** using cutting-edge technologies. My approach combines clean architecture, innovative design, and a deep understanding of business requirements to deliver software that truly adds value.
 
 🌍 **Based in:** Istanbul, Turkey - Open to remote & global projects  
-💼 **Status:** Available for freelance, contract, and full-time opportunities  
+💼 **Status:** Not available for freelance, contract, and full-time opportunities  
 🎯 **Focus:** AI Agents · Full-Stack Web & Mobile Apps · Automation  
-📧 **Contact:** [info.beydahsaglam@gmail.com](mailto:info.beydahsaglam@gmail.com)
+<!-- 📧 **Contact:** [info.beydahsaglam@gmail.com](mailto:info.beydahsaglam@gmail.com) -->
 
 <br>
 
@@ -313,7 +314,7 @@ From **AI agents** to **mobile apps** to **web apps** - get a **free project eva
 
 <br>
 
-<!-- CONTACT CHANNELS -->
+<!-- CONTACT CHANNELS 
 <a href="https://beydahsaglam.com">
   <img src="https://img.shields.io/badge/🌐_Website-beydahsaglam.com-0d1117?style=for-the-badge&labelColor=0d1117" alt="Beydah Saglam Personal Website" />
 </a>&nbsp;
@@ -326,6 +327,7 @@ From **AI agents** to **mobile apps** to **web apps** - get a **free project eva
 <a href="https://www.fiverr.com/ilkaysaglam">
   <img src="https://img.shields.io/badge/💚_Fiverr-ilkaysaglam-0d1117?style=for-the-badge&labelColor=0d1117" alt="Beydah Saglam Fiverr" />
 </a>
+-->
 
 </div>
 
