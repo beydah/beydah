@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react'
 import { motion } from 'motion/react'
+import { useThemeMode } from '../lib/theme'
 
 /* ------------------------------------------------------------------ */
 /* Bölüm iskeleti                                                      */
@@ -11,7 +12,6 @@ interface SectionProps {
   title: string
   lead?: ReactNode
   children: ReactNode
-  /** Bölümün üstünde ince bir ayraç çizgisi gösterir. */
   divider?: boolean
 }
 
@@ -19,23 +19,38 @@ export function Section({ id, eyebrow, title, lead, children, divider = true }: 
   return (
     <section id={id} className="scroll-mt-20 py-14 md:py-24">
       <div className="shell">
-        {divider && (
-          <div className="mb-10 h-px w-full bg-gradient-to-r from-transparent via-line to-transparent" />
-        )}
+        {divider && <div className="mb-12 h-px w-full bg-line" />}
         <motion.header
-          initial={{ opacity: 0, y: 18 }}
+          initial={{ opacity: 0, y: 16 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: '-60px' }}
-          transition={{ duration: 0.55, ease: [0.16, 1, 0.3, 1] }}
-          className="mb-8 max-w-2xl md:mb-12"
+          transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+          className="measure mb-9 md:mb-12"
         >
           <p className="eyebrow mb-3">{eyebrow}</p>
-          <h2 className="text-[1.85rem] font-semibold md:text-[2.75rem]">{title}</h2>
-          {lead && <div className="prose-lead mt-4 text-[1.02rem] md:text-lg">{lead}</div>}
+          <h2 className="text-[2rem] md:text-[2.9rem]">{title}</h2>
+          {lead && <div className="lede mt-4">{lead}</div>}
         </motion.header>
         {children}
       </div>
     </section>
+  )
+}
+
+/** Anlatı paragrafları — okuma ölçüsünde, gövde renginde. */
+export function Prose({ children }: { children: ReactNode }) {
+  return <div className="measure space-y-4 text-[1.02rem] leading-[1.7] text-ink">{children}</div>
+}
+
+/** Anlatının nefes aldığı yer: felsefi bir soru ya da itiraz. */
+export function PullQuote({ children, cite }: { children: ReactNode; cite?: string }) {
+  return (
+    <figure className="measure my-10 border-l-2 border-mint pl-5 md:pl-6">
+      <blockquote className="font-display text-[1.3rem] leading-[1.4] text-ink italic md:text-[1.55rem]">
+        {children}
+      </blockquote>
+      {cite && <figcaption className="mt-2.5 text-[0.85rem] text-muted">— {cite}</figcaption>}
+    </figure>
   )
 }
 
@@ -57,11 +72,9 @@ export function Panel({
   return (
     <div className={`card p-4 md:p-5 ${className}`}>
       {title && (
-        <div className="mb-3 flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
-          <h3 className="font-display text-sm font-semibold tracking-wide text-chalk md:text-base">
-            {title}
-          </h3>
-          {hint && <span className="font-mono text-[0.68rem] text-mist">{hint}</span>}
+        <div className="mb-3.5 flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
+          <h3 className="font-sans text-[0.95rem] font-semibold text-ink">{title}</h3>
+          {hint && <span className="tnum font-mono text-[0.72rem] text-muted">{hint}</span>}
         </div>
       )}
       {children}
@@ -81,7 +94,7 @@ export function Slider({
   max,
   step = 0.01,
   onChange,
-  accent = 'cyan',
+  hint,
 }: {
   label: string
   value: number
@@ -90,20 +103,15 @@ export function Slider({
   max: number
   step?: number
   onChange: (v: number) => void
-  accent?: 'cyan' | 'violet' | 'amber'
+  hint?: string
 }) {
-  const accentText = {
-    cyan: 'text-cyan-glow',
-    violet: 'text-violet-glow',
-    amber: 'text-amber-glow',
-  }[accent]
-
   return (
     <label className="block select-none">
-      <span className="mb-1 flex items-baseline justify-between gap-3">
-        <span className="text-[0.82rem] font-medium text-mist">{label}</span>
-        <span className={`font-mono text-[0.86rem] font-medium ${accentText}`}>{display}</span>
+      <span className="mb-0.5 flex items-baseline justify-between gap-3">
+        <span className="text-[0.88rem] font-medium text-ink">{label}</span>
+        <span className="tnum font-mono text-[0.88rem] font-medium text-mint">{display}</span>
       </span>
+      {hint && <span className="mb-1 block text-[0.78rem] text-muted">{hint}</span>}
       <input
         type="range"
         min={min}
@@ -121,6 +129,19 @@ export function Slider({
 /* Değer göstergesi                                                    */
 /* ------------------------------------------------------------------ */
 
+const TONE_TEXT = {
+  default: 'text-ink',
+  mint: 'text-mint',
+  clay: 'text-clay',
+  d1: 'text-d1',
+  d2: 'text-d2',
+  d3: 'text-d3',
+  d4: 'text-d4',
+  d5: 'text-d5',
+} as const
+
+export type Tone = keyof typeof TONE_TEXT
+
 export function Stat({
   label,
   value,
@@ -130,30 +151,21 @@ export function Stat({
   label: string
   value: string
   unit?: string
-  tone?: 'default' | 'cyan' | 'violet' | 'amber' | 'rose' | 'lime'
+  tone?: Tone
 }) {
-  const toneClass = {
-    default: 'text-chalk',
-    cyan: 'text-cyan-glow',
-    violet: 'text-violet-glow',
-    amber: 'text-amber-glow',
-    rose: 'text-rose-glow',
-    lime: 'text-lime-glow',
-  }[tone]
-
   return (
-    <div className="rounded-xl border border-line/70 bg-void/60 px-3 py-2.5">
-      <div className="text-[0.68rem] tracking-wide text-mist uppercase">{label}</div>
-      <div className={`font-mono text-[1.05rem] leading-tight font-medium ${toneClass}`}>
+    <div className="card-inset px-3 py-2.5">
+      <div className="text-[0.73rem] leading-snug text-muted">{label}</div>
+      <div className={`tnum font-mono text-[1.05rem] leading-tight font-medium ${TONE_TEXT[tone]}`}>
         {value}
-        {unit && <span className="ml-1 text-[0.7rem] text-mist">{unit}</span>}
+        {unit && <span className="ml-1 text-[0.72rem] text-muted">{unit}</span>}
       </div>
     </div>
   )
 }
 
 /* ------------------------------------------------------------------ */
-/* Seçim düğmeleri                                                     */
+/* Seçim denetimleri                                                   */
 /* ------------------------------------------------------------------ */
 
 export function SegmentedControl<T extends string>({
@@ -171,11 +183,11 @@ export function SegmentedControl<T extends string>({
   // olduğunda kabın otomatik en-küçük boyutunu şişirip sayfayı genişletmesin.
   return (
     <div className="min-w-0">
-      {label && <div className="mb-1.5 text-[0.82rem] font-medium text-mist">{label}</div>}
+      {label && <div className="mb-1.5 text-[0.88rem] font-medium text-ink">{label}</div>}
       <div
         role="tablist"
         aria-label={label}
-        className="no-scrollbar flex min-w-0 gap-1.5 overflow-x-auto rounded-xl border border-line/70 bg-void/60 p-1.5"
+        className="no-scrollbar card-inset flex min-w-0 gap-1 overflow-x-auto p-1"
       >
         {options.map((opt) => {
           const selected = opt.value === value
@@ -185,10 +197,10 @@ export function SegmentedControl<T extends string>({
               role="tab"
               aria-selected={selected}
               onClick={() => onChange(opt.value)}
-              className={`flex-1 rounded-lg px-3 py-2 text-[0.8rem] font-medium whitespace-nowrap transition-colors ${
+              className={`flex-1 rounded-lg px-3 py-2 text-[0.84rem] font-medium whitespace-nowrap transition-colors ${
                 selected
-                  ? 'bg-cyan-glow/15 text-cyan-glow shadow-[inset_0_0_0_1px_rgba(53,224,255,0.35)]'
-                  : 'text-mist hover:text-chalk'
+                  ? 'bg-mint text-bg'
+                  : 'text-muted hover:bg-mint-soft hover:text-ink'
               }`}
             >
               {opt.label}
@@ -216,10 +228,10 @@ export function PillButton({
       onClick={onClick}
       aria-label={ariaLabel}
       aria-pressed={active}
-      className={`rounded-full border px-3.5 py-2 text-[0.8rem] font-medium transition-colors ${
+      className={`rounded-full border px-3.5 py-2 text-[0.84rem] font-medium transition-colors ${
         active
-          ? 'border-cyan-glow/50 bg-cyan-glow/15 text-cyan-glow'
-          : 'border-line bg-void/60 text-mist hover:border-cyan-glow/40 hover:text-chalk'
+          ? 'border-mint bg-mint text-bg'
+          : 'border-line-strong bg-surface text-muted hover:border-mint hover:text-ink'
       }`}
     >
       {children}
@@ -236,23 +248,19 @@ export function Callout({
   title,
   children,
 }: {
-  kind?: 'insight' | 'warning' | 'math'
+  kind?: 'insight' | 'objection' | 'math'
   title: string
   children: ReactNode
 }) {
-  const style = {
-    insight: { border: 'border-cyan-glow/30', bg: 'bg-cyan-glow/[0.06]', text: 'text-cyan-glow', icon: '◆' },
-    warning: { border: 'border-amber-glow/30', bg: 'bg-amber-glow/[0.06]', text: 'text-amber-glow', icon: '▲' },
-    math: { border: 'border-violet-glow/30', bg: 'bg-violet-glow/[0.06]', text: 'text-violet-glow', icon: '∑' },
-  }[kind]
+  const border = kind === 'objection' ? 'border-clay' : 'border-mint'
+  const label = kind === 'objection' ? 'text-clay' : 'text-mint'
 
   return (
-    <div className={`rounded-xl border ${style.border} ${style.bg} p-4 md:p-5`}>
-      <div className={`mb-1.5 flex items-center gap-2 font-display text-sm font-semibold ${style.text}`}>
-        <span aria-hidden="true">{style.icon}</span>
+    <div className={`rounded-xl border border-line border-l-2 ${border} bg-surface p-4 md:p-5`}>
+      <div className={`mb-1.5 font-sans text-[0.82rem] font-semibold tracking-wide ${label}`}>
         {title}
       </div>
-      <div className="text-[0.92rem] leading-relaxed text-chalk/80">{children}</div>
+      <div className="text-[0.96rem] leading-relaxed text-ink">{children}</div>
     </div>
   )
 }
@@ -265,15 +273,14 @@ export function Legend({ items }: { items: { color: string; label: string; dashe
   return (
     <ul className="flex flex-wrap gap-x-4 gap-y-1.5">
       {items.map((item) => (
-        <li key={item.label} className="flex items-center gap-2 text-[0.76rem] text-mist">
+        <li key={item.label} className="flex items-center gap-2 text-[0.8rem] text-muted">
           <span
             aria-hidden="true"
-            className="inline-block h-0.5 w-5 rounded-full"
+            className="inline-block h-[3px] w-5 rounded-full"
             style={{
               background: item.dashed
                 ? `repeating-linear-gradient(90deg, ${item.color} 0 4px, transparent 4px 7px)`
                 : item.color,
-              boxShadow: `0 0 8px ${item.color}`,
             }}
           />
           {item.label}
@@ -283,15 +290,33 @@ export function Legend({ items }: { items: { color: string; label: string; dashe
   )
 }
 
+export function TouchHint({ children }: { children: ReactNode }) {
+  return <p className="mt-2.5 text-[0.8rem] leading-snug text-muted">{children}</p>
+}
+
 /* ------------------------------------------------------------------ */
-/* Dokunmatik ipucu                                                    */
+/* Tema düğmesi                                                        */
 /* ------------------------------------------------------------------ */
 
-export function TouchHint({ children }: { children: ReactNode }) {
+export function ThemeToggle() {
+  const { mode, setMode } = useThemeMode()
+
+  // Sırayla dolaşır: sistem → açık → koyu → sistem
+  const next = mode === 'system' ? 'light' : mode === 'light' ? 'dark' : 'system'
+  const glyph = mode === 'system' ? '◐' : mode === 'light' ? '☀' : '☾'
+  const name = mode === 'system' ? 'Sistem' : mode === 'light' ? 'Açık' : 'Koyu'
+
   return (
-    <p className="mt-2 flex items-center gap-1.5 text-[0.72rem] text-mist/80">
-      <span aria-hidden="true">☞</span>
-      {children}
-    </p>
+    <button
+      onClick={() => setMode(next)}
+      className="flex h-9 items-center gap-1.5 rounded-full border border-line-strong px-3 text-[0.78rem] font-medium text-muted transition-colors hover:border-mint hover:text-ink"
+      aria-label={`Tema: ${name}. Değiştirmek için tıkla`}
+      title={`Tema: ${name}`}
+    >
+      <span aria-hidden="true" className="text-[0.95rem] leading-none">
+        {glyph}
+      </span>
+      <span className="hidden sm:inline">{name}</span>
+    </button>
   )
 }

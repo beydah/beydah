@@ -1,51 +1,50 @@
 import { Nav } from './components/Nav'
 import { Hero } from './components/Hero'
 import { ArgumentChain } from './components/ArgumentChain'
-import { Callout, Section } from './components/ui'
+import { Callout, Prose, PullQuote, Section } from './components/ui'
 import { BlockExplorer } from './components/sims/BlockExplorer'
 import { MinkowskiLab } from './components/sims/MinkowskiLab'
-import { AndromedaSim } from './components/sims/AndromedaSim'
+import { DistanceSim } from './components/sims/DistanceSim'
 import { LightConeExplorer } from './components/sims/LightConeExplorer'
-import { TwinParadoxSim } from './components/sims/TwinParadoxSim'
+import { TwoRoadsSim } from './components/sims/TwoRoadsSim'
 import { OntologyExplorer } from './components/sims/OntologyExplorer'
-import { EntropyArrow } from './components/sims/EntropyArrow'
+import { EntropyTea } from './components/sims/EntropyTea'
 
 const SOURCES = [
   {
     title: 'Presentism — Stanford Encyclopedia of Philosophy',
-    note: 'Şimdicilik, büyüyen blok ve eternalizmin ontolojik karşılaştırması.',
+    note: 'Üç görüşün ontolojik karşılaştırması, ilk elden.',
     href: 'https://plato.stanford.edu/entries/presentism/',
   },
   {
     title: 'Eternalism — Internet Encyclopedia of Philosophy',
-    note: 'Blok evrenin felsefi savunusu ve temel itirazlar.',
+    note: 'Blok evrenin savunusu ve ona yöneltilen temel itirazlar.',
     href: 'https://iep.utm.edu/eternalism/',
   },
   {
-    title:
-      'V. Petkov — “Relativity of Simultaneity and Eternalism: In Defense of the Block Universe”',
-    note: 'Eşzamanlılığın göreliliğinden blok evrene giden argümanın ayrıntılı hâli.',
+    title: 'V. Petkov — Relativity of Simultaneity and Eternalism',
+    note: 'Eşzamanlılığın göreliliğinden blok evrene giden argümanın uzun hâli.',
     href: 'https://facultysites.etown.edu/silbermd/files/2011/11/RoSandBlockworld.pdf',
   },
   {
     title: 'Growing block universe — Wikipedia',
-    note: 'Büyüyen blok görüşünün tarihçesi ve “şu an en son dilimde miyim?” itirazı.',
+    note: 'Büyüyen blok görüşü ve “şu an en son dilimde miyim?” itirazı.',
     href: 'https://en.wikipedia.org/wiki/Growing_block_universe',
   },
   {
     title: 'Eternalism (philosophy of time) — Wikipedia',
-    note: 'Rietdijk–Putnam argümanı ve Andromeda paradoksuna genel bakış.',
+    note: 'Rietdijk–Putnam argümanına ve Andromeda örneğine genel bakış.',
     href: 'https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)',
   },
   {
-    title: 'Interactive Minkowski spacetime diagram — Terence Tao',
-    note: 'Daha ileri düzey, iki çerçeveli etkileşimli uzayzaman diyagramı.',
-    href: 'https://teorth.github.io/tao-web/apps/spacetime-diagram.html',
+    title: 'Roger Penrose — The Emperor’s New Mind (1989)',
+    note: 'Kaldırımda yürüyen iki kişi örneğinin ilk anlatıldığı yer.',
+    href: 'https://en.wikipedia.org/wiki/The_Emperor%27s_New_Mind',
   },
   {
-    title: 'Roger Penrose — The Emperor’s New Mind (1989)',
-    note: 'Andromeda paradoksunun ilk anlatıldığı kaynak.',
-    href: 'https://en.wikipedia.org/wiki/The_Emperor%27s_New_Mind',
+    title: 'Interactive Minkowski spacetime diagram — Terence Tao',
+    note: 'Daha ileri gitmek isteyenler için iki çerçeveli etkileşimli diyagram.',
+    href: 'https://teorth.github.io/tao-web/apps/spacetime-diagram.html',
   },
 ]
 
@@ -59,139 +58,233 @@ export default function App() {
         {/* 01 ------------------------------------------------------------ */}
         <Section
           id="blok"
-          eyebrow="01 · Temel fikir"
-          title="Zaman bir boyuttur, bir nehir değil"
+          eyebrow="01 · Bir gün"
+          title="Bir salı günü, baştan sona"
           divider={false}
           lead={
             <>
-              Minkowski 1908'de şunu söyledi: uzay ve zaman ayrı ayrı birer gölgeye
-              dönüşecek, geriye yalnızca ikisinin birleşimi kalacak. Bu birleşime{' '}
-              <strong className="font-medium text-chalk">uzayzaman</strong> diyoruz. Ve eğer
-              zaman gerçekten bir boyutsa, tıpkı uzayın "buradan ötesi" gibi zamanın da
-              "şimdiden ötesi" vardır — orada, sen bakmasan da.
+              Şu an bir odadasın. Bu sabah başka bir odadaydın, akşam belki bir başkasında
+              olacaksın. Sezgimiz bunları sıraya dizer: biri oldu, biri oluyor, biri olacak. Peki
+              ya üçü de duruyorsa — ve sıraya dizen sensen?
             </>
           }
         >
-          <div className="mb-6 grid gap-4 md:grid-cols-3">
-            <p className="text-[0.95rem] leading-relaxed text-chalk/80">
-              Aşağıdaki kutu bir <strong className="text-chalk">uzayzaman bloğu</strong>. Dikey
-              eksen zaman, yatay eksenler uzay. İçindeki eğriler nesnelerin{' '}
-              <strong className="text-chalk">dünya çizgileri</strong>: bir nesnenin tüm tarihi,
-              doğumundan yok oluşuna kadar tek bir eğri olarak durur.
+          <Prose>
+            <p>
+              Minkowski 1908’de tuhaf bir cümle kurdu: bundan böyle uzay tek başına ve zaman tek
+              başına birer gölgeye dönüşecek, geriye yalnızca ikisinin birleşimi kalacak. Teknik
+              bir laf gibi duruyor ama değil. Bizden zamanı, uzayın dördüncü bir yönü gibi
+              düşünmemizi istiyordu. Odanın öbür ucu gibi: gitmediğin sürece görmezsin, ama
+              gitmemen orayı yok etmez.
             </p>
-            <p className="text-[0.95rem] leading-relaxed text-chalk/80">
-              Bu resimde hiçbir şey hareket etmez. Ay "dönmez"; Ay'ın dünya çizgisi bir
-              helezondur. Sen "yaşlanmazsın"; senin dünya çizgin boyunca farklı noktalarda
-              farklı yaşlarda olursun. Hepsi aynı anda oradadır.
+            <p>
+              Aşağıdaki kutu tam olarak bu. Dikey eksen bir günün saatleri — en altta sabah altı,
+              en üstte gece on. Yatay eksenler mekân. İçindeki eğriler ise insanlar: sen, annen,
+              trende giden bir yabancı. Bir insanın bütün günü, uyanışından uykusuna kadar, tek
+              bir çizgi olarak duruyor.
             </p>
-            <p className="text-[0.95rem] leading-relaxed text-chalk/80">
-              Sarı düzlem bir gözlemcinin <strong className="text-chalk">"şimdi"</strong>si. β
-              kaydırıcısını çevir: düzlem eğilir. İşte bütün mesele bu eğimde — çünkü eğim
-              değişince, "şu anda olan her şey" kümesi bütünüyle değişir.
+            <p>
+              Bu resimde hiçbir şey hareket etmiyor, dikkat et. Sen “yaşlanmıyorsun”; çizginin
+              farklı noktalarında farklı yaştasın. Annen “telefonu açmıyor”; çizgisinin bir
+              yerinde telefonu açmış hâlde duruyor. Hepsi orada. Aynı anda, yan yana, bitmiş.
             </p>
+            <p>
+              Yeşil düzlem birinin “şimdi”si. Onu eğ — ve asıl olan biteni sağdaki listede izle.
+            </p>
+          </Prose>
+
+          <div className="mt-8">
+            <BlockExplorer />
           </div>
-          <BlockExplorer />
+
+          <PullQuote cite="William Faulkner">
+            Geçmiş asla ölmez. Hatta geçmiş bile değildir.
+          </PullQuote>
         </Section>
 
         {/* 02 ------------------------------------------------------------ */}
         <Section
-          id="esanlilik"
-          eyebrow="02 · Eşzamanlılığın göreliliği"
-          title="“Aynı anda” diye mutlak bir şey yok"
+          id="simdi"
+          eyebrow="02 · Şimdi"
+          title="“Aynı anda” diye bir yer yok"
           lead={
             <>
-              Newton'da tek bir evrensel saat vardı. Einstein onu kırdı: ışık hızı herkes için
-              aynıysa, "aynı anda" olmak gözlemciye bağlı hâle gelir. Aşağıdaki laboratuvarda
-              olayları yerinde tut, sadece hızını değiştir — ve olayların{' '}
-              <strong className="font-medium text-chalk">sırasının</strong> değiştiğini gör.
+              Telefonuna gelen mesajla, Tokyo’daki birinin uyanışı aynı anda mı oldu? Soru masum
+              görünüyor. Değil — çünkü “aynı anda” dediğin şey, senin ne kadar hızlı gittiğine
+              bağlı olarak değişiyor.
             </>
           }
         >
-          <MinkowskiLab />
+          <Prose>
+            <p>
+              Newton’un evreninde her yere asılmış tek bir duvar saati vardı. Ne yaparsan yap, o
+              saat herkes için aynı anı gösteriyordu; “şu an” evrenin bir özelliğiydi. Einstein o
+              saati duvardan indirdi. Yerine tek bir kural koydu: ışık hızı, kim ölçerse ölçsün
+              aynı çıkar. Bunu kabul ettiğin anda, “aynı anda olmak” kişiye göre değişen bir şeye
+              dönüşüyor.
+            </p>
+            <p>
+              Aşağıdaki laboratuvarda dört sıradan olay var. Bir alarm, uzaktaki bir uyanış, bir
+              mesajın gönderilişi ve okunuşu. Olayları yerinde bırak, sadece kendi hızını
+              değiştir. Bazılarının sırası dönecek.
+            </p>
+            <p>
+              Ama hepsinin değil. Ve fark eden bu: <span className="accent">aralarında bir
+              sinyalin gidebildiği</span> olayların sırası hiçbir hızda dönmüyor. Mesajı önce
+              gönderip sonra okuyorsun — evrende bunun tersini gören kimse yok. Görelilik zamanın
+              sırasını yalnızca kimsenin bakamayacağı yerlerde bulanıklaştırıyor.
+            </p>
+          </Prose>
+
+          <div className="mt-8">
+            <MinkowskiLab />
+          </div>
+
           <div className="mt-6 grid gap-4 md:grid-cols-2">
-            <Callout kind="math" title="Neden sıra değişebiliyor?">
-              Lorentz dönüşümünde t′ = γ(t − βx). İki olay arasındaki zaman farkı
-              Δt′ = γ(Δt − βΔx). Eğer βΔx {'>'} Δt ise, Δt′ işaret değiştirir — sıra tersine
-              döner. Bu ancak Δx {'>'} Δt olduğunda, yani olaylar{' '}
-              <em className="not-italic text-chalk">uzaysal ayrılmışken</em> mümkündür.
+            <Callout kind="insight" title="Nedensellik neden zarar görmüyor?">
+              Bir olay diğerinin sebebi olabiliyorsa, aralarındaki zaman farkı mesafelerinden
+              büyüktür — yani ışık yetişir. Bu durumda hiçbir hız sıralamayı ters çeviremez.
+              Evren, ters çevrilmesi bir şeyi bozacak olan sıralamaları koruyor; gerisini
+              serbest bırakıyor.
             </Callout>
-            <Callout kind="insight" title="Nedensellik neden kurtuluyor?">
-              Aralarında ışıktan yavaş bir sinyal gidebilen olaylar için Δt {'>'} Δx'tir ve
-              hiçbir β sırayı tersine çeviremez. Yani neden hep sonuçtan önce gelir. Görelilik
-              zamanın sırasını yalnızca <em className="not-italic text-chalk">hiç kimsenin
-              göremeyeceği</em> yerlerde bulanıklaştırır.
+            <Callout kind="objection" title="Peki bu neden rahatsız edici?">
+              Çünkü “şu anda olan her şey” dediğin küme, senin yürüyüş yönüne bağlı hâle geliyor.
+              İki kişi aynı kaldırımda, zıt yönlerde yürürken bile aynı kümeyi paylaşmıyor.
+              Öyleyse hangisinin kümesi gerçekten “şu an”?
             </Callout>
           </div>
         </Section>
 
         {/* 03 ------------------------------------------------------------ */}
         <Section
-          id="andromeda"
-          eyebrow="03 · Andromeda paradoksu"
-          title="Yürümeye başla, Andromeda’nın tarihi değişsin"
+          id="mesafe"
+          eyebrow="03 · Mesafe"
+          title="Şimdi ne kadar uzağa uzanır?"
           lead={
             <>
-              Penrose'un 1989'daki örneği: kaldırımda yan yana duran iki kişi, biri Andromeda'ya
-              doğru bir adım atıyor. Yürüme hızı — saatte beş kilometre. Ama 2,5 milyon ışık
-              yılı ötede, ikisinin "şimdi"si <strong className="font-medium text-chalk">günlerce</strong>{' '}
-              ayrışıyor.
+              Kaldırımda yürümeye başladığın an, karşı koltuktaki arkadaşının “şimdi”si seninkinden
+              kayar. Kayma otuz attosaniye kadar — yani hiç. Şimdi aynı adımı, aynı formülü, daha
+              uzağa uygula.
             </>
           }
         >
-          <AndromedaSim />
-          <div className="mt-6">
-            <Callout kind="warning" title="Bu bir hile değil, geometri">
-              Kimse Andromeda'ya sinyal gönderemiyor, kimse orada ne olduğunu göremiyor —
-              ışığın oradan gelmesi 2,5 milyon yıl sürüyor. Ama argüman şunu soruyor: iki
-              kişinin "şu anda gerçek olan" kümesi bu kadar farklıysa, bu kümelerden hangisi
-              gerçekten gerçek? Cevap "ikisi de" ise, gelecek de en az şimdi kadar var
-              demektir.
-            </Callout>
+          <Prose>
+            <p>
+              Bu bölümdeki tek formül şu: Δt = β · d / c. Türkçesi, kaymanın büyüklüğü hızınla
+              mesafenin çarpımına bağlı. Yürüme hızı gülünecek kadar küçük bir sayı — ışık hızının
+              milyarda beşi. Ama çarpımda ikinci bir terim daha var ve onun sınırı yok.
+            </p>
+            <p>
+              Listeden başlarken karşı koltuğu seç, sonra sokağın sonunu, sonra Ankara’yı. Sayı
+              attosaniyeden femtosaniyeye, oradan pikosaniyeye çıkıyor. Hâlâ hiçbir şey. Sonra Ay,
+              sonra en yakın yıldız. Ve sonunda Andromeda: aynı yürüyüş, aynı formül, aradaki fark{' '}
+              <span className="accent">günler</span>.
+            </p>
+            <p>
+              Penrose bu örneği 1989’da anlattı ve şu sonuca dikkat çekti: iki kişi yan yana
+              yürürken, birinin şimdisinde uzaktaki bir olay çoktan olmuş, ötekinin şimdisinde
+              daha karar bile alınmamış olabilir. Kimse kimseye sinyal gönderemiyor, kimse bunu
+              göremiyor. Ama soru duruyor: bu iki “şimdi”den hangisi gerçekten şimdi?
+            </p>
+          </Prose>
+
+          <div className="mt-8">
+            <DistanceSim />
           </div>
+
+          <PullQuote>
+            Kayma her zaman vardı. Sadece bizim boyumuzda görünmüyordu.
+          </PullQuote>
         </Section>
 
         {/* 04 ------------------------------------------------------------ */}
         <Section
-          id="isik-konisi"
-          eyebrow="04 · Nedensellik"
-          title="Işık konisi: evrenin hız limiti bir geometridir"
+          id="dokunmak"
+          eyebrow="04 · Erişim"
+          title="Kime ulaşabilirsin?"
           lead={
             <>
-              Her olay bir çift koninin tepesinde oturur. Yukarıdaki koni etkileyebileceğin her
-              şey, aşağıdaki koni seni etkilemiş olabilecek her şey. Aradaki geniş bölge —
-              "başka yerde" — nedensel olarak sana kapalıdır. Ve sırası da tartışmalıdır.
+              Şu an bir mesaj yazsan kime yetişir? Soru pratik geliyor ama cevabı bir geometri —
+              ve o geometri, nelerin senin için “gerçek” sayılabileceğini de belirliyor olabilir.
             </>
           }
         >
-          <LightConeExplorer />
+          <Prose>
+            <p>
+              Her an, iki koninin tepesinde oturuyorsun. Yukarıdaki koni bir şey
+              gönderebileceğin her yer ve her an: bir mesaj, bir mektup, kendin. Aşağıdaki koni
+              sana bir şey ulaşmış olabilecek her yer ve her an. Aradaki geniş boşluk ise — hemen
+              yanı başında olup bitenler dahil — o an ne ulaşabildiğin ne de haber alabildiğin
+              her şey.
+            </p>
+            <p>
+              Bu boşluk sandığından geniş. Şu an Tokyo’da olan bir şey senin için erişilemez;
+              oradan gelecek en hızlı haber bile yolda. “Şu anda Tokyo’da olan şey” cümlesi,
+              fizik açısından, hiçbir zaman doğrudan doğrulayabileceğin bir şey değil.
+            </p>
+          </Prose>
+
+          <div className="mt-8">
+            <LightConeExplorer />
+          </div>
+
+          <div className="mt-6">
+            <Callout kind="insight" title="Belki de “gerçek” olan, dilim değil koni">
+              Bu bölümdeki geometri, sonraki tartışmanın en güçlü itirazını taşıyor. Eğer senin
+              için gerçek olan şey “seninle aynı anda olan” değil de{' '}
+              <span className="accent">“sana ulaşabilmiş olan”</span> ise, blok evrene giden
+              argüman daha ilk adımda duruyor. Sekizinci bölümde buna döneceğiz.
+            </Callout>
+          </div>
         </Section>
 
         {/* 05 ------------------------------------------------------------ */}
         <Section
-          id="ikizler"
-          eyebrow="05 · İkizler paradoksu"
-          title="Aynı iki nokta, farklı uzunlukta yollar"
+          id="yol"
+          eyebrow="05 · İki yol"
+          title="İki yol, iki ömür"
           lead={
             <>
-              İkizlerden biri gidip dönüyor, diğeri Dünya'da kalıyor. Buluştuklarında yolcu
-              daha genç. Paradoks değil bu: uzayzamanda iki nokta arasındaki farklı yolların{' '}
-              <strong className="font-medium text-chalk">öz uzunlukları</strong> farklıdır —
-              tıpkı haritada düz yolun virajlı yoldan kısa olması gibi, ama işaret ters.
+              Deniz evde kalıyor, Kaya uzun bir yolculuğa çıkıp dönüyor. Buluştuklarında Kaya
+              daha genç. Bu bir hile değil, bir uzunluk farkı — ve blok evren fikrini en somut
+              gösteren şey.
             </>
           }
         >
-          <TwinParadoxSim />
+          <Prose>
+            <p>
+              Haritada iki şehir arasında iki yol varsa, biri diğerinden uzun olabilir. Kimse
+              buna şaşırmaz. Uzayzamanda da iki olay arasında farklı yollar var ve o yolların
+              “süresi” farklı. Kaya’nın yolu Deniz’inkinden kısa; Kaya bu yüzden daha az
+              yaşlandı. İkisi de her gününü normal yaşadı, kimsenin saati bozulmadı.
+            </p>
+            <p>
+              Aşağıda kendi yaşını girebilirsin. Sonra pembe kesikli çizgiye dikkat et: o çizgi
+              Kaya’nın “şu an Deniz ne yapıyor?” sorusuna verdiği cevap. Dönüş anında o cevap bir
+              anda yıllar ileri atlıyor.
+            </p>
+            <p>
+              Ama Deniz’in hayatında o an hiçbir şey olmuyor. Hiçbir yıl kaybolmuyor, hiçbir gün
+              atlanmıyor. Değişen tek şey, Kaya’nın bloğu hangi açıyla dilimlediği. Sanki bir
+              tepede yürürken dönüp başka yöne bakmışsın gibi: manzara değişir, arazi değişmez.
+            </p>
+          </Prose>
+
+          <div className="mt-8">
+            <TwoRoadsSim />
+          </div>
         </Section>
 
         {/* 06 ------------------------------------------------------------ */}
         <Section
-          id="ontoloji"
-          eyebrow="06 · Üç rakip görüş"
-          title="Ne var? Şimdi mi, geçmiş mi, hepsi mi?"
+          id="varlik"
+          eyebrow="06 · Ne var?"
+          title="Fizik şekli veriyor, varlığı vermiyor"
           lead={
             <>
-              Fizik bize geometriyi veriyor; "neyin var olduğu" sorusu felsefeye kalıyor. Üç
-              ciddi cevap var ve üçü de bedelsiz değil.
+              Buraya kadar olan her şey ölçülmüş, sınanmış, tartışmasız. Şimdi tartışmalı kısma
+              geliyoruz: bu geometri, neyin var olduğu hakkında ne söylüyor? Üç ciddi cevap var
+              ve üçü de bir bedel ödüyor.
             </>
           }
         >
@@ -201,66 +294,84 @@ export default function App() {
         {/* 07 ------------------------------------------------------------ */}
         <Section
           id="akis"
-          eyebrow="07 · Akış yanılsaması"
-          title="Zaman akmıyorsa, bu akış hissi ne?"
+          eyebrow="07 · Akış"
+          title="Akmıyorsa, bu his ne?"
           lead={
             <>
-              Blok evrenin en zor sorusu bu. Blokta hiçbir şey hareket etmiyorsa, neden geçmişi
-              hatırlayıp geleceği hatırlamıyoruz? Neden bardak kırılıyor da kendiliğinden
-              birleşmiyor? Cevap ilginç bir yerde: yasalarda değil,{' '}
-              <strong className="font-medium text-chalk">başlangıç koşulunda</strong>.
+              Blok evrenin en zor sorusu bu ve dürüst olmak gerekirse kimse tam cevaplayabilmiş
+              değil. Blokta hiçbir şey hareket etmiyorsa, neden geçmişi hatırlayıp geleceği
+              hatırlamıyoruz? Neden bardak kırılıyor da kendiliğinden birleşmiyor?
             </>
           }
         >
-          <EntropyArrow />
-          <div className="mt-6 grid gap-4 md:grid-cols-3">
-            <div className="card p-4">
-              <div className="eyebrow mb-2 text-cyan-glow">Hafıza asimetrisi</div>
-              <p className="text-[0.9rem] leading-relaxed text-chalk/78">
-                Kayıt tutmak entropi üretir. Bir şeyi hatırlamak, düşük entropili bir geçmişe
-                yaslanmayı gerektirir. Bu yüzden hafıza yalnızca tek yöne bakar — ve blokta
-                nerede olursak olalım, "geçmiş" dediğimiz taraf hep düşük entropili taraftır.
+          <Prose>
+            <p>
+              Cevap beklenmedik bir yerde: yasalarda değil, başlangıç koşulunda. Aşağıdaki bardağa
+              bir damla süt düşüyor ve yayılıyor. Şimdi “geri sar”a bas. Süt kendiliğinden
+              toplanıp yeniden damla oluyor — ve bu görüntü fiziğe hiç aykırı değil. Her
+              damlacık aynı yasalara uyuyor.
+            </p>
+          </Prose>
+
+          <div className="mt-8">
+            <EntropyTea />
+          </div>
+
+          <div className="mt-8 grid gap-4 md:grid-cols-3">
+            <div className="card p-5">
+              <div className="eyebrow mb-2">Hatırlamak</div>
+              <p className="text-[0.95rem] leading-relaxed text-ink">
+                Bir şeyi hatırlamak, kayıt tutmaktır; kayıt tutmak entropi üretir. Bu yüzden
+                hafıza yalnızca tek yöne bakabilir. Blokta nerede durursan dur, “geçmiş” dediğin
+                taraf her zaman daha derli toplu olan taraftır.
               </p>
             </div>
-            <div className="card p-4">
-              <div className="eyebrow mb-2 text-violet-glow">Şimdinin ayrıcalığı</div>
-              <p className="text-[0.9rem] leading-relaxed text-chalk/78">
-                Blok evrende "şimdi", "burada" gibidir: konuşanın konumunu belirtir, evrenin
-                bir özelliğini değil. Sen dünya çizgin boyunca her noktada "şimdi buradayım"
-                dersin — hepsi eşit derecede doğrudur.
+            <div className="card p-5">
+              <div className="eyebrow mb-2">Şimdinin ayrıcalığı</div>
+              <p className="text-[0.95rem] leading-relaxed text-ink">
+                “Şimdi”, “burası” gibi olabilir: konuşanın nerede durduğunu söyler, evrenin bir
+                özelliğini değil. Sen çizgin boyunca her noktada “şimdi buradayım” diyorsun — ve
+                hepsi eşit derecede doğru.
               </p>
             </div>
-            <div className="card p-4">
-              <div className="eyebrow mb-2 text-amber-glow">Peki değişim?</div>
-              <p className="text-[0.9rem] leading-relaxed text-chalk/78">
-                Eternalist yanıt: değişim, farklı zamanlarda farklı özelliklere sahip olmaktır —
-                tıpkı bir sopanın farklı yerlerinde farklı kalınlıkta olması gibi. Değişim için
-                bloğun kendisinin değişmesi gerekmez.
+            <div className="card p-5">
+              <div className="eyebrow mb-2">Peki ya değişim?</div>
+              <p className="text-[0.95rem] leading-relaxed text-ink">
+                Değişim, farklı zamanlarda farklı olmaktır — tıpkı bir sopanın farklı yerlerinde
+                farklı kalınlıkta olması gibi. Bunun için bloğun kendisinin değişmesi gerekmiyor.
+                İkna edici buluyor musun? Herkes bulmuyor.
               </p>
             </div>
           </div>
+
+          <PullQuote cite="Albert Einstein, 1955">
+            Bizim gibi fiziğe inananlar için geçmiş, şimdi ve gelecek arasındaki ayrım yalnızca
+            bir yanılsamadır — inatçı bir yanılsama da olsa.
+          </PullQuote>
         </Section>
 
         {/* 08 ------------------------------------------------------------ */}
         <Section
-          id="irade"
-          eyebrow="08 · Argüman ve itirazlar"
-          title="Gelecek zaten oradaysa, seçimlerim ne oluyor?"
+          id="secim"
+          eyebrow="08 · Seçim"
+          title="Yazılmışsa, seçen kim?"
           lead={
             <>
-              Blok evren fikrinin en çok yanlış anlaşılan yanı burası. Argümanı olduğu gibi
-              kuralım, sonra ona verilen en güçlü cevapları yan yana koyalım. Bu tartışma
-              kapanmadı — kapanmış gibi anlatan herkesten şüphelen.
+              Blok evren fikrinin en çok yanlış anlaşılan yeri burası. Argümanı olduğu gibi
+              kuralım, sonra ona verilen en güçlü cevapları yanına koyalım. Bu tartışma kapanmadı
+              — kapanmış gibi anlatan herkesten şüphelen.
             </>
           }
         >
           <ArgumentChain />
-          <div className="mt-8">
-            <Callout kind="insight" title="Kaderci okumaya karşı kısa bir not">
-              "Yarın ne yapacağım blokta zaten yazılı" cümlesi doğru olabilir. Ama orada yazılı
-              olmasının <em className="not-italic text-chalk">nedeni</em> senin yarın öyle
-              seçecek olmandır — tersi değil. Blok, kararlarının kaydıdır; onları dışarıdan
-              dayatan bir senaryo değil. Seçim yapmayı bırakırsan blok da başka türlü olurdu.
+
+          <div className="mt-10">
+            <Callout kind="insight" title="Kısa bir not, kaderci okumaya karşı">
+              “Yarın ne yapacağım blokta zaten yazılı” cümlesi doğru olabilir. Ama orada yazılı
+              olmasının <span className="accent">sebebi</span>, senin yarın öyle seçecek olmandır
+              — tersi değil. Blok, kararlarının kaydı; onların yerine geçen bir senaryo değil.
+              Başka türlü seçseydin blok da başka olurdu. Kaderciliğe düşmek için blok evrene
+              ihtiyacın yok; ondan kurtulmak için de terk etmene gerek yok.
             </Callout>
           </div>
         </Section>
@@ -269,8 +380,8 @@ export default function App() {
         <Section
           id="kaynaklar"
           eyebrow="09 · Devamı"
-          title="Kaynaklar ve daha derine inmek için"
-          lead="Bu sayfadaki her simülasyon gerçek Lorentz dönüşümleriyle hesaplanıyor. Aşağıdaki kaynaklar hem fiziği hem felsefi tartışmayı ilk elden veriyor."
+          title="Buradan sonrası"
+          lead="Bu sayfadaki her sayı gerçek Lorentz dönüşümleriyle hesaplandı; hiçbir simülasyonda 'anlaşılsın diye' uydurulmuş bir sabit yok. Daha derine inmek istersen başlangıç noktaları aşağıda."
         >
           <ul className="grid gap-3 md:grid-cols-2">
             {SOURCES.map((s) => (
@@ -279,15 +390,10 @@ export default function App() {
                   href={s.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="card block h-full p-4 transition-colors hover:border-cyan-glow/45"
+                  className="card block h-full p-4 transition-colors hover:border-mint"
                 >
-                  <div className="font-display text-[0.95rem] font-medium text-chalk">
-                    {s.title}
-                  </div>
-                  <p className="mt-1 text-[0.85rem] leading-relaxed text-mist">{s.note}</p>
-                  <span className="mt-2 inline-block font-mono text-[0.7rem] text-cyan-glow">
-                    kaynağa git →
-                  </span>
+                  <div className="text-[0.98rem] font-medium text-ink">{s.title}</div>
+                  <p className="mt-1 text-[0.88rem] leading-relaxed text-muted">{s.note}</p>
                 </a>
               </li>
             ))}
@@ -295,26 +401,24 @@ export default function App() {
         </Section>
       </main>
 
-      <footer className="border-t border-line/70 py-10">
+      <footer className="border-t border-line py-10">
         <div className="shell flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
           <div>
-            <div className="font-display text-[0.95rem] font-semibold">Blok Evren</div>
-            <p className="mt-1 max-w-md text-[0.82rem] leading-relaxed text-mist">
-              Etkileşimli bir özel görelilik ve zaman felsefesi denemesi. Açık kaynak, tarayıcıda
-              çalışır, sunucu gerektirmez.
+            <div className="font-display text-[1.1rem] text-ink">Blok Evren</div>
+            <p className="mt-1 max-w-md text-[0.88rem] leading-relaxed text-muted">
+              Zaman üzerine etkileşimli bir deneme. Açık kaynak, tarayıcıda çalışır, sunucu
+              gerektirmez.
             </p>
           </div>
-          <div className="flex flex-wrap gap-x-5 gap-y-2 font-mono text-[0.76rem] text-mist">
+          <div className="flex flex-wrap gap-x-5 gap-y-2 font-mono text-[0.8rem] text-muted">
             <a
               href="https://github.com/beydah"
               target="_blank"
               rel="noopener noreferrer"
-              className="transition-colors hover:text-cyan-glow"
+              className="transition-colors hover:text-mint"
             >
               github.com/beydah
             </a>
-            <span aria-hidden="true">·</span>
-            <span>c = 1</span>
           </div>
         </div>
       </footer>

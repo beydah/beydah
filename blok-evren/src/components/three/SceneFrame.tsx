@@ -38,7 +38,7 @@ export function SceneFrame({
   return (
     <div
       ref={ref}
-      className={`relative w-full overflow-hidden rounded-2xl border border-line bg-gradient-to-b from-void-2 to-void ${heightClass}`}
+      className={`relative w-full overflow-hidden rounded-2xl border border-line bg-surface-2 ${heightClass}`}
       role="img"
       aria-label={label}
     >
@@ -54,9 +54,7 @@ export function SceneFrame({
       )}
       {!mounted && (
         <div className="absolute inset-0 grid place-items-center">
-          <div className="font-mono text-[0.7rem] tracking-widest text-mist/60 uppercase">
-            uzayzaman yükleniyor…
-          </div>
+          <div className="font-mono text-[0.72rem] tracking-wider text-muted">yükleniyor…</div>
         </div>
       )}
       {overlay}

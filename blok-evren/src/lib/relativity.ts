@@ -168,13 +168,24 @@ export function properTimeAlong(points: Event2D[]): number {
   return tau
 }
 
-/** Saniyeyi insan diline çevirir: "3 gün 4 saat" gibi. */
+/**
+ * Saniyeyi insan diline çevirir.
+ *
+ * Aralık çok geniş: yan koltuktaki biri için attosaniyeler, Andromeda için
+ * günler. Her ölçekte okunabilir kalması gerekiyor.
+ */
 export function humanizeSeconds(seconds: number): string {
   const s = Math.abs(seconds)
-  if (s < 1) return `${(s * 1000).toFixed(1)} milisaniye`
-  if (s < 60) return `${s.toFixed(1)} saniye`
-  if (s < 3600) return `${(s / 60).toFixed(1)} dakika`
-  if (s < SECONDS_PER_DAY) return `${(s / 3600).toFixed(1)} saat`
+  if (s === 0) return 'sıfır'
+  if (s < 1e-15) return `${formatTR(s * 1e18, 1)} attosaniye`
+  if (s < 1e-12) return `${formatTR(s * 1e15, 1)} femtosaniye`
+  if (s < 1e-9) return `${formatTR(s * 1e12, 1)} pikosaniye`
+  if (s < 1e-6) return `${formatTR(s * 1e9, 1)} nanosaniye`
+  if (s < 1e-3) return `${formatTR(s * 1e6, 1)} mikrosaniye`
+  if (s < 1) return `${formatTR(s * 1000, 1)} milisaniye`
+  if (s < 60) return `${formatTR(s, 1)} saniye`
+  if (s < 3600) return `${formatTR(s / 60, 1)} dakika`
+  if (s < SECONDS_PER_DAY) return `${formatTR(s / 3600, 1)} saat`
   if (s < SECONDS_PER_YEAR) {
     const days = Math.floor(s / SECONDS_PER_DAY)
     const hours = Math.round((s % SECONDS_PER_DAY) / 3600)

@@ -1,34 +1,146 @@
 @import 'tailwindcss';
 
+/* ------------------------------------------------------------------ */
+/* Anlamsal palet                                                      */
+/*                                                                     */
+/* Açık tema temeldir; koyu tema yalnızca değişkenleri yeniden tanımlar.*/
+/* Hiçbir renk sadece bir @media veya [data-theme] bloğunun içinde      */
+/* yaşamaz — böylece ziyaretçi "sistem" ayarındayken de sayfa doğru     */
+/* çözümlenir. Tuval ve WebGL sahneleri de bu değişkenleri okur         */
+/* (bkz. src/lib/theme.ts), yani tema tek bir yerden yönetilir.         */
+/* ------------------------------------------------------------------ */
+
+:root {
+  --c-bg: #faf9f5;
+  --c-surface: #ffffff;
+  --c-surface-2: #f2f0e8;
+  --c-border: #e2ded1;
+  --c-border-strong: #cdc7b6;
+
+  --c-text: #23211c;
+  --c-muted: #57534a;
+  --c-faint: #6b6558;
+
+  /* Sabit başlığın yarı saydam zemini. Doğrudan rgba olarak yazılıyor:
+     color-mix() çıktısı oklab'a çözülüyor ve erişilebilirlik denetimleri
+     dahil pek çok araç onu doğru okuyamıyor. */
+  --c-bg-blur: rgba(250, 249, 245, 0.92);
+
+  --c-mint: #0b7a5a;
+  --c-mint-bright: #14a87c;
+  --c-mint-soft: #ddf0e7;
+
+  --c-clay: #a94f36;
+  --c-clay-bright: #d97757;
+  --c-clay-soft: #f7e7e0;
+
+  --c-grid: #e6e2d6;
+
+  /* Veri renkleri: dünya çizgileri, olaylar, göstergeler */
+  --c-d1: #0b7a5a;
+  --c-d2: #a94f36;
+  --c-d3: #3f4fa8;
+  --c-d4: #7d3f86;
+  --c-d5: #856611;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --c-bg: #1c1b19;
+    --c-surface: #262522;
+    --c-surface-2: #211f1d;
+    --c-border: #38352f;
+    --c-border-strong: #4b473f;
+
+    --c-text: #f3f1ea;
+    --c-muted: #b5aea2;
+    --c-faint: #9b9486;
+    --c-bg-blur: rgba(28, 27, 25, 0.92);
+
+    --c-mint: #4fd9a4;
+    --c-mint-bright: #4fd9a4;
+    --c-mint-soft: #16302680;
+
+    --c-clay: #e8916d;
+    --c-clay-bright: #e8916d;
+    --c-clay-soft: #37231b;
+
+    --c-grid: #2f2c28;
+
+    --c-d1: #4fd9a4;
+    --c-d2: #e8916d;
+    --c-d3: #97a5f7;
+    --c-d4: #d79ae0;
+    --c-d5: #e2b662;
+  }
+}
+
+:root[data-theme='dark'] {
+  --c-bg: #1c1b19;
+  --c-surface: #262522;
+  --c-surface-2: #211f1d;
+  --c-border: #38352f;
+  --c-border-strong: #4b473f;
+
+  --c-text: #f3f1ea;
+  --c-muted: #b5aea2;
+  --c-faint: #9b9486;
+  --c-bg-blur: rgba(28, 27, 25, 0.92);
+
+  --c-mint: #4fd9a4;
+  --c-mint-bright: #4fd9a4;
+  --c-mint-soft: #16302680;
+
+  --c-clay: #e8916d;
+  --c-clay-bright: #e8916d;
+  --c-clay-soft: #37231b;
+
+  --c-grid: #2f2c28;
+
+  --c-d1: #4fd9a4;
+  --c-d2: #e8916d;
+  --c-d3: #97a5f7;
+  --c-d4: #d79ae0;
+  --c-d5: #e2b662;
+}
+
 @theme {
-  --color-void: #05070d;
-  --color-void-2: #0a0f1c;
-  --color-ink: #111a2e;
-  --color-line: #1d2942;
-  --color-mist: #8fa3c8;
-  --color-chalk: #e8eefc;
+  --color-bg: var(--c-bg);
+  --color-surface: var(--c-surface);
+  --color-surface-2: var(--c-surface-2);
+  --color-line: var(--c-border);
+  --color-line-strong: var(--c-border-strong);
 
-  --color-cyan-glow: #35e0ff;
-  --color-violet-glow: #a678ff;
-  --color-amber-glow: #ffc46b;
-  --color-rose-glow: #ff6b8b;
-  --color-lime-glow: #7dffb2;
+  --color-ink: var(--c-text);
+  --color-muted: var(--c-muted);
+  --color-faint: var(--c-faint);
 
-  --font-display: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
-  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --color-mint: var(--c-mint);
+  --color-mint-bright: var(--c-mint-bright);
+  --color-mint-soft: var(--c-mint-soft);
+  --color-clay: var(--c-clay);
+  --color-clay-soft: var(--c-clay-soft);
+
+  --color-d1: var(--c-d1);
+  --color-d2: var(--c-d2);
+  --color-d3: var(--c-d3);
+  --color-d4: var(--c-d4);
+  --color-d5: var(--c-d5);
+
+  --font-display: 'Newsreader', ui-serif, Georgia, serif;
+  --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif;
   --font-mono: 'JetBrains Mono', ui-monospace, monospace;
 }
 
 @layer base {
   :root {
-    color-scheme: dark;
+    color-scheme: light dark;
     -webkit-tap-highlight-color: transparent;
   }
 
   html {
     scroll-behavior: smooth;
-    /* Sabit üst gezinme çubuğunun altına kayan başlıkları engeller */
-    scroll-padding-top: 4.5rem;
+    scroll-padding-top: 4.75rem;
   }
 
   @media (prefers-reduced-motion: reduce) {
@@ -39,10 +151,10 @@
 
   body {
     margin: 0;
-    background-color: var(--color-void);
-    color: var(--color-chalk);
+    background-color: var(--c-bg);
+    color: var(--c-text);
     font-family: var(--font-sans);
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.65;
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
@@ -51,12 +163,17 @@
 
   h1,
   h2,
-  h3,
-  h4 {
+  h3 {
     font-family: var(--font-display);
-    line-height: 1.15;
-    letter-spacing: -0.02em;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.015em;
     text-wrap: balance;
+  }
+
+  h4 {
+    font-family: var(--font-sans);
+    font-weight: 600;
   }
 
   p {
@@ -68,56 +185,84 @@
     touch-action: pan-y;
   }
 
+  a,
+  button,
+  input,
+  [tabindex] {
+    outline-offset: 3px;
+  }
+
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible {
+    outline: 2px solid var(--c-mint);
+  }
+
   ::selection {
-    background: color-mix(in oklab, var(--color-cyan-glow) 35%, transparent);
-    color: var(--color-chalk);
+    background: var(--c-mint-soft);
+    color: var(--c-text);
   }
 }
 
 @layer components {
   .shell {
     width: 100%;
-    max-width: 76rem;
+    max-width: 74rem;
     margin-inline: auto;
-    padding-inline: 1.15rem;
+    padding-inline: 1.25rem;
   }
 
   @media (min-width: 768px) {
     .shell {
-      padding-inline: 2rem;
+      padding-inline: 2.25rem;
     }
   }
 
+  /* Okuma ölçüsü: satır başına ~66 karakter */
+  .measure {
+    max-width: 40rem;
+  }
+
   .card {
-    background: color-mix(in oklab, var(--color-void-2) 88%, transparent);
-    border: 1px solid var(--color-line);
-    border-radius: 1.15rem;
-    backdrop-filter: blur(14px);
+    background: var(--c-surface);
+    border: 1px solid var(--c-border);
+    border-radius: 1rem;
+  }
+
+  .card-inset {
+    background: var(--c-surface-2);
+    border: 1px solid var(--c-border);
+    border-radius: 0.85rem;
   }
 
   .eyebrow {
     font-family: var(--font-mono);
-    font-size: 0.7rem;
-    letter-spacing: 0.22em;
+    font-size: 0.71rem;
+    letter-spacing: 0.16em;
     text-transform: uppercase;
-    color: var(--color-mist);
+    color: var(--c-faint);
   }
 
-  .prose-lead {
-    color: color-mix(in oklab, var(--color-chalk) 82%, transparent);
+  .lede {
+    color: var(--c-muted);
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
+  @media (min-width: 768px) {
+    .lede {
+      font-size: 1.2rem;
+    }
+  }
+
+  /* Metin içi vurgu: felsefi anlatıda anahtar cümleler */
+  .accent {
+    color: var(--c-mint);
+    font-weight: 500;
   }
 }
 
 @layer utilities {
-  .text-glow-cyan {
-    text-shadow: 0 0 22px color-mix(in oklab, var(--color-cyan-glow) 55%, transparent);
-  }
-
-  .grid-fade {
-    -webkit-mask-image: radial-gradient(ellipse 70% 60% at 50% 40%, #000 40%, transparent 100%);
-    mask-image: radial-gradient(ellipse 70% 60% at 50% 40%, #000 40%, transparent 100%);
-  }
-
   .no-scrollbar::-webkit-scrollbar {
     display: none;
   }
@@ -126,12 +271,16 @@
     scrollbar-width: none;
   }
 
+  .tnum {
+    font-variant-numeric: tabular-nums;
+  }
+
   .safe-b {
     padding-bottom: max(0.75rem, env(safe-area-inset-bottom));
   }
 }
 
-/* --- Dokunmatik için büyütülmüş, tema uyumlu kaydırıcılar --- */
+/* --- Dokunmatik kaydırıcılar --- */
 input[type='range'] {
   -webkit-appearance: none;
   appearance: none;
@@ -143,25 +292,15 @@ input[type='range'] {
 }
 
 input[type='range']::-webkit-slider-runnable-track {
-  height: 0.3rem;
+  height: 0.35rem;
   border-radius: 999px;
-  background: linear-gradient(
-    90deg,
-    color-mix(in oklab, var(--color-cyan-glow) 70%, transparent) 0%,
-    color-mix(in oklab, var(--color-violet-glow) 70%, transparent) 100%
-  );
-  opacity: 0.55;
+  background: var(--c-border-strong);
 }
 
 input[type='range']::-moz-range-track {
-  height: 0.3rem;
+  height: 0.35rem;
   border-radius: 999px;
-  background: linear-gradient(
-    90deg,
-    color-mix(in oklab, var(--color-cyan-glow) 70%, transparent) 0%,
-    color-mix(in oklab, var(--color-violet-glow) 70%, transparent) 100%
-  );
-  opacity: 0.55;
+  background: var(--c-border-strong);
 }
 
 input[type='range']::-webkit-slider-thumb {
@@ -169,23 +308,18 @@ input[type='range']::-webkit-slider-thumb {
   appearance: none;
   width: 1.5rem;
   height: 1.5rem;
-  margin-top: -0.6rem;
+  margin-top: -0.575rem;
   border-radius: 999px;
-  background: var(--color-chalk);
-  border: 3px solid var(--color-cyan-glow);
-  box-shadow: 0 0 16px color-mix(in oklab, var(--color-cyan-glow) 60%, transparent);
+  background: var(--c-mint-bright);
+  border: 3px solid var(--c-surface);
+  box-shadow: 0 1px 4px rgb(0 0 0 / 0.22);
 }
 
 input[type='range']::-moz-range-thumb {
   width: 1.5rem;
   height: 1.5rem;
   border-radius: 999px;
-  background: var(--color-chalk);
-  border: 3px solid var(--color-cyan-glow);
-  box-shadow: 0 0 16px color-mix(in oklab, var(--color-cyan-glow) 60%, transparent);
-}
-
-input[type='range']:focus-visible::-webkit-slider-thumb {
-  outline: 2px solid var(--color-amber-glow);
-  outline-offset: 2px;
+  background: var(--c-mint-bright);
+  border: 3px solid var(--c-surface);
+  box-shadow: 0 1px 4px rgb(0 0 0 / 0.22);
 }

@@ -6,30 +6,43 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, viewport-fit=cover"
     />
-    <meta name="theme-color" content="#05070d" />
-    <title>Blok Evren — Zaman Akmıyor, Sen Akıyorsun</title>
+    <meta name="theme-color" content="#faf9f5" />
+    <title>Blok Evren — Zamanın İçinde Değil, Zamanın Kendisindeyiz</title>
     <meta
       name="description"
-      content="Blok evren teorisini 3B görselleştirmeler, animasyonlar ve etkileşimli görelilik simülasyonlarıyla deneyimleyin: eşzamanlılığın göreliliği, ışık konileri, Andromeda paradoksu ve ikizler paradoksu."
+      content="Geçmiş, şimdi ve gelecek aynı anda var olabilir mi? Blok evren fikrini gündelik hayattan örneklerle, elle oynanan simülasyonlarla ve 3B görselleştirmelerle deneyimleyin."
     />
     <meta name="author" content="Beydah Saglam" />
     <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
     <meta property="og:type" content="website" />
-    <meta
-      property="og:title"
-      content="Blok Evren — Zaman Akmıyor, Sen Akıyorsun"
-    />
+    <meta property="og:title" content="Blok Evren" />
     <meta
       property="og:description"
-      content="Uzayzamanı 4 boyutlu bir blok olarak gezin. Eşzamanlılığın göreliliğini kendi elinizle eğin."
+      content="Zamanın aktığını sanıyoruz. Peki ya akmıyorsa? Elle oynanan bir zaman felsefesi denemesi."
     />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <script>
+      // Tema, sayfa boyanmadan önce belirlenir; böylece açılışta yanıp sönme olmaz.
+      // Barındırıcı (ör. Artifact görüntüleyici) kendi seçimini zaten damgaladıysa
+      // ona dokunmayız — ziyaretçinin tercihi her zaman önce gelir.
+      (function () {
+        try {
+          if (document.documentElement.hasAttribute('data-theme')) return
+          var saved = localStorage.getItem('blok-evren-tema')
+          if (saved === 'light' || saved === 'dark') {
+            document.documentElement.setAttribute('data-theme', saved)
+          }
+        } catch (e) {
+          /* depolama kapalıysa sistem tercihi geçerli kalır */
+        }
+      })()
+    </script>
   </head>
   <body>
     <div id="root"></div>

@@ -1,57 +1,83 @@
 import { useCallback, useMemo, useRef, useState } from 'react'
 import { useCanvas2D } from '../../hooks/useCanvas2D'
-import { PAL, hexAlpha } from '../../lib/palette'
-import {
-  boost,
-  causalRelation,
-  clampBeta,
-  formatTR,
-  gamma,
-  type Event2D,
-} from '../../lib/relativity'
-import { Legend, Panel, PillButton, SegmentedControl, Slider, Stat, TouchHint } from '../ui'
+import { alpha, useThemePalette, type Palette } from '../../lib/theme'
+import { boost, causalRelation, clampBeta, formatTR, type Event2D } from '../../lib/relativity'
+import { Legend, Panel, PillButton, SegmentedControl, Slider, TouchHint } from '../ui'
 
 /**
- * Minkowski laboratuvarı.
+ * Şimdi laboratuvarı.
  *
- * Aynı olay kümesini iki şekilde gösterir:
- *  • "durgun" — laboratuvar çerçevesi sabit, hareketli gözlemcinin eksenleri eğik
- *  • "hareketli" — her şey Lorentz dönüşümünden geçirilmiş, eksenler dik
- *
- * Alttaki sıralama şeridi asıl dersi verir: uzaysal ayrılmış olayların sırası
- * gözlemciye göre değişir, zamansal ayrılmışların sırası ise asla değişmez.
+ * Dört sıradan olay: bir alarm, bir kahve, gönderilen ve okunan bir mesaj.
+ * Hızını değiştirdikçe bu olayların sırası değişir — ama hepsinin değil.
+ * Aralarında bir sinyalin gidebildiği olaylar (mesaj gönderildi → okundu)
+ * hiçbir gözlemci için ters dönmez. Nedensellik korunur; “aynı anda” korunmaz.
  */
 
-const RANGE = 4.6 // tuvalin gösterdiği yarı-genişlik (ışık-saniyesi / saniye)
+const RANGE = 4.6
 
 interface LabEvent extends Event2D {
   id: string
+  /** Panellerde geçen tam ad. */
   name: string
+  /** Tuvale sığan kısa ad — uzun adlar küçük ekranda birbirini eziyordu. */
+  tag: string
+  /** Nokta içindeki harf. */
   short: string
-  color: string
+  tone: keyof Palette
 }
 
-const DEFAULT_EVENTS: LabEvent[] = [
-  { id: 'a', name: 'Yıldız patlar', short: 'A', t: 1.2, x: -2.6, color: PAL.rose },
-  { id: 'b', name: 'Alarm çalar', short: 'B', t: 1.6, x: 2.4, color: PAL.amber },
-  { id: 'c', name: 'Kalkış', short: 'C', t: -1.9, x: 0.6, color: PAL.violet },
-  { id: 'd', name: 'İniş', short: 'D', t: 2.4, x: 1.2, color: PAL.lime },
-]
+const SCENARIOS: Record<string, { label: string; events: LabEvent[] }> = {
+  uzak: {
+    label: 'İki uzak şehir',
+    events: [
+      { id: 'a', name: 'Alarmın çaldı', tag: 'Alarm', short: 'A', t: 1.2, x: -2.6, tone: 'd1' },
+      { id: 'b', name: 'Tokyo’da biri uyandı', tag: 'Tokyo uyandı', short: 'B', t: 1.6, x: 2.4, tone: 'd2' },
+      { id: 'c', name: 'Mesajı gönderdin', tag: 'Mesaj gitti', short: 'C', t: -1.9, x: 0.6, tone: 'd3' },
+      { id: 'd', name: 'Mesajı okudu', tag: 'Mesaj okundu', short: 'D', t: 2.4, x: 1.2, tone: 'd4' },
+    ],
+  },
+  ayniOda: {
+    label: 'Aynı odada',
+    events: [
+      { id: 'a', name: 'Işığı açtın', tag: 'Işık', short: 'A', t: -1.4, x: -0.3, tone: 'd1' },
+      { id: 'b', name: 'Kedi uyandı', tag: 'Kedi', short: 'B', t: -0.6, x: 0.4, tone: 'd2' },
+      { id: 'c', name: 'Su ısındı', tag: 'Su', short: 'C', t: 1.1, x: -0.5, tone: 'd3' },
+      { id: 'd', name: 'Çay demlendi', tag: 'Çay', short: 'D', t: 2.6, x: 0.2, tone: 'd4' },
+    ],
+  },
+  cekisme: {
+    label: 'Sınırdaki olaylar',
+    events: [
+      { id: 'a', name: 'Kapı çaldı', tag: 'Kapı', short: 'A', t: 0, x: -2.2, tone: 'd1' },
+      { id: 'b', name: 'Telefon çaldı', tag: 'Telefon', short: 'B', t: 0, x: 2.2, tone: 'd2' },
+      { id: 'c', name: 'Kalktın', tag: 'Kalktın', short: 'C', t: -2.4, x: 0, tone: 'd3' },
+      { id: 'd', name: 'Kapıyı açtın', tag: 'Kapıyı açtın', short: 'D', t: 2.8, x: -1.6, tone: 'd4' },
+    ],
+  },
+}
 
 type FrameMode = 'rest' | 'moving'
 
 export function MinkowskiLab() {
+  const pal = useThemePalette()
+  const [scenario, setScenario] = useState<keyof typeof SCENARIOS>('uzak')
   const [beta, setBeta] = useState(0)
   const [mode, setMode] = useState<FrameMode>('rest')
-  const [events, setEvents] = useState<LabEvent[]>(DEFAULT_EVENTS)
+  const [events, setEvents] = useState<LabEvent[]>(SCENARIOS.uzak.events)
   const [dragMode, setDragMode] = useState(false)
-  const [showHyperbolae, setShowHyperbolae] = useState(false)
+  const [pair, setPair] = useState<[string, string]>(['a', 'b'])
 
   const dragging = useRef<string | null>(null)
   const geom = useRef({ cx: 0, cy: 0, scale: 1 })
 
-  /** Seçili çerçevedeki koordinatlar. */
-  const viewEvents = useMemo(
+  const loadScenario = (key: keyof typeof SCENARIOS) => {
+    setScenario(key)
+    setEvents(SCENARIOS[key].events)
+    setPair(['a', 'b'])
+    setBeta(0)
+  }
+
+  const shown = useMemo(
     () =>
       events.map((e) =>
         mode === 'moving' ? { ...e, ...boost({ t: e.t, x: e.x }, beta) } : e,
@@ -59,22 +85,27 @@ export function MinkowskiLab() {
     [events, beta, mode],
   )
 
-  /** Zamana göre sıralama — çerçeve değişince sıra da değişebilir. */
-  const ordering = useMemo(
-    () => [...viewEvents].sort((p, q) => p.t - q.t),
-    [viewEvents],
-  )
+  const ordering = useMemo(() => [...shown].sort((p, q) => p.t - q.t), [shown])
 
-  /** A ve B uzaysal ayrılmışsa sıraları βc = Δt/Δx üzerinde tersine döner. */
-  const swapInfo = useMemo(() => {
-    const a = events.find((e) => e.id === 'a')!
-    const b = events.find((e) => e.id === 'b')!
+  /** Seçili çiftin nedensel ilişkisi ve sırasının dönüp dönmediği. */
+  const verdict = useMemo(() => {
+    const a = events.find((e) => e.id === pair[0])
+    const b = events.find((e) => e.id === pair[1])
+    if (!a || !b) return null
+
     const rel = causalRelation(a, b)
-    const dt = b.t - a.t
     const dx = b.x - a.x
-    const critical = dx !== 0 ? dt / dx : Infinity
-    return { rel, critical, dt, dx }
-  }, [events])
+    const dt = b.t - a.t
+    const critical = Math.abs(dx) > 1e-6 ? dt / dx : Infinity
+
+    const sa = shown.find((e) => e.id === pair[0])!
+    const sb = shown.find((e) => e.id === pair[1])!
+    const restFirst = a.t <= b.t ? a : b
+    const nowFirst = sa.t <= sb.t ? a : b
+    const flipped = restFirst.id !== nowFirst.id
+
+    return { a, b, rel, critical, flipped, nowFirst, gap: Math.abs(sb.t - sa.t) }
+  }, [events, pair, shown])
 
   const draw = useCallback(
     (ctx: CanvasRenderingContext2D, w: number, h: number) => {
@@ -94,10 +125,10 @@ export function MinkowskiLab() {
       ctx.clip()
 
       // --- Izgara ---
+      ctx.strokeStyle = pal.grid
       ctx.lineWidth = 1
-      ctx.strokeStyle = PAL.grid
       for (let i = -Math.ceil(RANGE); i <= Math.ceil(RANGE); i += 1) {
-        ctx.globalAlpha = i === 0 ? 0 : 0.55
+        if (i === 0) continue
         ctx.beginPath()
         ctx.moveTo(sx(i), 0)
         ctx.lineTo(sx(i), h)
@@ -107,105 +138,69 @@ export function MinkowskiLab() {
         ctx.lineTo(w, sy(i))
         ctx.stroke()
       }
-      ctx.globalAlpha = 1
 
-      // --- Işık konisi (her çerçevede 45°) ---
-      const lightSpan = RANGE * 1.6
-      ctx.strokeStyle = hexAlpha(PAL.amber, 0.55)
+      // --- Işık konisi ve içi ---
+      const span = RANGE * 1.6
+      ctx.fillStyle = alpha(pal.mintBright, 0.07)
+      ctx.beginPath()
+      ctx.moveTo(sx(0), sy(0))
+      ctx.lineTo(sx(-span), sy(span))
+      ctx.lineTo(sx(span), sy(span))
+      ctx.closePath()
+      ctx.fill()
+      // Geçmiş konisi ayrı bir renkte: "olabilecekler" ile "olmuş olabilecekler"
+      // aynı tonda olursa diyagram tek bir yeşil lekeye dönüşüyor.
+      ctx.fillStyle = alpha(pal.d3, 0.07)
+      ctx.beginPath()
+      ctx.moveTo(sx(0), sy(0))
+      ctx.lineTo(sx(-span), sy(-span))
+      ctx.lineTo(sx(span), sy(-span))
+      ctx.closePath()
+      ctx.fill()
+
+      ctx.strokeStyle = alpha(pal.d5, 0.85)
       ctx.lineWidth = 1.5
       ctx.setLineDash([6, 5])
       ;[1, -1].forEach((s) => {
         ctx.beginPath()
-        ctx.moveTo(sx(-lightSpan * s), sy(-lightSpan))
-        ctx.lineTo(sx(lightSpan * s), sy(lightSpan))
+        ctx.moveTo(sx(-span * s), sy(-span))
+        ctx.lineTo(sx(span * s), sy(span))
         ctx.stroke()
       })
       ctx.setLineDash([])
 
-      // Işık konisinin içini hafifçe boya (gelecek + geçmiş)
-      ctx.fillStyle = hexAlpha(PAL.cyan, 0.05)
-      ctx.beginPath()
-      ctx.moveTo(sx(0), sy(0))
-      ctx.lineTo(sx(-lightSpan), sy(lightSpan))
-      ctx.lineTo(sx(lightSpan), sy(lightSpan))
-      ctx.closePath()
-      ctx.fill()
-      ctx.fillStyle = hexAlpha(PAL.violet, 0.05)
-      ctx.beginPath()
-      ctx.moveTo(sx(0), sy(0))
-      ctx.lineTo(sx(-lightSpan), sy(-lightSpan))
-      ctx.lineTo(sx(lightSpan), sy(-lightSpan))
-      ctx.closePath()
-      ctx.fill()
-
-      // --- Değişmez hiperboller: x² − t² = ±k ---
-      if (showHyperbolae) {
-        ctx.strokeStyle = hexAlpha(PAL.mist, 0.35)
-        ctx.lineWidth = 1
-        ctx.setLineDash([3, 4])
-        for (const k of [1, 4]) {
-          // Zamansal kollar (üst / alt)
-          ;[1, -1].forEach((sgn) => {
-            ctx.beginPath()
-            for (let x = -RANGE * 1.4; x <= RANGE * 1.4; x += 0.06) {
-              const t = sgn * Math.sqrt(x * x + k)
-              if (x === -RANGE * 1.4) ctx.moveTo(sx(x), sy(t))
-              else ctx.lineTo(sx(x), sy(t))
-            }
-            ctx.stroke()
-          })
-          // Uzaysal kollar (sağ / sol)
-          ;[1, -1].forEach((sgn) => {
-            ctx.beginPath()
-            for (let t = -RANGE * 1.4; t <= RANGE * 1.4; t += 0.06) {
-              const x = sgn * Math.sqrt(t * t + k)
-              if (t === -RANGE * 1.4) ctx.moveTo(sx(x), sy(t))
-              else ctx.lineTo(sx(x), sy(t))
-            }
-            ctx.stroke()
-          })
-        }
-        ctx.setLineDash([])
-      }
-
-      // --- Diğer gözlemcinin eksenleri ---
+      // --- Diğer gözlemcinin eksenleri ve eşzamanlılık doğruları ---
       const b = clampBeta(beta)
-      // "rest" modunda hareketli gözlemcinin eksenleri eğik;
-      // "moving" modunda tersine, laboratuvarın eksenleri eğik görünür.
       const tilt = mode === 'rest' ? b : -b
-      const other = mode === 'rest' ? PAL.cyan : PAL.mist
 
       if (Math.abs(tilt) > 0.001) {
-        const span = RANGE * 1.5
-        // Zaman ekseni t′: x = βt
-        ctx.strokeStyle = hexAlpha(other, 0.85)
+        const s = RANGE * 1.5
+        ctx.strokeStyle = alpha(pal.mint, 0.9)
         ctx.lineWidth = 2
         ctx.beginPath()
-        ctx.moveTo(sx(-tilt * span), sy(-span))
-        ctx.lineTo(sx(tilt * span), sy(span))
+        ctx.moveTo(sx(-tilt * s), sy(-s))
+        ctx.lineTo(sx(tilt * s), sy(s))
         ctx.stroke()
-        // Uzay ekseni x′: t = βx
         ctx.beginPath()
-        ctx.moveTo(sx(-span), sy(-tilt * span))
-        ctx.lineTo(sx(span), sy(tilt * span))
+        ctx.moveTo(sx(-s), sy(-tilt * s))
+        ctx.lineTo(sx(s), sy(tilt * s))
         ctx.stroke()
 
-        // Eşzamanlılık doğruları ailesi: t = βx + c
-        ctx.strokeStyle = hexAlpha(other, 0.25)
+        ctx.strokeStyle = alpha(pal.mint, 0.3)
         ctx.lineWidth = 1
         ctx.setLineDash([4, 6])
         for (let c = -4; c <= 4; c += 1) {
           if (c === 0) continue
           ctx.beginPath()
-          ctx.moveTo(sx(-span), sy(-tilt * span + c))
-          ctx.lineTo(sx(span), sy(tilt * span + c))
+          ctx.moveTo(sx(-s), sy(-tilt * s + c))
+          ctx.lineTo(sx(s), sy(tilt * s + c))
           ctx.stroke()
         }
         ctx.setLineDash([])
       }
 
       // --- Ana eksenler ---
-      ctx.strokeStyle = hexAlpha(PAL.chalk, 0.55)
+      ctx.strokeStyle = alpha(pal.text, 0.5)
       ctx.lineWidth = 1.5
       ctx.beginPath()
       ctx.moveTo(sx(0), 0)
@@ -214,25 +209,38 @@ export function MinkowskiLab() {
       ctx.lineTo(w, sy(0))
       ctx.stroke()
 
-      ctx.fillStyle = hexAlpha(PAL.mist, 0.9)
-      ctx.font = '500 11px JetBrains Mono, monospace'
+      ctx.fillStyle = pal.muted
+      ctx.font = "500 11px 'JetBrains Mono', monospace"
       ctx.textAlign = 'left'
-      ctx.fillText(mode === 'rest' ? 'ct' : "ct′", sx(0) + 7, 16)
+      ctx.textBaseline = 'top'
+      ctx.fillText('sonra ↑', sx(0) + 8, 8)
       ctx.textAlign = 'right'
-      ctx.fillText(mode === 'rest' ? 'x' : 'x′', w - 6, sy(0) - 7)
+      ctx.textBaseline = 'bottom'
+      ctx.fillText('uzaklık →', w - 8, sy(0) - 8)
+
+      // --- Seçili çift arasındaki bağ ---
+      if (verdict) {
+        const pa = shown.find((e) => e.id === verdict.a.id)!
+        const pb = shown.find((e) => e.id === verdict.b.id)!
+        ctx.strokeStyle = verdict.rel === 'elsewhere' ? alpha(pal.clay, 0.75) : alpha(pal.mint, 0.75)
+        ctx.lineWidth = 2
+        ctx.setLineDash(verdict.rel === 'elsewhere' ? [5, 5] : [])
+        ctx.beginPath()
+        ctx.moveTo(sx(pa.x), sy(pa.t))
+        ctx.lineTo(sx(pb.x), sy(pb.t))
+        ctx.stroke()
+        ctx.setLineDash([])
+      }
 
       // --- Olaylar ---
-      const view =
-        mode === 'moving'
-          ? events.map((e) => ({ ...e, ...boost({ t: e.t, x: e.x }, beta) }))
-          : events
-
-      view.forEach((e) => {
+      shown.forEach((e, i) => {
         const px = sx(e.x)
         const py = sy(e.t)
+        const color = pal[e.tone]
+        const selected = e.id === pair[0] || e.id === pair[1]
 
-        // Eşzamanlılık göstergesi: olaydan zaman eksenine yatay bağ
-        ctx.strokeStyle = hexAlpha(e.color, 0.3)
+        // Bu olayın zaman damgasına giden yatay kılavuz
+        ctx.strokeStyle = alpha(color, 0.4)
         ctx.lineWidth = 1
         ctx.setLineDash([2, 4])
         ctx.beginPath()
@@ -241,30 +249,40 @@ export function MinkowskiLab() {
         ctx.stroke()
         ctx.setLineDash([])
 
-        ctx.fillStyle = e.color
-        ctx.shadowColor = e.color
-        ctx.shadowBlur = 14
-        ctx.beginPath()
-        ctx.arc(px, py, 6.5, 0, Math.PI * 2)
-        ctx.fill()
-        ctx.shadowBlur = 0
+        if (selected) {
+          ctx.strokeStyle = color
+          ctx.lineWidth = 2
+          ctx.beginPath()
+          ctx.arc(px, py, 12, 0, Math.PI * 2)
+          ctx.stroke()
+        }
 
-        ctx.fillStyle = PAL.void
-        ctx.font = '700 9px JetBrains Mono, monospace'
+        ctx.fillStyle = color
+        ctx.beginPath()
+        ctx.arc(px, py, 7.5, 0, Math.PI * 2)
+        ctx.fill()
+
+        ctx.fillStyle = pal.bg
+        ctx.font = "700 10px 'JetBrains Mono', monospace"
         ctx.textAlign = 'center'
         ctx.textBaseline = 'middle'
         ctx.fillText(e.short, px, py + 0.5)
 
-        ctx.fillStyle = e.color
-        ctx.font = '500 10.5px Inter, sans-serif'
-        ctx.textAlign = 'left'
-        ctx.textBaseline = 'alphabetic'
-        ctx.fillText(e.name, px + 11, py - 8)
+        // Etiketi tuval içinde tut ve sırayla üst/alt yerleştir —
+        // yakın yükseklikteki olayların adları birbirini ezmesin.
+        ctx.font = "500 11px 'Instrument Sans', sans-serif"
+        const tw = ctx.measureText(e.tag).width
+        const left = px + 13 + tw > w - 6
+        const below = i % 2 === 1
+        ctx.textAlign = left ? 'right' : 'left'
+        ctx.textBaseline = below ? 'top' : 'alphabetic'
+        ctx.fillStyle = pal.text
+        ctx.fillText(e.tag, left ? px - 13 : px + 13, below ? py + 10 : py - 10)
       })
 
       ctx.restore()
     },
-    [events, beta, mode, showHyperbolae],
+    [shown, beta, mode, pal, pair, verdict],
   )
 
   const canvasRef = useCanvas2D(draw)
@@ -283,18 +301,22 @@ export function MinkowskiLab() {
   }
 
   const onPointerDown = (ev: React.PointerEvent<HTMLCanvasElement>) => {
-    if (!dragMode) return
     const p = toWorld(ev.clientX, ev.clientY)
     if (!p) return
-    // En yakın olayı yakala (ekran biriminde ~22 px eşik)
-    const threshold = 22 / geom.current.scale
+    const threshold = 26 / geom.current.scale
     let best: { id: string; d: number } | null = null
-    for (const e of events) {
-      const shown = mode === 'moving' ? boost({ t: e.t, x: e.x }, beta) : { t: e.t, x: e.x }
-      const d = Math.hypot(shown.x - p.x, shown.t - p.t)
+    for (const e of shown) {
+      const d = Math.hypot(e.x - p.x, e.t - p.t)
       if (d < threshold && (!best || d < best.d)) best = { id: e.id, d }
     }
-    if (best) {
+    if (!best) return
+
+    // Dokunulan olay çiftin başına geçer, eskisi ikinci sıraya kayar —
+    // böylece karşılaştırma doğrudan tuvale dokunarak değiştirilebilir.
+    const tapped = best.id
+    setPair((prev) => (prev[0] === tapped ? prev : [tapped, prev[0]]))
+
+    if (dragMode) {
       dragging.current = best.id
       ev.currentTarget.setPointerCapture(ev.pointerId)
     }
@@ -305,8 +327,6 @@ export function MinkowskiLab() {
     const p = toWorld(ev.clientX, ev.clientY)
     if (!p) return
     const id = dragging.current
-    // Ekranda görülen konumu istiyoruz; hareketli çerçevedeysek
-    // laboratuvar koordinatlarına geri çeviriyoruz.
     const lab = mode === 'moving' ? boost(p, -beta) : p
     const clamp = (v: number) => Math.max(-RANGE, Math.min(RANGE, v))
     setEvents((prev) =>
@@ -320,12 +340,17 @@ export function MinkowskiLab() {
 
   /* ---------------- Arayüz ---------------- */
 
-  const g = gamma(beta)
+  const relText = {
+    future: 'aralarında sinyal gidebilir',
+    past: 'aralarında sinyal gidebilir',
+    lightlike: 'tam ışık hızında bağlı',
+    elsewhere: 'aralarında hiçbir sinyal gidemez',
+  }[verdict?.rel ?? 'elsewhere']
 
   return (
-    <div className="grid gap-4 lg:grid-cols-[1.15fr_1fr]">
+    <div className="grid gap-4 lg:grid-cols-[1.1fr_1fr]">
       <div className="min-w-0">
-        <div className="relative aspect-square w-full overflow-hidden rounded-2xl border border-line bg-void-2">
+        <div className="relative aspect-square w-full overflow-hidden rounded-2xl border border-line bg-surface">
           <canvas
             className="absolute inset-0"
             ref={canvasRef}
@@ -335,111 +360,148 @@ export function MinkowskiLab() {
             onPointerCancel={onPointerUp}
             style={{ touchAction: dragMode ? 'none' : 'pan-y' }}
           />
-          <div className="pointer-events-none absolute top-3 left-3 rounded-full border border-line bg-void/80 px-3 py-1 font-mono text-[0.68rem] text-mist">
-            {mode === 'rest' ? 'laboratuvar çerçevesi' : `β = ${formatTR(beta, 2)} çerçevesi`}
+          <div className="pointer-events-none absolute top-3 left-3 rounded-full border border-line bg-surface px-3 py-1 font-mono text-[0.7rem] text-muted">
+            {mode === 'rest' ? 'sen duruyorsun' : `β = ${formatTR(beta, 2)} ile gidiyorsun`}
           </div>
         </div>
         <TouchHint>
           {dragMode
             ? 'Olayları parmağınla sürükle. Sayfayı kaydırmak için taşıma modunu kapat.'
-            : 'Işık ışınları her çerçevede tam 45°. Kaydırıcıyı çevir, eksenlerin makasa dönüşünü izle.'}
+            : 'Bir olaya dokun, karşılaştırmaya alınsın. Kesikli sarı çizgiler ışığın yoludur.'}
         </TouchHint>
       </div>
 
       <div className="flex min-w-0 flex-col gap-4">
-        <Panel title="Gözlemci" hint={`γ = ${formatTR(g, 3)}`}>
-          <Slider
-            label="Bağıl hız β = v/c"
-            value={beta}
-            display={formatTR(beta, 2)}
-            min={-0.92}
-            max={0.92}
-            step={0.01}
-            onChange={setBeta}
+        <Panel title="Sahne">
+          <SegmentedControl
+            value={scenario}
+            onChange={(v) => loadScenario(v as keyof typeof SCENARIOS)}
+            options={Object.entries(SCENARIOS).map(([k, v]) => ({ value: k, label: v.label }))}
           />
           <div className="mt-3">
-            <SegmentedControl
-              label="Hangi çerçeveden bakıyoruz?"
-              value={mode}
-              onChange={setMode}
-              options={[
-                { value: 'rest', label: 'Durgun' },
-                { value: 'moving', label: 'Hareketli' },
-              ]}
+            <Slider
+              label="Ne kadar hızlı gidiyorsun?"
+              hint="Işık hızının kesri olarak. Yürüyen biri için bu sayı milyarda birdir; burada görebilmek için abartıyoruz."
+              value={beta}
+              display={`β = ${formatTR(beta, 2)}`}
+              min={-0.92}
+              max={0.92}
+              step={0.01}
+              onChange={setBeta}
             />
           </div>
-          <div className="mt-3 flex flex-wrap gap-2">
+          <div className="mt-2 flex flex-wrap gap-2">
+            <PillButton active={mode === 'moving'} onClick={() => setMode(mode === 'rest' ? 'moving' : 'rest')}>
+              {mode === 'moving' ? 'Kendi gözünden' : 'Dışarıdan bak'}
+            </PillButton>
             <PillButton active={dragMode} onClick={() => setDragMode((v) => !v)}>
-              {dragMode ? '✓ Olayları taşı' : 'Olayları taşı'}
+              Olayları taşı
             </PillButton>
-            <PillButton active={showHyperbolae} onClick={() => setShowHyperbolae((v) => !v)}>
-              Değişmez hiperboller
-            </PillButton>
-            <PillButton
-              onClick={() => {
-                setEvents(DEFAULT_EVENTS)
-                setBeta(0)
-              }}
-            >
-              Sıfırla
-            </PillButton>
+            <PillButton onClick={() => loadScenario(scenario)}>Sıfırla</PillButton>
           </div>
         </Panel>
 
-        <Panel title="Olayların zaman sırası" hint="bu çerçeveye göre">
+        {verdict && (
+          <Panel title="İki olayı karşılaştır" hint={relText}>
+            <div className="mb-3 grid gap-2 sm:grid-cols-2">
+              {[0, 1].map((slot) => (
+                <div key={slot}>
+                  <div className="mb-1 text-[0.75rem] text-muted">
+                    {slot === 0 ? 'Birinci olay' : 'İkinci olay'}
+                  </div>
+                  <div className="no-scrollbar card-inset flex min-w-0 gap-1 overflow-x-auto p-1">
+                    {events.map((e) => {
+                      const selected = pair[slot] === e.id
+                      return (
+                        <button
+                          key={e.id}
+                          onClick={() =>
+                            setPair((prev) => {
+                              const next: [string, string] = [...prev]
+                              next[slot] = e.id
+                              if (next[0] === next[1]) next[1 - slot] = prev[slot]
+                              return next
+                            })
+                          }
+                          className="rounded-lg px-2.5 py-1.5 font-mono text-[0.8rem] font-medium transition-colors"
+                          style={
+                            selected
+                              ? { background: pal[e.tone], color: pal.bg }
+                              : { color: pal.muted }
+                          }
+                        >
+                          {e.short}
+                        </button>
+                      )
+                    })}
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            <div
+              className="rounded-xl border p-3"
+              style={{
+                borderColor: verdict.flipped ? pal.clay : pal.border,
+                background: verdict.flipped ? alpha(pal.clay, 0.08) : 'transparent',
+              }}
+            >
+              <p className="text-[0.95rem] leading-relaxed text-ink">
+                Sana göre önce{' '}
+                <span className="font-medium" style={{ color: pal[verdict.nowFirst.tone] }}>
+                  {verdict.nowFirst.name}
+                </span>{' '}
+                oldu.
+                {verdict.flipped && (
+                  <>
+                    {' '}
+                    <span className="font-medium text-clay">Sıra değişti</span> — duran biri
+                    bunun tersini görüyor.
+                  </>
+                )}
+              </p>
+              <p className="mt-2 text-[0.88rem] leading-relaxed text-muted">
+                {verdict.rel === 'elsewhere' ? (
+                  <>
+                    Bu iki olay birbirine hiçbir sinyal gönderemez. Sıraları β ={' '}
+                    <span className="tnum font-mono text-ink">
+                      {formatTR(verdict.critical, 2)}
+                    </span>{' '}
+                    civarında dönüyor — ve dönmesinin kimseye bir zararı yok, çünkü aralarında
+                    kurulabilecek bir neden-sonuç ilişkisi zaten yok.
+                  </>
+                ) : (
+                  <>
+                    Bu ikisi arasında bir sinyal gidebilir; biri diğerinin sebebi olabilir.{' '}
+                    <span className="text-ink">Hiçbir hız sıralarını ters çeviremez.</span> Kaydırıcıyı
+                    sonuna kadar götür, denemesi bedava.
+                  </>
+                )}
+              </p>
+            </div>
+          </Panel>
+        )}
+
+        <Panel title="Sana göre günün sırası">
           <ol className="flex flex-wrap items-center gap-1.5">
             {ordering.map((e, i) => (
               <li key={e.id} className="flex items-center gap-1.5">
                 <span
-                  className="rounded-lg border px-2.5 py-1 font-mono text-[0.75rem]"
-                  style={{
-                    color: e.color,
-                    borderColor: hexAlpha(e.color, 0.45),
-                    background: hexAlpha(e.color, 0.1),
-                  }}
+                  className="tnum rounded-lg px-2.5 py-1 font-mono text-[0.78rem] font-medium"
+                  style={{ background: alpha(pal[e.tone], 0.16), color: pal[e.tone] }}
                 >
-                  {e.short} · {formatTR(e.t, 2)}
+                  {e.short}
                 </span>
-                {i < ordering.length - 1 && <span className="text-mist/50">→</span>}
+                {i < ordering.length - 1 && <span className="text-muted">→</span>}
               </li>
             ))}
           </ol>
-          <p className="mt-3 text-[0.82rem] leading-relaxed text-mist">
-            {swapInfo.rel === 'elsewhere' ? (
-              <>
-                <span className="text-chalk">A</span> ve <span className="text-chalk">B</span>{' '}
-                uzaysal ayrılmış: β ={' '}
-                <span className="font-mono text-amber-glow">
-                  {formatTR(swapInfo.critical, 2)}
-                </span>{' '}
-                değerini geçtiğinde sıraları tersine döner. Hiçbir sinyal aralarında
-                gidemediği için bu çelişki değil.
-              </>
-            ) : (
-              <>
-                <span className="text-chalk">A</span> ve <span className="text-chalk">B</span> artık
-                zamansal ayrılmış: aralarında nedensel bağ kurulabilir, bu yüzden{' '}
-                <span className="text-lime-glow">hiçbir gözlemci sıralarını ters göremez</span>.
-              </>
-            )}
-          </p>
         </Panel>
-
-        <div className="grid grid-cols-2 gap-2">
-          <Stat label="Lorentz çarpanı" value={formatTR(g, 3)} tone="cyan" />
-          <Stat
-            label="Zaman genişlemesi"
-            value={`${formatTR((1 - 1 / g) * 100, 1)}%`}
-            unit="yavaşlama"
-            tone="violet"
-          />
-        </div>
 
         <Legend
           items={[
-            { color: PAL.amber, label: 'ışık konisi (45°)', dashed: true },
-            { color: PAL.cyan, label: 'diğer gözlemcinin eksenleri' },
-            { color: PAL.mist, label: 'eşzamanlılık doğruları', dashed: true },
+            { color: pal.d5, label: 'ışığın yolu (45°)', dashed: true },
+            { color: pal.mint, label: 'senin eksenlerin ve şimdilerin' },
           ]}
         />
       </div>

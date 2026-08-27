@@ -1,26 +1,27 @@
-# Blok Evren — Zaman Akmıyor, Sen Akıyorsun
+# Blok Evren — Dün hâlâ bir yerde mi?
 
-Blok evren teorisini (eternalizm) 3B görselleştirmeler, animasyonlar ve
-etkileşimli özel görelilik simülasyonlarıyla anlatan, mobil öncelikli bir web
-uygulaması. Sunucu gerektirmez; tamamen tarayıcıda çalışır.
+Geçmiş, şimdi ve gelecek aynı anda var olabilir mi? Blok evren fikrini gündelik
+hayattan örneklerle, elle oynanan simülasyonlarla ve 3B görselleştirmelerle
+anlatan, mobil öncelikli bir web uygulaması. Sunucu gerektirmez; tamamen
+tarayıcıda çalışır.
 
 ## İçerik
 
-| # | Bölüm | Etkileşim |
-|---|-------|-----------|
-| 01 | Zaman bir boyuttur | 3B uzayzaman bloğu, eğilebilen "şimdi" düzlemi, dünya çizgileri |
-| 02 | Eşzamanlılığın göreliliği | Minkowski laboratuvarı: iki çerçeve, sürüklenebilir olaylar, sıralama şeridi |
-| 03 | Andromeda paradoksu | Yürüme hızı → uzak mesafede gün cinsinden eşzamanlılık kayması |
-| 04 | Işık konisi ve nedensellik | 3B çift koni, deneme olayının nedensel sınıflandırması |
-| 05 | İkizler paradoksu | Canlandırmalı dünya çizgileri, öz zaman saatleri, dönüşteki eşzamanlılık sıçraması |
-| 06 | Üç rakip ontoloji | Şimdicilik / büyüyen blok / eternalizm karşılaştırması |
-| 07 | Akış yanılsaması | Tersinir parçacık simülasyonu ve kaba taneli entropi |
-| 08 | Özgür irade | Rietdijk–Putnam argümanı ve ona verilen itirazlar |
-| 09 | Kaynaklar | İlk elden okuma listesi |
+| # | Bölüm | Ne yapabilirsin |
+|---|-------|-----------------|
+| 01 | Bir salı günü, baştan sona | Bir günün 3B bloğunu çevir, "şimdi" düzlemini eğ; sen, annen ve trendeki yolcunun saatlerinin ayrışmasını canlı listede izle |
+| 02 | "Aynı anda" diye bir yer yok | Dört gündelik olayı sürükle, hızını değiştir, istediğin iki olayı seçip sıralarının dönüp dönmediğini gör |
+| 03 | Şimdi ne kadar uzağa uzanır? | Karşı koltuktan Andromeda'ya: aynı yürüyüş, attosaniyeden günlere uzanan kayma |
+| 04 | Kime ulaşabilirsin? | Işık konisinde bir olay gezdir, merkezden çıkan ışık darbesinin ona yetişip yetişmediğini izle |
+| 05 | İki yol, iki ömür | Kendi yaşını gir; Deniz ile Kaya'nın yolculuk sonunda kaç yaşında olacağını ve dönüşteki eşzamanlılık sıçramasını gör |
+| 06 | Fizik şekli veriyor, varlığı vermiyor | Üç ontolojiyi yan yana canlandır, üç soruluk yoklamayla kendi sezgini yokla |
+| 07 | Akmıyorsa, bu his ne? | Çaya damlayan sütü izle, bardağa dokunup damlayı kendin koy, filmi geri sar |
+| 08 | Yazılmışsa, seçen kim? | Rietdijk–Putnam zinciri ve her halkasına verilen ciddi itirazlar |
+| 09 | Buradan sonrası | İlk elden okuma listesi |
 
 Bütün sayısal değerler `src/lib/relativity.ts` içindeki gerçek Lorentz
-dönüşümlerinden gelir — hiçbir simülasyonda "yaklaşık gösterim" için uydurulmuş
-sabit yoktur. Yalnızca Andromeda şemasındaki çizgi eğimleri, β ≈ 10⁻⁹ gözle
+dönüşümlerinden gelir; hiçbir simülasyonda "anlaşılsın diye" uydurulmuş sabit
+yoktur. Tek istisna mesafe şemasındaki çizgi eğimleridir — β ≈ 10⁻⁹ gözle
 görülemeyeceği için abartılmıştır ve bu tuvalin üzerinde açıkça yazar.
 
 ## Teknoloji
@@ -30,6 +31,23 @@ görülemeyeceği için abartılmıştır ve bu tuvalin üzerinde açıkça yaza
 - **Tailwind CSS v4** — mobil öncelikli stil
 - **motion** — bölüm geçişleri ve menü animasyonları
 - 2B simülasyonlar el yazımı **Canvas 2D** ile (mobilde daha keskin ve ucuz)
+- Tipografi: **Newsreader** (başlıklar), **Instrument Sans** (gövde),
+  **JetBrains Mono** (sayılar)
+
+### Tema
+
+Renkler tek bir yerde, `src/index.css` içindeki CSS değişkenlerinde tanımlı.
+Açık tema temeldir; koyu tema yalnızca değişkenleri yeniden tanımlar. Hiçbir
+renk sadece bir `@media` ya da `[data-theme]` bloğunun içinde yaşamaz — böylece
+ziyaretçi "sistem" ayarındayken de sayfa doğru çözümlenir.
+
+Tuvaller ve WebGL sahneleri de kendi renk sabitlerini taşımaz;
+`src/lib/theme.ts` üzerinden aynı değişkenleri okur ve tema değiştiğinde
+birlikte döner. Üst çubuktaki düğme sistem → açık → koyu sırasıyla dolaşır ve
+seçimi `localStorage`'a yazar.
+
+Metin kontrastları hem açık hem koyu temada WCAG AA eşiğinin (normal metin için
+4,5:1) üzerinde tutulur.
 
 ### Mobil başarım için yapılanlar
 
@@ -41,6 +59,8 @@ görülemeyeceği için abartılmıştır ve bu tuvalin üzerinde açıkça yaza
 - Kahraman bölümünde ve ontoloji sahnesinde `OrbitControls` yoktur, böylece
   tam ekran tuval telefonda sayfa kaydırmayı çalmaz.
 - 3B kameralar ekran oranına göre kendini kadraja sığdırır.
+- Yatay kaydırmalı denetimler `min-w-0` taşır; aksi hâlde ızgara öğesinin
+  otomatik en-küçük boyutu sayfanın tamamını genişletiyordu.
 
 ## Geliştirme
 
@@ -70,10 +90,8 @@ Depo kökündeki `netlify.toml` gerekli ayarları içerir:
 
 1. [app.netlify.com](https://app.netlify.com) → **Add new site** → **Import an
    existing project** → GitHub → bu depoyu seç.
-2. Netlify `netlify.toml`'u okuyup derleme ayarlarını kendisi doldurur; bir şey
-   değiştirmen gerekmez.
-3. **Deploy** de. Birkaç dakika içinde `https://<site-adı>.netlify.app`
-   adresinde yayında olur.
+2. Netlify `netlify.toml`'u okuyup derleme ayarlarını kendisi doldurur.
+3. **Deploy** de.
 
 Uygulamayı kendi deposuna taşırsan `netlify.toml`'u yeni deponun köküne kopyala
 ve `base` satırını sil.

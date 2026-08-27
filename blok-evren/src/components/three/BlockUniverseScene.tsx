@@ -3,61 +3,19 @@ import { useFrame, useThree } from '@react-three/fiber'
 import { Html, Line, OrbitControls } from '@react-three/drei'
 import * as THREE from 'three'
 import { clampBeta } from '../../lib/relativity'
+import { useThemePalette, type Palette } from '../../lib/theme'
+import { BLOCK, WORLDLINES, findSliceIntersection, type WorldlineDef } from '../../lib/worldlines'
 
 /**
- * Blok evrenin ana sahnesi.
+ * Bir günün, bir bütün olarak görüntüsü.
  *
- * Eksenler: y = zaman (yukarı), x ve z = uzay. c = 1 seçildiği için ışık
- * çizgileri tam 45 derecedir — bu, ölçeklerin dürüst kalmasını sağlar.
- * "Şimdi" düzlemi t = βx + t₀ denklemiyle eğilir; kesişim noktaları farklı
- * gözlemcilerin şimdisinin blok içinde nasıl kaydığını gösterir.
+ * Dikey eksen o günün saatleri, yatay eksenler ise mekân. İçindeki eğriler
+ * insanların gün boyunca izlediği yollar. Yeşil düzlem birinin "şimdi"si:
+ * t = βx + t₀ denklemiyle eğilir ve eğildikçe, aynı anda olduğunu sandığın
+ * şeyler birbirinden ayrılır.
  */
 
-export const BLOCK = { x: 3, y: 4, z: 3 } as const
-
-export interface WorldlineDef {
-  id: string
-  name: string
-  color: string
-  /** Zaman parametresinden uzay konumuna: t → [x, z] */
-  path: (t: number) => [number, number]
-  /** Işık ışını: 45 derecelik, blok duvarına çarpınca kesilir. */
-  isLight?: boolean
-  tRange?: [number, number]
-}
-
-export const WORLDLINES: WorldlineDef[] = [
-  {
-    id: 'you',
-    name: 'Sen',
-    color: '#35e0ff',
-    path: (t) => [0.55 * Math.sin(t * 0.55), 0.55 * Math.cos(t * 0.55)],
-  },
-  {
-    id: 'moon',
-    name: 'Ay',
-    color: '#a678ff',
-    path: (t) => [1.45 * Math.sin(t * 1.15 + 1.2), 1.45 * Math.cos(t * 1.15 + 1.2)],
-  },
-  {
-    id: 'ship',
-    name: 'Gemi (β = 0,45)',
-    color: '#7dffb2',
-    path: (t) => [0.45 * t, -1.9],
-  },
-  {
-    id: 'photon',
-    name: 'Foton (ışık)',
-    color: '#ffc46b',
-    path: (t) => [t, 1.9],
-    isLight: true,
-    tRange: [-2.6, 2.6],
-  },
-]
-
-/* ------------------------------------------------------------------ */
-/* Yardımcılar                                                         */
-/* ------------------------------------------------------------------ */
+export { BLOCK }
 
 function samplePath(def: WorldlineDef, steps = 96): [number, number, number][] {
   const [t0, t1] = def.tRange ?? [-BLOCK.y, BLOCK.y]
@@ -70,78 +28,36 @@ function samplePath(def: WorldlineDef, steps = 96): [number, number, number][] {
   return points
 }
 
-/**
- * "Şimdi" düzleminin bir dünya çizgisini kestiği anı bulur.
- * g(t) = t − βx(t) − t₀ = 0 denklemini tarama + ikiye bölme ile çözer.
- */
-function findSliceIntersection(
-  def: WorldlineDef,
-  beta: number,
-  sliceT: number,
-): [number, number, number] | null {
-  const [t0, t1] = def.tRange ?? [-BLOCK.y, BLOCK.y]
-  const g = (t: number) => t - beta * def.path(t)[0] - sliceT
-
-  const steps = 160
-  let prevT = t0
-  let prevG = g(t0)
-  for (let i = 1; i <= steps; i += 1) {
-    const t = t0 + ((t1 - t0) * i) / steps
-    const cur = g(t)
-    if (prevG === 0) break
-    if (prevG * cur < 0) {
-      // İkiye bölme ile kökü daralt
-      let lo = prevT
-      let hi = t
-      for (let k = 0; k < 28; k += 1) {
-        const mid = (lo + hi) / 2
-        if (g(lo) * g(mid) <= 0) hi = mid
-        else lo = mid
-      }
-      const root = (lo + hi) / 2
-      const [x, z] = def.path(root)
-      return [x, root, z]
-    }
-    prevT = t
-    prevG = cur
-  }
-  return null
-}
-
 /* ------------------------------------------------------------------ */
 /* Blok gövdesi                                                        */
 /* ------------------------------------------------------------------ */
 
-function SpacetimeBlock() {
-  const geometry = useMemo(
-    () => new THREE.BoxGeometry(BLOCK.x * 2, BLOCK.y * 2, BLOCK.z * 2),
-    [],
-  )
+function SpacetimeBlock({ pal }: { pal: Palette }) {
+  const geometry = useMemo(() => new THREE.BoxGeometry(BLOCK.x * 2, BLOCK.y * 2, BLOCK.z * 2), [])
   const edges = useMemo(() => new THREE.EdgesGeometry(geometry), [geometry])
 
   return (
     <group>
       <mesh geometry={geometry}>
         <meshBasicMaterial
-          color="#4a7bd0"
+          color={pal.borderStrong}
           transparent
-          opacity={0.045}
+          opacity={0.07}
           side={THREE.BackSide}
           depthWrite={false}
         />
       </mesh>
       <lineSegments geometry={edges}>
-        <lineBasicMaterial color="#2f4d80" transparent opacity={0.75} />
+        <lineBasicMaterial color={pal.borderStrong} transparent opacity={0.95} />
       </lineSegments>
     </group>
   )
 }
 
-/** Blok içine serpiştirilmiş sabit olaylar — "olan biten her şey". */
-function EventCloud({ count = 220 }: { count?: number }) {
+/** Blok içine serpiştirilmiş olaylar — o gün olup biten her şey. */
+function EventCloud({ pal, count = 200 }: { pal: Palette; count?: number }) {
   const geometry = useMemo(() => {
     const positions = new Float32Array(count * 3)
-    // Sabit tohum: her yüklemede aynı yıldız deseni
     let seed = 20_260_827
     const rand = () => {
       seed = (seed * 1_664_525 + 1_013_904_223) % 4_294_967_296
@@ -160,11 +76,11 @@ function EventCloud({ count = 220 }: { count?: number }) {
   return (
     <points geometry={geometry}>
       <pointsMaterial
-        color="#8fa3c8"
-        size={0.055}
+        color={pal.faint}
+        size={0.05}
         sizeAttenuation
         transparent
-        opacity={0.55}
+        opacity={0.6}
         depthWrite={false}
       />
     </points>
@@ -178,10 +94,12 @@ function EventCloud({ count = 220 }: { count?: number }) {
 function NowPlane({
   beta,
   sliceT,
+  pal,
   groupRef,
 }: {
   beta: number
   sliceT: number
+  pal: Palette
   groupRef?: React.Ref<THREE.Group>
 }) {
   const phi = Math.atan(clampBeta(beta))
@@ -207,42 +125,41 @@ function NowPlane({
       <mesh>
         <planeGeometry args={[w, d]} />
         <meshBasicMaterial
-          color="#ffc46b"
+          color={pal.mintBright}
           transparent
-          opacity={0.12}
+          opacity={0.16}
           side={THREE.DoubleSide}
           depthWrite={false}
         />
       </mesh>
       <lineSegments geometry={gridGeometry}>
-        <lineBasicMaterial color="#ffc46b" transparent opacity={0.32} />
+        <lineBasicMaterial color={pal.mintBright} transparent opacity={0.45} />
       </lineSegments>
     </group>
   )
 }
 
-/** Şimdi düzleminin dünya çizgilerini kestiği noktalar. */
 function NowMarkers({
   beta,
   sliceT,
-  worldlines,
+  pal,
 }: {
   beta: number
   sliceT: number
-  worldlines: WorldlineDef[]
+  pal: Palette
 }) {
   const group = useRef<THREE.Group>(null)
 
   const hits = useMemo(
     () =>
-      worldlines
-        .map((def) => ({ def, point: findSliceIntersection(def, beta, sliceT) }))
-        .filter((h): h is { def: WorldlineDef; point: [number, number, number] } => h.point !== null),
-    [worldlines, beta, sliceT],
+      WORLDLINES.map((def) => ({ def, point: findSliceIntersection(def, beta, sliceT) })).filter(
+        (h): h is { def: WorldlineDef; point: [number, number, number] } => h.point !== null,
+      ),
+    [beta, sliceT],
   )
 
   useFrame(({ clock }) => {
-    const pulse = 1 + Math.sin(clock.elapsedTime * 2.6) * 0.16
+    const pulse = 1 + Math.sin(clock.elapsedTime * 2.4) * 0.14
     group.current?.children.forEach((child) => child.scale.setScalar(pulse))
   })
 
@@ -250,21 +167,16 @@ function NowMarkers({
     <group ref={group}>
       {hits.map(({ def, point }) => (
         <mesh key={def.id} position={point}>
-          <sphereGeometry args={[0.15, 20, 20]} />
-          <meshBasicMaterial color={def.color} />
+          <sphereGeometry args={[0.16, 20, 20]} />
+          <meshBasicMaterial color={pal[def.tone]} />
         </mesh>
       ))}
     </group>
   )
 }
 
-/**
- * Kendi kendine süpüren dilim (kahraman bölümü için).
- *
- * React durumu yerine nesneleri doğrudan günceller: her karede düzlem yükselir
- * ve kesişim işaretleri dünya çizgileri boyunca kayar.
- */
-function AnimatedSlice({ beta, speed }: { beta: number; speed: number }) {
+/** Kahraman bölümü için kendi kendine yükselen dilim. */
+function AnimatedSlice({ beta, speed, pal }: { beta: number; speed: number; pal: Palette }) {
   const planeRef = useRef<THREE.Group>(null)
   const markersRef = useRef<THREE.Group>(null)
   const tRef = useRef(-BLOCK.y)
@@ -294,12 +206,12 @@ function AnimatedSlice({ beta, speed }: { beta: number; speed: number }) {
 
   return (
     <>
-      <NowPlane beta={beta} sliceT={0} groupRef={planeRef} />
+      <NowPlane beta={beta} sliceT={0} pal={pal} groupRef={planeRef} />
       <group ref={markersRef}>
         {WORLDLINES.map((def) => (
           <mesh key={def.id} visible={false}>
             <sphereGeometry args={[0.14, 18, 18]} />
-            <meshBasicMaterial color={def.color} />
+            <meshBasicMaterial color={pal[def.tone]} />
           </mesh>
         ))}
       </group>
@@ -311,42 +223,43 @@ function AnimatedSlice({ beta, speed }: { beta: number; speed: number }) {
 /* Dünya çizgileri                                                     */
 /* ------------------------------------------------------------------ */
 
-function Worldlines({ worldlines, labels }: { worldlines: WorldlineDef[]; labels: boolean }) {
+function Worldlines({ pal, labels }: { pal: Palette; labels: boolean }) {
   return (
     <>
-      {worldlines.map((def) => {
+      {WORLDLINES.map((def) => {
         const points = samplePath(def)
-        const top = points[points.length - 1]
+        // Etiket, çizginin tepesine değil kendi labelT'sine asılır —
+        // dört etiket böylece farklı yüksekliklere dağılır.
+        const [lx, lz] = def.path(def.labelT)
+        const color = pal[def.tone]
         return (
           <group key={def.id}>
             <Line
               points={points}
-              color={def.color}
-              lineWidth={def.isLight ? 2.4 : 2}
+              color={color}
+              lineWidth={def.isLight ? 2.2 : 2.6}
               dashed={def.isLight}
               dashSize={0.28}
               gapSize={0.16}
-              transparent
-              opacity={0.95}
             />
             {labels && (
               <Html
-                position={[top[0], top[1] + 0.32, top[2]]}
+                position={[lx, def.labelT + 0.3, lz]}
                 center
-                distanceFactor={13}
+                distanceFactor={11}
                 zIndexRange={[10, 0]}
                 style={{ pointerEvents: 'none' }}
               >
                 <span
                   style={{
-                    fontFamily: 'JetBrains Mono, monospace',
-                    fontSize: '11px',
+                    fontFamily: "'Instrument Sans', sans-serif",
+                    fontSize: '12px',
+                    fontWeight: 600,
                     whiteSpace: 'nowrap',
-                    color: def.color,
-                    background: 'rgba(5,7,13,0.72)',
-                    border: `1px solid ${def.color}55`,
+                    color: pal.bg,
+                    background: color,
                     borderRadius: '999px',
-                    padding: '2px 8px',
+                    padding: '2px 9px',
                   }}
                 >
                   {def.name}
@@ -360,46 +273,39 @@ function Worldlines({ worldlines, labels }: { worldlines: WorldlineDef[]; labels
   )
 }
 
-/** Zaman eksenini ve yönünü gösteren ok. */
-function TimeAxis() {
-  const points: [number, number, number][] = [
-    [-BLOCK.x - 0.9, -BLOCK.y, -BLOCK.z - 0.9],
-    [-BLOCK.x - 0.9, BLOCK.y + 0.5, -BLOCK.z - 0.9],
-  ]
+/**
+ * Zaman eksenini ve yönünü gösteren ok.
+ *
+ * Saat yazıları bilerek yok: dönen bir sahnede metin etiketleri hem üstteki
+ * bilgi rozetiyle hem birbirleriyle çakışıyordu. Saat aralığı zaten sahnenin
+ * altındaki açıklamada ve kaydırıcıda yazıyor.
+ */
+function TimeAxis({ pal }: { pal: Palette }) {
+  const x = -BLOCK.x - 0.9
+  const z = -BLOCK.z - 0.9
+
   return (
     <group>
-      <Line points={points} color="#8fa3c8" lineWidth={1.4} transparent opacity={0.7} />
-      <mesh position={[-BLOCK.x - 0.9, BLOCK.y + 0.72, -BLOCK.z - 0.9]}>
+      <Line
+        points={[
+          [x, -BLOCK.y, z],
+          [x, BLOCK.y + 0.5, z],
+        ]}
+        color={pal.faint}
+        lineWidth={1.6}
+      />
+      <mesh position={[x, BLOCK.y + 0.72, z]}>
         <coneGeometry args={[0.16, 0.4, 16]} />
-        <meshBasicMaterial color="#8fa3c8" />
+        <meshBasicMaterial color={pal.faint} />
       </mesh>
-      <Html
-        position={[-BLOCK.x - 0.9, BLOCK.y + 1.25, -BLOCK.z - 0.9]}
-        center
-        distanceFactor={14}
-        style={{ pointerEvents: 'none' }}
-      >
-        <span
-          style={{
-            fontFamily: 'JetBrains Mono, monospace',
-            fontSize: '11px',
-            letterSpacing: '0.16em',
-            color: '#8fa3c8',
-            whiteSpace: 'nowrap',
-          }}
-        >
-          ZAMAN →
-        </span>
-      </Html>
     </group>
   )
 }
 
 /**
- * Denetimler kapalıyken kamerayı yavaşça çevirir.
- *
- * Kahraman bölümünde OrbitControls kullanmıyoruz: tuval tüm ekranı kapladığı
- * için tek parmak sürüklemenin sayfayı kaydırmayı engellemesini istemiyoruz.
+ * Denetimler kapalıyken kamerayı yavaşça çevirir ve bloğu kadrajda tutar.
+ * Kahraman bölümünde OrbitControls yok: tuval tüm ekranı kapladığı için tek
+ * parmak sürüklemenin sayfa kaydırmayı çalmasını istemiyoruz.
  */
 function CameraRig() {
   const size = useThree((s) => s.size)
@@ -408,15 +314,14 @@ function CameraRig() {
     const persp = camera as THREE.PerspectiveCamera
     const aspect = Math.max(size.width / size.height, 0.4)
     const vFov = (persp.fov * Math.PI) / 180
-    // Bloğu her ekran oranında kadrajda tutacak uzaklık
     const distW = (BLOCK.x + 1.2) / (Math.tan(vFov / 2) * aspect)
     const distH = (BLOCK.y + 0.8) / Math.tan(vFov / 2)
     const radius = Math.max(distW, distH, 11)
 
-    const a = clock.elapsedTime * 0.075
+    const a = clock.elapsedTime * 0.07
     persp.position.set(
       Math.sin(a) * radius,
-      BLOCK.y * 0.55 + Math.sin(a * 0.7) * 0.8,
+      BLOCK.y * 0.5 + Math.sin(a * 0.7) * 0.7,
       Math.cos(a) * radius,
     )
     persp.lookAt(0, 0, 0)
@@ -438,7 +343,6 @@ export interface BlockUniverseSceneProps {
   showLabels?: boolean
   autoRotate?: boolean
   enableControls?: boolean
-  /** > 0 ise dilim kendi kendine yükselir (birim/saniye). */
   sweepSpeed?: number
 }
 
@@ -453,26 +357,26 @@ export function BlockUniverseScene({
   enableControls = true,
   sweepSpeed = 0,
 }: BlockUniverseSceneProps) {
+  const pal = useThemePalette()
+
   return (
     <>
-      <color attach="background" args={['#05070d']} />
-      <fog attach="fog" args={['#05070d', 16, 34]} />
-      <ambientLight intensity={0.6} />
-      <pointLight position={[6, 8, 6]} intensity={45} color="#7fb0ff" distance={40} />
+      <color attach="background" args={[pal.bg]} />
+      <ambientLight intensity={0.9} />
 
-      <SpacetimeBlock />
-      {showEvents && <EventCloud />}
-      {showWorldlines && <Worldlines worldlines={WORLDLINES} labels={showLabels} />}
+      <SpacetimeBlock pal={pal} />
+      {showEvents && <EventCloud pal={pal} />}
+      {showWorldlines && <Worldlines pal={pal} labels={showLabels} />}
       {showSlice &&
         (sweepSpeed > 0 ? (
-          <AnimatedSlice beta={beta} speed={sweepSpeed} />
+          <AnimatedSlice beta={beta} speed={sweepSpeed} pal={pal} />
         ) : (
           <>
-            <NowPlane beta={beta} sliceT={sliceT} />
-            <NowMarkers beta={beta} sliceT={sliceT} worldlines={WORLDLINES} />
+            <NowPlane beta={beta} sliceT={sliceT} pal={pal} />
+            <NowMarkers beta={beta} sliceT={sliceT} pal={pal} />
           </>
         ))}
-      <TimeAxis />
+      <TimeAxis pal={pal} />
 
       {!enableControls && <CameraRig />}
 
@@ -480,7 +384,7 @@ export function BlockUniverseScene({
         <OrbitControls
           enablePan={false}
           autoRotate={autoRotate}
-          autoRotateSpeed={0.5}
+          autoRotateSpeed={0.45}
           minDistance={8}
           maxDistance={22}
           minPolarAngle={Math.PI * 0.12}

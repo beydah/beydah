@@ -1,31 +1,44 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { SceneFrame } from '../three/SceneFrame'
-import { BLOCK, BlockUniverseScene } from '../three/BlockUniverseScene'
-import { Callout, Legend, Panel, PillButton, Slider, Stat, TouchHint } from '../ui'
-import { PAL } from '../../lib/palette'
+import { BlockUniverseScene } from '../three/BlockUniverseScene'
+import { Callout, Panel, PillButton, Slider, TouchHint } from '../ui'
 import { useIsNarrow } from '../../hooks/useIsNarrow'
-import { formatTR, gamma } from '../../lib/relativity'
+import { useThemePalette } from '../../lib/theme'
+import {
+  BLOCK,
+  WORLDLINES,
+  blockTimeToClock,
+  clockGap,
+  findSliceIntersection,
+} from '../../lib/worldlines'
+import { formatTR } from '../../lib/relativity'
 
 /**
- * Blok evren gezgini: 3B sahne + dokunmatik denetimler.
+ * Blok gezgini.
  *
- * β kaydırıcısı "şimdi" düzleminin eğimini, zaman kaydırıcısı ise düzlemin
- * blok içindeki yüksekliğini değiştirir. Süpürme düğmesi zamanın akıyormuş
- * gibi görünmesini sağlar — ama blok boyunca hareket eden tek şey dilimdir.
+ * Asıl mesele sağdaki listede: düzlem düz dururken herkesin saati aynıdır.
+ * Eğdiğin anda saatler ayrışır — ve ayrışan şey saatler değil, senin "aynı
+ * anda oluyor" dediğin şeyler kümesidir.
  */
+
+const OBSERVERS = [
+  { label: 'Duran biri', beta: 0 },
+  { label: 'Yürüyen biri', beta: 0.18 },
+  { label: 'Geçen tren', beta: 0.5 },
+  { label: 'Neredeyse ışık', beta: 0.85 },
+]
+
 export function BlockExplorer() {
-  const [beta, setBeta] = useState(0.32)
+  const [beta, setBeta] = useState(0)
   const [sliceT, setSliceT] = useState(0)
   const [sweeping, setSweeping] = useState(false)
-  const [showWorldlines, setShowWorldlines] = useState(true)
   const [showEvents, setShowEvents] = useState(true)
-  const [autoRotate, setAutoRotate] = useState(true)
+  const pal = useThemePalette()
   const narrow = useIsNarrow()
 
   const sliceRef = useRef(sliceT)
   sliceRef.current = sliceT
 
-  // Süpürme: saniyede ~30 güncelleme yeter, sahne yumuşak görünür.
   useEffect(() => {
     if (!sweeping) return
     let raf = 0
@@ -38,7 +51,7 @@ export function BlockExplorer() {
       acc += dt
       if (acc >= 1 / 30) {
         acc = 0
-        let next = sliceRef.current + dt * 1.6
+        let next = sliceRef.current + dt * 1.5
         if (next > BLOCK.y) next = -BLOCK.y
         sliceRef.current = next
         setSliceT(next)
@@ -49,48 +62,79 @@ export function BlockExplorer() {
     return () => cancelAnimationFrame(raf)
   }, [sweeping])
 
-  const tiltDegrees = (Math.atan(beta) * 180) / Math.PI
+  /** Her dünya çizgisinin bu "şimdi" düzlemindeki saati. */
+  const readings = useMemo(() => {
+    const hits = WORLDLINES.map((def) => {
+      const point = findSliceIntersection(def, beta, sliceT)
+      return { def, t: point ? point[1] : null }
+    })
+    const you = hits.find((h) => h.def.id === 'you')?.t ?? null
+    return hits.map((h) => ({
+      ...h,
+      clock: h.t === null ? null : blockTimeToClock(h.t),
+      gap: h.t === null || you === null || h.def.id === 'you' ? null : clockGap(h.t, you),
+      ahead: h.t !== null && you !== null ? h.t > you : false,
+    }))
+  }, [beta, sliceT])
+
+  const spread = useMemo(() => {
+    const ts = readings.map((r) => r.t).filter((t): t is number => t !== null)
+    if (ts.length < 2) return null
+    return clockGap(Math.max(...ts), Math.min(...ts))
+  }, [readings])
 
   return (
-    <div className="grid gap-4 lg:grid-cols-[1.35fr_1fr]">
+    <div className="grid gap-4 lg:grid-cols-[1.3fr_1fr]">
       <div className="min-w-0">
         <SceneFrame
-          label="Uzayzaman bloğu: dikey eksen zaman, yatay eksenler uzay. Eğik sarı düzlem gözlemcinin şimdisi."
+          label="Bir günün uzayzaman bloğu: dikey eksen o günün saatleri, yatay eksenler mekân. Yeşil düzlem bir gözlemcinin şimdisi."
           camera={narrow ? [10.5, 6.5, 13] : [8, 5, 10]}
           overlay={
-            <div className="pointer-events-none absolute top-3 left-3 rounded-full border border-line bg-void/80 px-3 py-1 font-mono text-[0.68rem] text-mist">
-              β = {formatTR(beta, 2)} · eğim {formatTR(tiltDegrees, 1)}°
+            <div
+              className="pointer-events-none absolute top-3 left-3 rounded-full border px-3 py-1 font-mono text-[0.7rem]"
+              style={{ background: pal.surface, borderColor: pal.border, color: pal.muted }}
+            >
+              β = {formatTR(beta, 2)} · dilim {blockTimeToClock(sliceT)}
             </div>
           }
         >
           <BlockUniverseScene
             beta={beta}
             sliceT={sliceT}
-            showWorldlines={showWorldlines}
             showEvents={showEvents}
-            showLabels={showWorldlines}
-            autoRotate={autoRotate}
+            autoRotate={!sweeping}
           />
         </SceneFrame>
-        <TouchHint>Bloğu parmağınla çevir, iki parmakla yakınlaş.</TouchHint>
+        <TouchHint>
+          Dikey eksen sabah 06:00’dan gece 22:00’ye uzanıyor. Bloğu parmağınla çevir, iki
+          parmakla yakınlaş.
+        </TouchHint>
       </div>
 
       <div className="flex min-w-0 flex-col gap-4">
-        <Panel title="Gözlemciyi seç" hint={`γ = ${formatTR(gamma(beta), 3)}`}>
+        <Panel title="Kimin şimdisinden bakıyorsun?">
+          <div className="mb-3 flex flex-wrap gap-2">
+            {OBSERVERS.map((o) => (
+              <PillButton key={o.label} active={Math.abs(beta - o.beta) < 0.005} onClick={() => setBeta(o.beta)}>
+                {o.label}
+              </PillButton>
+            ))}
+          </div>
           <Slider
-            label="Hız β = v/c — şimdi düzleminin eğimi"
+            label="Hızı kendin ayarla"
+            hint="Düzlemin eğimi bu hızla belirlenir."
             value={beta}
-            display={formatTR(beta, 2)}
+            display={`β = ${formatTR(beta, 2)}`}
             min={-0.85}
             max={0.85}
             step={0.01}
             onChange={setBeta}
           />
-          <div className="mt-3">
+          <div className="mt-2">
             <Slider
-              label="Şimdi düzleminin zamanı"
+              label="Günün hangi saati?"
               value={sliceT}
-              display={formatTR(sliceT, 2)}
+              display={blockTimeToClock(sliceT)}
               min={-BLOCK.y}
               max={BLOCK.y}
               step={0.02}
@@ -98,45 +142,90 @@ export function BlockExplorer() {
                 setSweeping(false)
                 setSliceT(v)
               }}
-              accent="amber"
             />
           </div>
-          <div className="mt-3 flex flex-wrap gap-2">
+          <div className="mt-2 flex flex-wrap gap-2">
             <PillButton active={sweeping} onClick={() => setSweeping((v) => !v)}>
-              {sweeping ? '❚❚ Süpürmeyi durdur' : '▶ Zamanı süpür'}
-            </PillButton>
-            <PillButton active={showWorldlines} onClick={() => setShowWorldlines((v) => !v)}>
-              Dünya çizgileri
+              {sweeping ? 'Günü durdur' : 'Günü akıt'}
             </PillButton>
             <PillButton active={showEvents} onClick={() => setShowEvents((v) => !v)}>
               Olay bulutu
             </PillButton>
-            <PillButton active={autoRotate} onClick={() => setAutoRotate((v) => !v)}>
-              Kendi dönsün
+            <PillButton
+              onClick={() => {
+                setBeta(0)
+                setSliceT(0)
+                setSweeping(false)
+              }}
+            >
+              Başa dön
             </PillButton>
           </div>
         </Panel>
 
-        <div className="grid grid-cols-2 gap-2">
-          <Stat label="Düzlem eğimi" value={`${formatTR(tiltDegrees, 1)}°`} tone="amber" />
-          <Stat label="Lorentz çarpanı" value={formatTR(gamma(beta), 3)} tone="cyan" />
-        </div>
+        <Panel
+          title="Bu düzlemde şu an"
+          hint={spread ? `en uçtakiler arası: ${spread}` : undefined}
+        >
+          <ul className="space-y-1.5">
+            {readings.map((r) => (
+              <li
+                key={r.def.id}
+                className="card-inset flex items-center justify-between gap-3 px-3 py-2"
+              >
+                <span className="flex min-w-0 items-center gap-2.5">
+                  <span
+                    aria-hidden="true"
+                    className="h-2.5 w-2.5 shrink-0 rounded-full"
+                    style={{ background: pal[r.def.tone] }}
+                  />
+                  <span className="min-w-0">
+                    <span className="block truncate text-[0.9rem] font-medium text-ink">
+                      {r.def.name}
+                    </span>
+                    <span className="block truncate text-[0.75rem] text-muted">{r.def.note}</span>
+                  </span>
+                </span>
+                <span className="shrink-0 text-right">
+                  <span className="tnum block font-mono text-[0.95rem] font-medium text-ink">
+                    {r.clock ?? '—'}
+                  </span>
+                  {r.gap && (
+                    <span className="block font-mono text-[0.7rem] text-muted">
+                      {r.ahead ? '+' : '−'}
+                      {r.gap}
+                    </span>
+                  )}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </Panel>
 
-        <Callout kind="insight" title="Dikkat: blok kıpırdamıyor">
-          Süpürme düğmesine bastığında hareket eden şey blok değil, dilim. β'yı
-          değiştirdiğinde ise dilimin <em>açısı</em> döner — ve aynı anda "şimdi" saydığın
-          olaylar kümesi bütünüyle başkalaşır. Blok evren fikri tam olarak budur: farklı
-          gözlemciler aynı 4 boyutlu gerçekliği farklı açılarla keser.
+        <Callout
+          kind={Math.abs(beta) < 0.005 ? 'insight' : 'objection'}
+          title={
+            Math.abs(beta) < 0.005
+              ? 'Düzlem düzken herkesin saati aynı'
+              : 'Düzlemi eğdin — ve “aynı an” dağıldı'
+          }
+        >
+          {Math.abs(beta) < 0.005 ? (
+            <>
+              Sezgimizin beklediği şey bu: bir “şu an” var, herkes onun içinde. Şimdi hızı
+              biraz artır ve listeye bak.
+            </>
+          ) : (
+            <>
+              Aynı bloğa bakıyorsun, hiçbir şey kıpırdamadı. Ama artık senin “şu anda oluyor”
+              dediğin şeyler kümesi başka. Annen senin şimdinde{' '}
+              <span className="accent">{readings.find((r) => r.def.id === 'mother')?.clock}</span>{' '}
+              yaşıyor, trendeki yolcu{' '}
+              <span className="accent">{readings.find((r) => r.def.id === 'train')?.clock}</span>.
+              Hangisi “gerçekten” şimdi?
+            </>
+          )}
         </Callout>
-
-        <Legend
-          items={[
-            { color: PAL.cyan, label: 'sen' },
-            { color: PAL.violet, label: 'ay' },
-            { color: PAL.lime, label: 'gemi (β = 0,45)' },
-            { color: PAL.amber, label: 'foton — hep 45°', dashed: true },
-          ]}
-        />
       </div>
     </div>
   )

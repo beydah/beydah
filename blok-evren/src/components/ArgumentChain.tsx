@@ -3,62 +3,62 @@ import { motion } from 'motion/react'
 import { SegmentedControl } from './ui'
 
 /**
- * Rietdijk–Putnam argümanı ve ona verilen yanıtlar.
+ * Argüman ve itirazlar yan yana.
  *
- * Sol sütun öncülleri sırayla dizer; sağ sütun her öncüle yöneltilen en ciddi
- * itirazı gösterir. Amaç sonucu dayatmak değil, tartışmanın nerede kırıldığını
- * göstermek.
+ * Amaç bir sonucu dayatmak değil. Zincir sağlam görünüyor; ama her halkasına
+ * ciddi bir itiraz var. Okur ikisini birlikte görmeli — tartışmanın kapanmadığı
+ * yer tam olarak burası.
  */
 
 const PREMISES = [
   {
     n: '1',
-    title: 'Özel görelilik doğrudur',
-    body: 'Eşzamanlılık mutlak değildir. Hangi olayların "aynı anda" olduğu, gözlemcinin hızına bağlıdır. Bu deneysel olarak defalarca doğrulanmıştır.',
+    title: 'Aynı anda olmak, kime sorduğuna bağlı',
+    body: 'Bu bir yorum değil, ölçülmüş bir şey. Yeterince uzağa baktığında, iki kişinin “şu anda oluyor” dediği şeyler örtüşmez. Yukarıdaki laboratuvarda kendi elinle gördün.',
   },
   {
     n: '2',
-    title: 'Şimdide olan gerçektir',
-    body: 'Bir gözlemcinin "şimdi" dediği dilimdeki olaylar belirli ve gerçektir — henüz olmamış, muğlak şeyler değildir.',
+    title: 'Şu an olan bir şey, gerçekten oluyor',
+    body: 'Senin şimdinde olan bir olay muğlak, yarı-gerçek, “henüz kesinleşmemiş” bir şey değildir. Olmaktadır. Bu, itiraz etmesi zor bir cümle gibi duruyor.',
   },
   {
     n: '3',
-    title: 'Senin geleceğin, onun şimdisi',
-    body: 'Yanından geçen hızlı bir gözlemcinin şimdi dilimi, senin geleceğinde kalan olayları içerebilir. Andromeda paradoksu tam olarak bunu gösterir.',
+    title: 'Senin yarının, birinin bugünü olabilir',
+    body: 'Yeterince uzaktaki bir gözlemcinin şimdisi, senin geleceğinde kalan olayları içerebilir. Sadece yürümeye başlaması bile bunu değiştirir.',
   },
   {
     n: '4',
-    title: 'Gerçeklik gözlemciye göre değişmez',
-    body: 'Bir olay birine göre gerçek, diğerine göre gerçek-değil olamaz. "Gerçek olmak" mutlak bir niteliktir.',
+    title: 'Gerçek olmak pazarlık konusu değil',
+    body: 'Bir şey birine göre var, başkasına göre yok olamaz. Uzunluk göreli olabilir, süre göreli olabilir — ama “var olmak” ya vardır ya yoktur.',
   },
   {
     n: '⇒',
-    title: 'Sonuç: gelecek de gerçektir',
-    body: 'Senin geleceğindeki olay, başka birinin şimdisinde gerçekse ve gerçeklik mutlaksa — o olay şu an da gerçektir. Blok bütündür.',
+    title: 'Öyleyse yarın da var',
+    body: 'Senin yarının biri için bugünse ve bugün olan gerçekse, senin yarının da gerçek. Zincir kapandı: gelecek, en az bu an kadar var.',
     conclusion: true,
   },
 ]
 
 const OBJECTIONS = [
   {
-    target: 'Öncül 2 ve 4',
-    title: 'Stein’ın teoremi',
-    body: 'Howard Stein (1968, 1991) gösterdi ki göreliliğe uyan, gözlemciden bağımsız ve mantıklı tek "gerçeklik" bağıntısı, geçmiş ışık konisiyle sınırlı olandır. Yani "şimdi gerçek olan" kümesi bir dilim değil, bir konidir — ve bu argümanı çökertir.',
+    target: '2 ve 4’e',
+    title: 'Belki “gerçek” dediğimiz şey bir dilim değil, bir koni',
+    body: 'Howard Stein 1968’de şunu gösterdi: göreliliğe uyan, tutarlı ve gözlemciden bağımsız tek “gerçeklik” ilişkisi, geçmiş ışık konisiyle sınırlı olandır. Yani senin için gerçek olan şey, sana ulaşabilmiş olan şeydir — aynı anda olan şey değil. Bu doğruysa zincir daha ikinci halkada kopuyor.',
   },
   {
-    target: 'Öncül 3',
-    title: 'Uzaysal ayrılık bilgi taşımaz',
-    body: 'Hızlı gözlemcinin diliminde senin geleceğin yer alsa bile, o gözlemci o olay hakkında hiçbir şey bilemez, ona hiçbir etkide bulunamaz. Eşzamanlılık ilişkisi fiziksel bir bağ değil, bir muhasebe seçimidir.',
+    target: '3’e',
+    title: 'O gözlemci senin yarını hakkında hiçbir şey bilmiyor',
+    body: 'Diliminde senin yarının duruyor olabilir, ama ona bakamaz, ona dokunamaz, ondan haber alamaz. Eşzamanlılık fiziksel bir bağ değil; bir defter tutma tercihi. Bir tercihten “o hâlde yarın var” sonucu çıkarmak fazla ağır bir yük olabilir.',
   },
   {
-    target: 'Öncül 4',
-    title: 'Gerçeklik çerçeveye göreli olabilir',
-    body: 'Uzunluk ve süre çerçeveye göre değişiyorsa, "var olma"nın neden mutlak olması gerektiği açık değildir. Bazı görelilikçi şimdiciler tam da bunu savunur.',
+    target: '4’e',
+    title: 'Belki var olmak da göreli olabilir',
+    body: 'Uzunluk göreli, süre göreli, eşzamanlılık göreli. Bu listede “var olmak”ın neden mutlak kalması gerektiği hiç açık değil. Bazı filozoflar tam da bunu savunuyor — ve kimse onları henüz çürütebilmiş değil.',
   },
   {
-    target: 'Sonuç',
-    title: 'Blok evren = kadercilik değildir',
-    body: 'Gelecekteki olayın var olması, onun şimdiden hesaplanabilir olduğu anlamına gelmez. Blok, kararlarının sonucudur — kararlarının yerine geçen bir şey değil. Determinizm ile eternalizm ayrı sorulardır.',
+    target: 'sonuca',
+    title: 'Blok evren kadercilik değildir',
+    body: 'En sık yapılan hata bu. “Yarın ne yapacağım zaten yazılı” cümlesi doğru olsa bile, oradaki yazının kalemi senin elinde. Blok senin kararlarının kaydıdır, onların yerine geçen bir senaryo değil. Farklı seçseydin blok da farklı olurdu — ve “farklı seçebilir miydim” sorusu blok evrenle değil, bambaşka bir tartışmayla ilgili.',
   },
 ]
 
@@ -67,8 +67,7 @@ export function ArgumentChain() {
 
   return (
     <div>
-      {/* Mobilde sekme, masaüstünde iki sütun */}
-      <div className="mb-5 lg:hidden">
+      <div className="mb-6 lg:hidden">
         <SegmentedControl
           value={view}
           onChange={setView}
@@ -79,18 +78,18 @@ export function ArgumentChain() {
         />
       </div>
 
-      <div className="grid gap-6 lg:grid-cols-2 lg:gap-8">
+      <div className="grid gap-8 lg:grid-cols-2 lg:gap-10">
         <div className={view === 'premises' ? '' : 'hidden lg:block'}>
-          <h3 className="eyebrow mb-4 text-cyan-glow">Rietdijk–Putnam argümanı</h3>
+          <h3 className="eyebrow mb-5 text-mint">Zincir</h3>
           <ol className="relative space-y-3">
             <span
               aria-hidden="true"
-              className="absolute top-2 bottom-6 left-[15px] w-px bg-gradient-to-b from-cyan-glow/45 via-line to-transparent"
+              className="absolute top-3 bottom-8 left-[15px] w-px bg-line"
             />
             {PREMISES.map((p, i) => (
               <motion.li
                 key={p.n}
-                initial={{ opacity: 0, y: 12 }}
+                initial={{ opacity: 0, y: 10 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: '-40px' }}
                 transition={{ duration: 0.4, delay: i * 0.05 }}
@@ -99,25 +98,19 @@ export function ArgumentChain() {
                 <span
                   className={`relative z-10 grid h-8 w-8 shrink-0 place-items-center rounded-full border font-mono text-[0.78rem] ${
                     p.conclusion
-                      ? 'border-cyan-glow bg-cyan-glow/20 text-cyan-glow'
-                      : 'border-line bg-void text-mist'
+                      ? 'border-mint bg-mint text-bg'
+                      : 'border-line-strong bg-bg text-muted'
                   }`}
                 >
                   {p.n}
                 </span>
-                <div
-                  className={`card flex-1 p-3.5 ${
-                    p.conclusion ? 'border-cyan-glow/40 bg-cyan-glow/[0.07]' : ''
-                  }`}
-                >
+                <div className={`card flex-1 p-4 ${p.conclusion ? 'border-mint' : ''}`}>
                   <div
-                    className={`font-display text-[0.95rem] font-semibold ${
-                      p.conclusion ? 'text-cyan-glow' : 'text-chalk'
-                    }`}
+                    className={`text-[1rem] font-semibold ${p.conclusion ? 'text-mint' : 'text-ink'}`}
                   >
                     {p.title}
                   </div>
-                  <p className="mt-1 text-[0.88rem] leading-relaxed text-chalk/75">{p.body}</p>
+                  <p className="mt-1.5 text-[0.93rem] leading-relaxed text-muted">{p.body}</p>
                 </div>
               </motion.li>
             ))}
@@ -125,26 +118,22 @@ export function ArgumentChain() {
         </div>
 
         <div className={view === 'objections' ? '' : 'hidden lg:block'}>
-          <h3 className="eyebrow mb-4 text-rose-glow">Ciddiye alınması gereken itirazlar</h3>
+          <h3 className="eyebrow mb-5 text-clay">Ciddiye alınması gerekenler</h3>
           <div className="space-y-3">
             {OBJECTIONS.map((o, i) => (
               <motion.div
                 key={o.title}
-                initial={{ opacity: 0, y: 12 }}
+                initial={{ opacity: 0, y: 10 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: '-40px' }}
                 transition={{ duration: 0.4, delay: i * 0.05 }}
-                className="card p-3.5"
+                className="card border-l-2 border-l-clay p-4"
               >
-                <div className="mb-1 flex items-center gap-2">
-                  <span className="rounded-md border border-rose-glow/35 bg-rose-glow/10 px-2 py-0.5 font-mono text-[0.66rem] text-rose-glow">
-                    {o.target}
-                  </span>
+                <div className="mb-1.5 font-mono text-[0.7rem] tracking-wide text-clay">
+                  {o.target}
                 </div>
-                <div className="font-display text-[0.95rem] font-semibold text-chalk">
-                  {o.title}
-                </div>
-                <p className="mt-1 text-[0.88rem] leading-relaxed text-chalk/75">{o.body}</p>
+                <div className="text-[1rem] font-semibold text-ink">{o.title}</div>
+                <p className="mt-1.5 text-[0.93rem] leading-relaxed text-muted">{o.body}</p>
               </motion.div>
             ))}
           </div>

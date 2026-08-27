@@ -2,49 +2,35 @@ import { useEffect, useMemo, useRef } from 'react'
 import { useFrame, useThree } from '@react-three/fiber'
 import { Html, Line } from '@react-three/drei'
 import * as THREE from 'three'
+import { useThemePalette, type Palette } from '../../lib/theme'
 
 /**
- * Zamanın üç ontolojisini yan yana gösteren sahne.
+ * "Ne var?" sorusunun üç cevabı, yan yana.
  *
- * Aynı blok üç kez çizilir; değişen tek şey "var olan" bölgedir. Hayalet tel
- * kafes her zaman tüm bloğu gösterir, dolu gövde ise o görüşe göre gerçekten
- * var olanı. "Şimdi" çizgisi yukarı doğru ilerler; şimdicilikte ince dilim
- * kayar, büyüyen blokta gövde uzar, eternalizmde hiçbir şey değişmez.
+ * Üç blok da aynı; değişen tek şey hangi kısmının dolu çizildiği. Hayalet tel
+ * kafes her zaman tüm bloğu gösterir — yani tartışmanın konusunu. Dolu gövde
+ * ise o görüşe göre gerçekten var olanı.
  */
 
 const HALF_T = 2.6
 const W = 1.15
 const D = 1.15
 const GAP = 3.4
-const SPEED = 0.7 // birim / saniye
+const SPEED = 0.7
 
 export type Ontology = 'presentism' | 'growing' | 'eternalism'
 
 export const ONTOLOGY_META: Record<
   Ontology,
-  { title: string; color: string; blurb: string; offset: number }
+  { title: string; long: string; tone: keyof Palette; offset: number }
 > = {
-  presentism: {
-    title: 'Şimdicilik',
-    color: '#ff6b8b',
-    blurb: 'Yalnızca şu an var. Geçmiş bitti, gelecek henüz yok.',
-    offset: -GAP,
-  },
-  growing: {
-    title: 'Büyüyen Blok',
-    color: '#ffc46b',
-    blurb: 'Geçmiş ve şimdi var, gelecek henüz yazılmadı. Blok büyüyor.',
-    offset: 0,
-  },
-  eternalism: {
-    title: 'Eternalizm',
-    color: '#35e0ff',
-    blurb: 'Geçmiş, şimdi ve gelecek eşit derecede gerçek. Blok bütün.',
-    offset: GAP,
-  },
+  // title tuvale asılan kısa etiket (üçü yan yana sığmalı), long ise
+  // metinlerde geçen tam ad.
+  presentism: { title: 'Şimdi', long: 'Yalnızca şimdi', tone: 'd2', offset: -GAP },
+  growing: { title: 'Büyüyen', long: 'Büyüyen geçmiş', tone: 'd5', offset: 0 },
+  eternalism: { title: 'Hepsi', long: 'Hepsi', tone: 'd1', offset: GAP },
 }
 
-/** Verilen görüşe göre "var olan" bölgenin yüksekliği ve merkezi. */
 function solidExtent(kind: Ontology, now: number): { height: number; centerY: number } {
   switch (kind) {
     case 'presentism':
@@ -60,12 +46,15 @@ function OntologyBlock({
   kind,
   nowRef,
   focused,
+  pal,
 }: {
   kind: Ontology
   nowRef: { current: number }
   focused: boolean
+  pal: Palette
 }) {
   const meta = ONTOLOGY_META[kind]
+  const color = pal[meta.tone]
   const solid = useRef<THREE.Mesh>(null)
   const nowMark = useRef<THREE.Group>(null)
 
@@ -82,8 +71,6 @@ function OntologyBlock({
     [],
   )
 
-  // React state yerine doğrudan nesneleri güncelliyoruz: her karede
-  // yeniden render etmeden 60 fps.
   useFrame(() => {
     const now = nowRef.current
     const { height, centerY } = solidExtent(kind, now)
@@ -100,45 +87,35 @@ function OntologyBlock({
   return (
     <group position={[meta.offset, 0, 0]}>
       <lineSegments geometry={ghostEdges}>
-        <lineBasicMaterial color="#2f4d80" transparent opacity={focused ? 0.75 : 0.32} />
+        <lineBasicMaterial color={pal.borderStrong} transparent opacity={focused ? 1 : 0.5} />
       </lineSegments>
 
-      {/* Birim yükseklikli kutu; ölçek her karede ayarlanıyor. */}
       <mesh ref={solid}>
         <boxGeometry args={[W * 2, 1, D * 2]} />
-        <meshStandardMaterial
-          color={meta.color}
+        <meshBasicMaterial
+          color={color}
           transparent
-          opacity={focused ? 0.4 : 0.15}
-          emissive={meta.color}
-          emissiveIntensity={focused ? 0.6 : 0.2}
-          roughness={0.4}
+          opacity={focused ? 0.55 : 0.22}
           depthWrite={false}
         />
       </mesh>
 
       <group ref={nowMark}>
-        <Line
-          points={nowLine}
-          color="#e8eefc"
-          lineWidth={2}
-          transparent
-          opacity={focused ? 0.95 : 0.45}
-        />
+        <Line points={nowLine} color={pal.text} lineWidth={2} transparent opacity={focused ? 0.9 : 0.4} />
       </group>
 
       <Html position={[0, -HALF_T - 1, 0]} center distanceFactor={9} style={{ pointerEvents: 'none' }}>
         <span
           style={{
-            fontFamily: 'Space Grotesk, sans-serif',
+            fontFamily: "'Instrument Sans', sans-serif",
             fontSize: '12px',
             fontWeight: 600,
             whiteSpace: 'nowrap',
-            color: focused ? meta.color : '#8fa3c8',
-            background: 'rgba(5,7,13,0.78)',
+            color: focused ? pal.bg : pal.muted,
+            background: focused ? color : 'transparent',
             padding: '3px 10px',
             borderRadius: '999px',
-            border: `1px solid ${focused ? `${meta.color}66` : '#1d2942'}`,
+            border: focused ? 'none' : `1px solid ${pal.border}`,
           }}
         >
           {meta.title}
@@ -148,12 +125,7 @@ function OntologyBlock({
   )
 }
 
-/**
- * Üç bloğu her ekran genişliğinde kadraja sığdırır.
- *
- * Bu sahnede OrbitControls yok: karşılaştırma görünümü döndürmeye ihtiyaç
- * duymuyor ve tuval telefonda tek parmak kaydırmayı çalmamalı.
- */
+/** Üç bloğu her ekran genişliğinde kadraja sığdırır. */
 function FitCamera() {
   const camera = useThree((s) => s.camera)
   const size = useThree((s) => s.size)
@@ -162,7 +134,6 @@ function FitCamera() {
     const persp = camera as THREE.PerspectiveCamera
     const aspect = Math.max(size.width / size.height, 0.35)
     const vFov = (persp.fov * Math.PI) / 180
-    // Sığdırılacak yarı ölçüler: yanlarda üçüncü bloğun kenarı, altta etiketler
     const halfWidth = GAP + W + 0.7
     const halfHeight = HALF_T + 1.6
     const distW = halfWidth / (Math.tan(vFov / 2) * aspect)
@@ -185,19 +156,25 @@ function NowClock({ nowRef, playing }: { nowRef: { current: number }; playing: b
 }
 
 export function OntologyScene({ focus, playing = true }: { focus: Ontology; playing?: boolean }) {
+  const pal = useThemePalette()
   const nowRef = useRef(-HALF_T * 0.75)
 
   return (
     <>
-      <color attach="background" args={['#05070d']} />
-      <ambientLight intensity={0.75} />
-      <pointLight position={[4, 6, 6]} intensity={60} color="#a9c8ff" distance={34} />
+      <color attach="background" args={[pal.bg]} />
+      <ambientLight intensity={1} />
 
       <FitCamera />
       <NowClock nowRef={nowRef} playing={playing} />
 
       {(Object.keys(ONTOLOGY_META) as Ontology[]).map((kind) => (
-        <OntologyBlock key={kind} kind={kind} nowRef={nowRef} focused={kind === focus} />
+        <OntologyBlock
+          key={kind}
+          kind={kind}
+          nowRef={nowRef}
+          focused={kind === focus}
+          pal={pal}
+        />
       ))}
     </>
   )
