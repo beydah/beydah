@@ -346,7 +346,7 @@ export function MinkowskiLab() {
         </TouchHint>
       </div>
 
-      <div className="flex flex-col gap-4">
+      <div className="flex min-w-0 flex-col gap-4">
         <Panel title="Gözlemci" hint={`γ = ${formatTR(g, 3)}`}>
           <Slider
             label="Bağıl hız β = v/c"

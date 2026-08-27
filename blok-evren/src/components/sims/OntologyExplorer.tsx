@@ -48,7 +48,7 @@ export function OntologyExplorer() {
   const meta = ONTOLOGY_META[focus]
 
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex min-w-0 flex-col gap-4">
       <SceneFrame
         label="Üç zaman ontolojisinin karşılaştırması: şimdicilik, büyüyen blok, eternalizm."
         camera={[0, 2.4, 13]}

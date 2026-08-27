@@ -215,7 +215,7 @@ export function EntropyArrow() {
         </div>
       </div>
 
-      <div className="flex flex-col gap-4">
+      <div className="flex min-w-0 flex-col gap-4">
         <Panel title="Zamanı elinle çevir">
           <Slider
             label="Adım"

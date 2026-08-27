@@ -233,7 +233,7 @@ export function AndromedaSim() {
         <canvas className="absolute inset-0" ref={canvasRef} />
       </div>
 
-      <div className="flex flex-col gap-4">
+      <div className="flex min-w-0 flex-col gap-4">
         <Panel title="Kaldırımdaki iki kişi">
           <Slider
             label="Yürüme hızı"

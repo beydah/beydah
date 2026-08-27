@@ -167,13 +167,15 @@ export function SegmentedControl<T extends string>({
   onChange: (v: T) => void
   label?: string
 }) {
+  // min-w-0: içindeki yatay kaydırıcı, bu bileşen bir ızgara/esnek kutu öğesi
+  // olduğunda kabın otomatik en-küçük boyutunu şişirip sayfayı genişletmesin.
   return (
-    <div>
+    <div className="min-w-0">
       {label && <div className="mb-1.5 text-[0.82rem] font-medium text-mist">{label}</div>}
       <div
         role="tablist"
         aria-label={label}
-        className="no-scrollbar flex gap-1.5 overflow-x-auto rounded-xl border border-line/70 bg-void/60 p-1.5"
+        className="no-scrollbar flex min-w-0 gap-1.5 overflow-x-auto rounded-xl border border-line/70 bg-void/60 p-1.5"
       >
         {options.map((opt) => {
           const selected = opt.value === value

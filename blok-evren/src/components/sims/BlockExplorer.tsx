@@ -75,7 +75,7 @@ export function BlockExplorer() {
         <TouchHint>Bloğu parmağınla çevir, iki parmakla yakınlaş.</TouchHint>
       </div>
 
-      <div className="flex flex-col gap-4">
+      <div className="flex min-w-0 flex-col gap-4">
         <Panel title="Gözlemciyi seç" hint={`γ = ${formatTR(gamma(beta), 3)}`}>
           <Slider
             label="Hız β = v/c — şimdi düzleminin eğimi"

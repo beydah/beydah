@@ -224,7 +224,7 @@ export function TwinParadoxSim() {
         </div>
       </div>
 
-      <div className="flex flex-col gap-4">
+      <div className="flex min-w-0 flex-col gap-4">
         <Panel title="Yolculuk ayarları" hint={`γ = ${formatTR(g, 3)}`}>
           <Slider
             label="Gemi hızı β = v/c"
