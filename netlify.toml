@@ -1,0 +1,27 @@
+# Netlify yapılandırması — Blok Evren uygulaması
+#
+# Uygulama bu deponun kökünde değil, blok-evren/ klasöründe durduğu için
+# `base` ayarlanıyor. Uygulamayı kendi deposuna taşırsan bu dosyayı
+# blok-evren/ içeriğiyle birlikte yeni deponun köküne koy ve `base`
+# satırını sil.
+
+[build]
+  base = "blok-evren"
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Vite çıktısındaki dosya adları içerik özetiyle damgalandığı için
+# sonsuza kadar önbelleğe alınabilir.
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

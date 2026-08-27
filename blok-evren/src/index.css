@@ -1,0 +1,191 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-void: #05070d;
+  --color-void-2: #0a0f1c;
+  --color-ink: #111a2e;
+  --color-line: #1d2942;
+  --color-mist: #8fa3c8;
+  --color-chalk: #e8eefc;
+
+  --color-cyan-glow: #35e0ff;
+  --color-violet-glow: #a678ff;
+  --color-amber-glow: #ffc46b;
+  --color-rose-glow: #ff6b8b;
+  --color-lime-glow: #7dffb2;
+
+  --font-display: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+@layer base {
+  :root {
+    color-scheme: dark;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    /* Sabit üst gezinme çubuğunun altına kayan başlıkları engeller */
+    scroll-padding-top: 4.5rem;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    margin: 0;
+    background-color: var(--color-void);
+    color: var(--color-chalk);
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    overscroll-behavior-y: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  canvas {
+    display: block;
+    touch-action: pan-y;
+  }
+
+  ::selection {
+    background: color-mix(in oklab, var(--color-cyan-glow) 35%, transparent);
+    color: var(--color-chalk);
+  }
+}
+
+@layer components {
+  .shell {
+    width: 100%;
+    max-width: 76rem;
+    margin-inline: auto;
+    padding-inline: 1.15rem;
+  }
+
+  @media (min-width: 768px) {
+    .shell {
+      padding-inline: 2rem;
+    }
+  }
+
+  .card {
+    background: color-mix(in oklab, var(--color-void-2) 88%, transparent);
+    border: 1px solid var(--color-line);
+    border-radius: 1.15rem;
+    backdrop-filter: blur(14px);
+  }
+
+  .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--color-mist);
+  }
+
+  .prose-lead {
+    color: color-mix(in oklab, var(--color-chalk) 82%, transparent);
+  }
+}
+
+@layer utilities {
+  .text-glow-cyan {
+    text-shadow: 0 0 22px color-mix(in oklab, var(--color-cyan-glow) 55%, transparent);
+  }
+
+  .grid-fade {
+    -webkit-mask-image: radial-gradient(ellipse 70% 60% at 50% 40%, #000 40%, transparent 100%);
+    mask-image: radial-gradient(ellipse 70% 60% at 50% 40%, #000 40%, transparent 100%);
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+
+  .safe-b {
+    padding-bottom: max(0.75rem, env(safe-area-inset-bottom));
+  }
+}
+
+/* --- Dokunmatik için büyütülmüş, tema uyumlu kaydırıcılar --- */
+input[type='range'] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 2.25rem;
+  background: transparent;
+  cursor: pointer;
+  touch-action: pan-y;
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+  height: 0.3rem;
+  border-radius: 999px;
+  background: linear-gradient(
+    90deg,
+    color-mix(in oklab, var(--color-cyan-glow) 70%, transparent) 0%,
+    color-mix(in oklab, var(--color-violet-glow) 70%, transparent) 100%
+  );
+  opacity: 0.55;
+}
+
+input[type='range']::-moz-range-track {
+  height: 0.3rem;
+  border-radius: 999px;
+  background: linear-gradient(
+    90deg,
+    color-mix(in oklab, var(--color-cyan-glow) 70%, transparent) 0%,
+    color-mix(in oklab, var(--color-violet-glow) 70%, transparent) 100%
+  );
+  opacity: 0.55;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: -0.6rem;
+  border-radius: 999px;
+  background: var(--color-chalk);
+  border: 3px solid var(--color-cyan-glow);
+  box-shadow: 0 0 16px color-mix(in oklab, var(--color-cyan-glow) 60%, transparent);
+}
+
+input[type='range']::-moz-range-thumb {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 999px;
+  background: var(--color-chalk);
+  border: 3px solid var(--color-cyan-glow);
+  box-shadow: 0 0 16px color-mix(in oklab, var(--color-cyan-glow) 60%, transparent);
+}
+
+input[type='range']:focus-visible::-webkit-slider-thumb {
+  outline: 2px solid var(--color-amber-glow);
+  outline-offset: 2px;
+}
