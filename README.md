@@ -1,39 +1,43 @@
 <div align="center">
+  <img src="./assets/profile-hero/profile-hero.gif" alt="Pixel art of a developer building thoughtful tools at a desk" width="100%" />
 
-# Beydah Saglam
+  # İlkay Beydah Sağlam
 
-### Software engineer building thoughtful web products and practical AI tools.
+  **A little code. A lot of curiosity.**
 
-I work across product design, frontend and backend development, and the systems that help software run reliably. I enjoy turning real problems into clear, useful experiences—from bilingual websites to multi-tenant business software and voice tools.
+  I build useful web products, automation, and AI tools—from the first sketch to the details that make them dependable.
 
-[Portfolio](https://beydahsaglam.com) · [GitHub](https://github.com/beydah) · [LinkedIn](https://linkedin.com/in/beydah)
-
+  [Website](https://beydahsaglam.com) · [GitHub](https://github.com/beydah) · [LinkedIn](https://linkedin.com/in/beydah)
 </div>
 
 ## Selected work
 
-| Project | What it is |
-| --- | --- |
-| [Beydah Saglam](https://github.com/beydah/beydahsaglam) | A bilingual personal website and publishing platform built with Next.js and Supabase. |
-| [Loopest](https://github.com/beydah/loopest) | Cafe loyalty, kiosk, and business operations software. |
-| [SUTLAB](https://github.com/beydah/sutlab) | A Turkish cafe and dessert website built with Next.js. |
-| [Freyatts](https://github.com/beydah/freyatts) | Turkish voice synthesis tools and long-form audio workflows. |
-| [Voice Clone F5-TTS TR](https://github.com/beydah/voice-clone_f5-tts_tr) | Turkish voice-cloning workflows with notebooks and a modular CLI pipeline. |
-| [Idrisogullari](https://github.com/beydah/idrisogullari) | WordPress page and WPCode source for a published website redesign. |
+- [Voice Clone F5-TTS TR](https://github.com/beydah/voice-clone_f5-tts_tr) — Turkish voice-cloning workflows.
+- [N8N AI Agent](https://github.com/beydah/N8N-AI-Agent) — modular workflow exports for AI-assisted automation.
+- [Social Media Database](https://github.com/beydah/Social-Media-Database) — a reusable relational database template.
+- [Kabak AI](https://github.com/beydah/Kabak-AI) — AI-assisted product photography for commerce.
 
-## What I work with
+## Toolkit
 
-**Product engineering:** TypeScript, JavaScript, React, Next.js, Python<br>
-**Data and services:** PostgreSQL, Supabase<br>
-**Interests:** AI-assisted products, accessible interfaces, localization, and dependable workflows
+<p>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-149ECA?logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-111111?logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?logo=supabase&logoColor=white" alt="Supabase" />
+</p>
 
-## A little more
+## GitHub
 
-I care about the details that make a product feel coherent: clear language, useful defaults, thoughtful interaction, and documentation that helps the next person understand the system. My projects span web applications, content tools, and voice workflows.
+<p>
+  <img src="./profile/stats.svg" alt="GitHub statistics for beydah" />
+</p>
 
-## Find me
-
-- [Website](https://beydahsaglam.com)
-- [LinkedIn](https://linkedin.com/in/beydah)
-- [All repositories](https://github.com/beydah?tab=repositories)
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/contributions-dark.svg" />
+    <img src="./profile/contributions.svg" alt="GitHub contribution graph" />
+  </picture>
+</p>
 
