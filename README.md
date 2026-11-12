@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/profile-hero/profile-hero.gif" alt="Pixel art of a developer building thoughtful tools at a desk" width="100%" />
+  <img src="./assets/profile-hero/profile-hero-v2.png" alt="Pixel art of a developer at a workbench, with web, automation, and voice tools around them" width="100%" />
 
   # İlkay Beydah Sağlam
 
@@ -39,5 +39,9 @@
     <source media="(prefers-color-scheme: dark)" srcset="./profile/contributions-dark.svg" />
     <img src="./profile/contributions.svg" alt="GitHub contribution graph" />
   </picture>
+</p>
+
+<p>
+  <img src="https://streak-stats.demolab.com?user=beydah&theme=windows-dark&border_radius=5" alt="GitHub contribution streak for beydah" />
 </p>
 
