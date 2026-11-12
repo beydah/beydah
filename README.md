@@ -23,8 +23,8 @@ I work across product design, frontend and backend development, and the systems 
 
 ## What I work with
 
-**Product engineering:** TypeScript, JavaScript, React, Next.js, Python  
-**Data and services:** PostgreSQL, Supabase  
+**Product engineering:** TypeScript, JavaScript, React, Next.js, Python<br>
+**Data and services:** PostgreSQL, Supabase<br>
 **Interests:** AI-assisted products, accessible interfaces, localization, and dependable workflows
 
 ## A little more
